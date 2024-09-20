@@ -1,0 +1,392 @@
+-<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Shortcuts</title>
+    <link href="../css/maina.css" rel="stylesheet" type="text/css" />
+    <link href="../css/button.css" rel="stylesheet" type="text/css" />
+    <link href="../css/move.css" rel="stylesheet" type="text/css" />
+
+    <script src="../script/script.js"></script>
+  </head>
+  
+  <body>
+    <div class="bar">
+      <ul>
+        <li><a class="active" href="../index.html">Índice</a></li>
+        <li><a href="../shortcut/greeting.html">Saludos</a></li>
+        <li><a href="../shortcut/questions.html">Preguntas</a></li>
+      </ul>
+    </div>
+    <div class="menu">
+      <button class="menu-btn">Navegación</button>
+      <div class="menu-list">
+        <a href="attention.html">Atención</a>
+        <a href="support.html">Soporte</a>
+        <a href="product.html">Productos</a>
+        <a href="link.html">Links</a>
+        <a href="retail.html">Retails</a>
+      </div>
+    </div>
+    <!-- Menú desplegable atención -->
+    <div class="list0">
+      <div class="list-list">
+        <a href="#sh1">Atención</a>
+        <a href="#sh1st">Agotado</a>
+        <a href="#sh1ct">Cotización</a>
+        <a href="#sh1cp">Cupón</a>
+        <a href="#sh1ds">Disponibilidad</a>
+        <a href="#sh1fc">Factura</a>
+        <a href="#sh1in">Información</a>
+        <a href="#sh1py">Pago</a>
+        <a href="#sh1ab">Otras marcas</a>
+      </div>
+    </div>
+    <!-- Menú desplegable Support-->
+    <div class="list1">
+      <div class="list-list">
+        <a href="#sh2">Soporte</a>
+        <a href="#sh2ob">Descontinuado</a> 
+      </div>
+    </div>
+    <!-- Menú desplegable Postventa -->
+    <div class="list2">
+      <div class="list-list">
+        <a href="#sh3">Postventa</a>
+        <a href="#sh3av">Chat</a>
+        <a href="#sh3rt">Devolución</a>
+        <a href="#sh3fc">Factura</a>
+        <a href="#sh3or">Pedido</a>
+      </div>
+    </div>
+    <!-- ------------------------------ -->
+    <div id="progress"></div>
+    <h1>Shortcuts</h1>
+    <!-- before -->
+    <section>
+      <!-- <h3>Donkey</h3>
+      <p>Mil disculpas por asumir que su capacidad cerebral es mayor o similar a la de un simio, fue mi error, ya que no tuve en cuenta su nivel tan amplio de  analfabetismo.<br>He notado que su única neurona necesita una cita, para ver si encontrando pareja, se multiplican y así tengas la posibilidad de ser más inteligente.</p> -->
+    </section>
+    <!-- Attention -->
+    <section id="sh1">
+      <h2>Atención</h2>
+      <!-- Buy -->
+      <div id="sh1by">
+        <h3>Compra</h3>
+        <div>
+          <h4>Consumibles</h4>
+          <button class="btn" onclick="copiarAlPortapapeles('sum0'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+          <p id="sum0">¡Anímate! Adquiere estos suministros para tu impresora HP.</p>
+          <button class="btn" onclick="copiarAlPortapapeles('sum1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+          <p id="sum1">¡Anímate! Adquiere ese suministro para tu impresora HP.</p>
+        </div>
+        <div>
+          <h4>Página no permite</h4>
+          <p>Entiendo, puede que el problema se esté presentando, por las cookies almacenadas en el historial del navegador. Te recomiendo:</p>
+          <ul>
+            <li>1. Eliminar las Cookies y caché del navegador</li>
+            <li>2. Reiniciar el navegador (cerrar y abrir)</li>
+            <li>3. Ingresar a la publicación del producto y realizar el proceso de compra</li>
+          </ul>
+          <p>Contáctanos nuevamente para ayudarte en las dudas y consultas de nuestros productos HP.</p>
+        </div>
+        <div>
+          <h4>Tienda física</h4>
+          <button class="btn" onclick="copiarAlPortapapeles('st'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+          <p id="st">¿Para cuál código postal requieres el ?</p>
+          <p>Te comento, este es una canal exclusivo para compra virtual, es decir, solo contamos con información de disponibilidad de nuestros productos HP en esta página y carecemos de la información de stock de productos en tienda física.<br>Sin embargo, aprovecha y adquiere tu nueva HP con la oferta que tiene por la compra online.<br>Por este medio solo poseemos información de la página web, para mayor información sobre pecios y demás temas de punto físico te sugiero comunicarte con la línea de atención; sin embargo, te invitamos a realizar la compra online para que aproveches ofertas disponibles y entrega a domicilio.</p>
+        </div>
+        <div>
+          <h4>Conversión</h4>
+          <p>Te confirmo, al día de hoy, realizando la tasa de conversión de peso a peso, el precio de en peso es de $.</p>
+        </div>
+      </div>
+      <!-- Cotización -->
+      <div id="sh1ct">
+        <h3>Cotización</h3>
+        <button class="btn" onclick="copiarAlPortapapeles('cot'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="cot">Respecto a las cotizaciones de equipos, para realizar dicho proceso es necesario comunicarse con las líneas de contacto directo de la tienda, las cuales te adjuntaré enseguida.</p>
+        <span>Dirigete a <a href="attention.html">Atención</a> o <a href="retail.html">Retails</a>.</span>
+      </div>
+      <!-- Cupón -->
+      <div id="sh1cp">
+        <h3>Cupón</h3>
+        <button class="btn" onclick="copiarAlPortapapeles('cup1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="cup1">Para aplicar el cupón, es posible, durante el proceso de compra.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('cup2'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="cup2">En el paso del _Carrito_, en la parte superior derecha, se encuentra un apartado que dice _APLICAR CUPÓN DE DESCUENTO_.</p>
+      </div>
+      <!-- Experience -->
+      <div>
+        <h3>Experiencia al cliente</h3>
+        <p>Tambien, puedes realizar la solicitud por medio del siguiente link: https://www.hp.com/es-es/shop/experiencia-cliente</p>
+        <ol type="I">Para el caso de:</ol>
+          <li>Entrega no reconocida</li>
+          <li>Cambio de dirección</li>
+          <li>Estado del pago</li>
+          <li>Devolución</li>
+          <li>Reembolso</li>
+          <li>Cancelación de la orden</li>
+          <li>Estado de la entrega</li>
+          <li>Facturación</li>
+          <li>Orden incompleta</li>
+          <li>Producto defectuoso</li>
+      </div>
+      <!-- Factura -->
+      <div id="sh1fc">
+        <h3>Factura México</h3>
+        <button class="btn" onclick="copiarAlPortapapeles('fac'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="fac">La factura la puedes solicitar durante el proceso de compra; luego de realizado el pedido, llegará a tu correo a más tardar 3 días después de realizado el pedido.</p>
+        <p>Te comento, la factura llega a tu correo a más tardar 3 días después de realizada la compra.</p>
+      </div>
+      <!-- Warranty -->
+      <div id="sh1wr">
+        <h3>Garantía</h3>
+        <button class="btn" onclick="copiarAlPortapapeles('warranty'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="warranty">La garantía incluida en los productos HP es de *un año* directamente con la marca HP, con cobertura en partes, mano de obra y daños de fábrica.</p>
+        <p>También, puedes validar la garantía por este link:</p>
+        <ul>
+          <li><a href="https://support.hp.com/co-es/check-warranty">https://support.hp.com/co-es/check-warranty</a></li>
+          <li><a href="https://support.hp.com/mx-es/check-warranty">https://support.hp.com/mx-es/check-warranty</a></li>
+          <li><a href="https://support.hp.com/pe-es/check-warranty">https://support.hp.com/pe-es/check-warranty</a></li>
+        </ul>
+        <h4>Garantía extendida para HP Smart Tank</h4>
+        <p>Cuenta con un año de garantía directa con HP y adicional, al registrar la compra de la impresora, obtienes una garantía extendida de un año, para un total de dos años de garantía.</p>
+        <p>Debes de realizar el registro de tu HP por medio del siguiente link, a más tardar, en un lapso de 60 días, después de realizado el pedido.</p>
+        <p>http://www.hp.com/go/extendmywarranty</p>
+      </div>
+      <!-- ID -->
+      <div>
+        <h3>ID Representante</h3>
+        <p>En el campo de _ID del representante_ puedes colocar *Experto Javier*, de lo contrario, puedes omitir dicho dato, ya que no es obligatorio para realizar el pedido.</p>
+        <p></p>
+      </div>
+      <!-- info -->
+      <div id="sh1in">
+        <h3>Información</h3>
+        <h4>Producto en tienda física</h4>
+        <p> En respuesta a tu consulta, te informo que este chat, únicamente es atención virtual y carecemos de información de los productos HP en tienda física; en este medio, solo me es posible confirmarte la información que se encuentra en la página.</p>
+        <p>Te aconsejo que te comuniques con los medios de atención de la tienda, donde resolveran tu consulta sobre stock presente en tienda física.<br>Te comento, por medio de este chat contamos solo con información de disponibilidad en esta página. De igual forma, podemos validar en que tienda puede estar disponible para retiro en tienda, realizando el pedido en línea<br>Te comento, por medio de este canal no contamos con dicha información, ya que son ofertas públicadas en línea sujetas a cambios y disponibilidad de los productos, es decir, pueden variar de un momento para otro.</p>
+        <h4>Precio en tienda física</h4>
+        <p>Te comento, los precios que manejamos por medio de este chat son únicamente los ofertados por medio de la página, ya que no contamos con información de puntos físicos.</p>
+      </div>
+      <!-- Pay -->
+      <div  id="sh1py">
+        <h3>Pago (Métodos)</h3>
+        <h4>Chile</h4>
+        <p>Los métodos de pago son: tarjeta de crédito o débito.</p>
+        <h4>Colombia</h4>
+        <p>Los métodos de pago son: tarjeta de crédito, débito, transferencia bancaria, Efecty, Mercado Pago y PSE.</p>
+        <h4>México</h4>
+        <p>Los métodos de pago son: tarjeta de crédito, débito, transferencia bancaría, Pay Pal, Oxxo, Kueski Pay y Mercado Pago.</p>
+        <h4>Perú</h4>
+        <p>Los métodos de pago son: tarjeta de crédito, débito, transferencia bancaría, Pago Efectivo y Mercado Pago.</p>
+      </div>
+      <!-- Price -->
+      <div>
+        <h3>Precios</h3>
+        <button class="btn" onclick="copiarAlPortapapeles('scpc'); audio.play();"><img src="../media/icon/copy.png"></button>
+        <p id="scpc">Con el descuento actual de -%, el precio de esta referencia es de **.</p>
+      </div>
+      <!-- Otras marcas -->
+      <div id="sh1ab">
+        <h3>Otras Marcas</h3>
+        <h4>Producto no computo</h4>
+        <p>Estimado, te comento, este es un chat exclusivo para asesoría de *productos HP*. En el caso de otros productos, carecemos de dicha información, para ello, lo indicado es que te comuniques con los otros medios de atención de la página.</p>
+        <h4>Otras marcas de computo</h4>
+        <p>Estimado cliente , te comento, este es un chat exclusivo para asesoría de *productos HP*. En el caso de otras marcas, carecemos de dicha información; para ello, lo indicado es que te comuniques con los otros medios de atención de la página.</p>
+      </div>
+      <!-- Stock -->
+      <div  id="sh1st">
+        <h3>Stock</h3>
+        <div>
+          <h4>Agotado</h4>
+            <p>Lo sentimos, este producto ha sido un éxito de ventas y se ha agotado. ¡Pero no te preocupes, esperamos que pronto haya más unidades disponibles!</p>
+            <p>Este producto es tan popular que se ha vendido todas sus unidades. Agradecemos tu interés y te pedimos un poco de paciencia mientras se repone el inventario.</p>
+            <p>Debido a la alta demanda, este producto se ha quedado sin existencias. Si quieres ser el primero en enterarte cuando vuelva a estar en stock, dale al botón *Notificarme*, deja tu correo electrónico y el sistema te avisará cuando esté disponible.</p>
+        </div>
+        <div>
+          <h4>Descontinuado</h4>
+          <p>En la actualidad, es una referencia descontinuada; debido a que, en su momento, tuvo una buena acogida, se vendió con éxito y ya no está disponible.</p>
+          <p>Afortunadamente, HP ha diseñado modelos más modernos, con componenentes más recientes, que cumplirán con tus necesidades.</p>
+        </div>
+        <!-- Disponibilidad -->
+        <div id="sh1ds">
+          <h4>Disponibilidad</h4>
+          <button class="btn" onclick="copiarAlPortapapeles('dis'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+          <p id="dis">Te comento, al día de hoy en la página no se encuentra dicha referencia.</p>
+          <p>Sin embargo, te puedo ayudar con un modelo que se ajuste a tus requerimientos.<br>Está disponible este otro modelo que te puede llegar a interesar.</p>
+          <button class="btn" onclick="copiarAlPortapapeles('sh1ds2'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+          <p id="sh1ds2">De igual forma, selecciona el botón de *Notificarme* e ingresa tu correo para que el sistema te avisé cuando el producto esté disponible.</p>
+          <p>Carecemos de información sobre disponibilidades futuras, en dicho caso, te invito a estar comprobando en nuestra página o llamar a la línea de atención de HP.</p>
+          <button class="btn" onclick="copiarAlPortapapeles('sac'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+          <p id="sac">Sin embargo, te puedes comunicar con Atención de HP, donde te pueden orientar con ese requerimiento.</p>
+        </div>
+      </div>
+      <!-- Videollamada -->
+      <div>
+        <h3>Videollamada</h3>
+        <p>De igual forma, si deseas tener una experiencia única con nuestros productos HP, te puedo transferir con el área de videollamadas, en donde podrás apreciar nuestros modelos en tiempo real.<br>Por favor, permanece el línea y en un momento uno de mis compañeros del área de videollamadas te asesorará con tu requerimiento.</p>
+      </div>
+    </section>
+    <hr />
+    <!-- Support -->
+    <section id="sh2">
+      <h2>Soporte</h2>
+      <!-- Asesoria en ventas -->
+      <div>
+        <h3>Asesoría en ventas</h3>
+        <ol>
+          <li>Entiendo completamente lo estresante que pueden llegar a ser los problemas técnicos. Aunque este chat está centrado en asesoría comercial de productos, contamos con un equipo especializado en soporte técnico que está listo para ayudarte ¿Te comparto sus medios de atención?</li>
+          <li>Es frustrante que presentes problemas con tu producto. A pesar de que aquí nos concentramos en ayudarte a encontrar el producto ideal para tus necesidades, existe un excelente equipo de soporte técnico que está enfocado en solucionar problemas como el tuyo ¿Te comparto sus medios de atención?</li>
+        </ol>
+        <div class="btndiv">
+          <button class="btn" onclick="copiarAlPortapapeles('atn'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        </div>
+        <p id="atn">Comunícate con Soporte de HP para dar solución a tu requerimiento, te comparto sus medios de atención:</p>
+        <span>Dirigete a <a href="support.html#supp">Soporte</a>.</span>
+      </div>
+      <!-- obsolete -->
+      <div id="sh2ob">
+        <h3>Descontinuado</h3>
+        <p>Para el modelo que me indicas, es un modelo descontinuado, lamentablemente carecemos de información suficiente para poder ayudarte con tu requerimiento, sin embargo, contamos con un equipo dedicado a dar asistencia técnica especializada a los productos de HP ¿Te comparto sus medios de atención?</p>
+      </div>
+      <!--Procesos de soporte -->
+      <div>
+        <h3>Proceso de soporte</h3>
+        <p>Apreciado cliente, quiero ayudarte en tu requerimiento, sin embargo, por medio de este chat solo podemos dar asesoría de los productos HP ofertados en la página, afortunadamente, HP tiene a tu disposición un chat dedicado para resolver tu requerimiento.</p>
+        <span>Chat asistente virtual <a href="#sh3av"><img src="../media/icon/chat.png"></a></span>
+      </div>
+    </section>
+    <hr />
+    <!-- Postventa -->
+    <section id="sh3">
+      <h2>Postventa</h2>
+      <!-- Cases -->
+      <div>
+        <h3>Casos</h3>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3cs1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3cs1">Apreciado cliente, quiero ayudarte en tu requerimiento; sin embargo, este chat, es exclusivo para asesoría de productos HP y carecemos de información de los pedidos o demás procesos de postventa. Lo ideal es que te comuniques con las líneas de atención donde te darán solución a tu requerimiento, a continuación te comparto dichos medios:</p>
+        <span>Dirigete a <a href="attention.html">Atención</a>.</span>
+        <h4>Entre semana</h4>
+        <p id="sh3dv1">Debido a que este chat, es exclusivo para asesoría de productos HP, carecemos de información de los pedidos o demás procesos de postventa. En tal caso, lo ideal es que te comuniques con las líneas de atención donde te darán solución a tu requerimiento, a continuación te comparto dichos medios:</p>
+        <p>Asimismo, HP a puesto a tu disposición, un chat para dar solución a los requerimientos como el tuyo.</p>
+        <span>Chat asistente virtual <a href="#sh3av"><img src="../media/icon/chat.png"></a></span>
+      </div>
+      <!-- Chat -->
+      <div id="sh3av">
+        <h3>Chat Asistente virtual de HP</h3>
+        <button class="btn" onclick="copiarAlPortapapeles('shav'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="shav">En el chat de asistente virtual HP, recibes asesoría a cerca de los procesos de tu pedido, solicitar cotizaciones de nuestros productos y recibir asistencia técnica. Da clic encima del icono azul ubicado en la parte derecha de la página. Selecciona la opción de *¿Dudas sobre productos?* luego elige _Ventas para Negocios_ _Información sobre mi pedido_ _Soporte técnico_.</p>
+        <br />
+        <div class="cnt1">
+          <img src="../media/screen/chatsac.png" />
+          <br />
+          <img src="../media/screen/chatsac1.png" />
+          <br />
+          <img src="../media/screen/chatsac2.png" />
+          <br />
+        </div>
+      </div>
+      <!-- Return -->
+      <div id="sh3rt">
+        <h3>Devolución</h3>
+        <span>¿Cómo hago la devolución?</span>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3dv'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3dv">Para realizar el proceso de devolución, lo indicado es que sigas los pasos que aparecen en *Términos y Condiciones* de la página; a continuación, te comparto el link:</p>
+        <ul>
+          <li><a href="https://www.hp.com/ar-es/shop/terminos-y-condiciones">Argentina - Proceso de devolución de productos</a></li>
+          <li><a href="https://www.hp.com/cl-es/shop/terminos-y-condiciones">Chile - Proceso de devolución de productos</a></li>
+          <li><a href="https://www.hp.com/co-es/shop/terminos-y-condiciones">Colombia - Proceso de devoluciones</a></li>
+          <li><a href="https://www.hp.com/mx-es/shop/terminos-y-condiciones">México - Proceso de devolución</a></li>
+          <li><a href="https://www.hp.com/pe-es/shop/terminos-y-condiciones">Perú - Proceso de devolución de productos</a></li>
+        </ul>
+        <p>Los pasos lo encuentras en el apartado de *Proceso de devolución*.</p>
+        <h4>Tengo número de devolución</h4>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3dv1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+      </div>
+      <!-- Factura -->
+      <div id="sh3fc">
+        <h3>Factura</h3>
+        <h4>Solicitar</h4>
+        <p>Apreciado cliente, quiero ayudarte con tu requerimiento, sin embargo, por este medio, carecemos de información de las facturas y demás procesos de postventa; aun así, HP puso a tu disposición un chat donde puedes solicitar la factura de tu pedido.</p>
+        <span>Chat asistente virtual: <a href="#sh3av"><img src="../media/icon/chat.png"></a></span>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3sl'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3sl">Si gustas, puedo escalar una solicitud con el área encargada de postventa, para que te envíen la factura de tu pedido.</p>
+        <a href="#sh3pd">Pedir datos >></a>
+        <h4>Corregir</h4>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3cr'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3cr">Si gustas, por medio de este chat, puedo escalar con el área encargada de postventa, para que te ayuden con la corrección de la factura de tu pedido.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3cr1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3cr1">Por favor, me confirmas número de orden, teléfono, correo electrónico registrado en la compra y datos a corregir.</p>
+      </div>
+      <!-- Order -->
+      <div id="sh3or">
+        <h3>Pedido</h3>
+        <div>
+          <h4>Consultar</h4>
+          <button class="btn" onclick="copiarAlPortapapeles('scpd0'); audio.play();"><img src="../media/icon/copy.png"></button>
+          <p id="scpd0">Te comento, para saber el estado de tu pedido, lo puedes revisar por medio del siguiente link:</p>
+          <h4>Argentina</h4>
+          <p><a href="https://www.hp.com/ar-es/shop/sales/guest/form/">https://www.hp.com/ar-es/shop/sales/guest/form/</a></p>
+          <h4>Colombia</h4>
+          <p><a href="https://www.hp.com/co-es/shop/sales/guest/form/">https://www.hp.com/co-es/shop/sales/guest/form/</a></p>
+          <h4>Chile</h4>
+          <p><a href="https://www.hp.com/cl-es/shop/sales/guest/form/">https://www.hp.com/cl-es/shop/sales/guest/form/</a></p>
+          <h4>México</h4>
+          <p><a href="https://www.hp.com/mx-es/shop/sales/guest/form/">https://www.hp.com/mx-es/shop/sales/guest/form/</a></p>
+          <h4>Perú</h4>
+          <p><a href="https://www.hp.com/pe-es/shop/sales/guest/form/">https://www.hp.com/pe-es/shop/sales/guest/form/</a></p>
+          <button class="btn" onclick="copiarAlPortapapeles('scpd1'); audio.play();"><img src="../media/icon/copy.png"></button>
+          <p id="scpd1">Ingresa el número de orden de tu pedido y tu correo electrónico, luego, selecciona *Obtener el código de verificación*.</p>
+          <p>Al correo, llegará un código, el cual debes ingresar para acceder al estado del pedido.</p>
+        </div>
+        <div>
+          <h4>Estado</h4>
+          <p>Debido a que este chat, es exclusivo para asesoría de productos HP, carecemos de información de los pedidos o demás procesos de postventa; aun así, HP puso a tu disposición un chat donde puedes solicitar la información de tu pedido.</p>
+          <span>Chat asistente virtual: <a href="#sh3av"><img src="../media/icon/chat.png"></a></span>
+          <button class="btn" onclick="copiarAlPortapapeles('sh3pd'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+          <p id="sh3pd">Si gustas, puedo escalar el caso con el área encargada de postventas, para que te den información acerca de tu pedido.</p>
+          <a href="#sh3pd">Pedir datos >></a>
+        </div>
+        <div>
+          <h4>Sesión iniciada</h4>
+          <p>Te comento, puedes saber el estado de tu pedido, iniciando sesión en la página, por medio del siguiente link:</p>
+          <ul>
+            <li>https://www.hp.com/es-es/shop/sales/order/history/</li>
+          </ul>
+          <p>Te comento, por esta página, solo es posible saber el estado de tu pedido, es decir, no es posible saber el tiempo exacto de entrega.</p>
+          <h4>Después del realizar el pedido</h4>
+          <ol>
+            <li>Hemos enviado un correo electrónico confirmando su pedido.</li>
+            <li>También deberá comprobar el estado del pedido en la página Mis pedidos.</li>
+            <li>https://www.hp.com/mx-es/shop/sales/order/history/</li>
+            <li>Una vez que los productos estén listos para ser enviados le enviaremos un correo electrónico con el número de seguimiento.</li>
+            <li>También podrá rastrear su envío en la página Mis pedidos.</li>
+            <li>Los productos se entregarán a su dirección de envío.</li>
+          </ol>
+        </div>
+      </div>
+      <!-- Pedir datos -->
+      <div id="sh3pd">
+        <h3>Pedir datos</h3>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3pd1">Por favor, me confirmas número de orden, teléfono y correo electrónico registrados en la compra.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd1a'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3pd1a">De igual forma te puedes comunicar con las siguientes líneas de atención:</p>
+        <h4>Mañana</h4>
+          <button class="btn" onclick="copiarAlPortapapeles('sh3pd2'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3pd2">He escalado el caso con el área encargada; ten en cuenta que en el transcurso del día darán respuesta.</p>
+        <h4>Tarde</h4>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd3'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3pd3">He escalado el caso con el área encargada; ten en cuenta que en un lapso de 24 horas darán respuesta.</p>
+        <h4>Fin de semana</h4>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd4'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3pd4">He escalado el caso con el área encargada; ten en cuenta que a partir del día lunes darán respuesta a dicha solicitud.</p>
+      </div>
+    </section>
+    <hr />
+  <br />
+  </body>
+</html>
