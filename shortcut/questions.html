@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width">
     <title>Preguntas</title>
     <link href="../css/maina.css" rel="stylesheet" type="text/css" />
+    <link href="../css/button.css" rel="stylesheet" type="text/css" />
 
-    <script src="..scrip/script.js"></script>
+    <script src="../script/script.js"></script>
   </head>
   
   <body>
@@ -64,10 +65,11 @@
         <h4>Current</h4>
         <button class="btn" onclick="copiarAlPortapapeles('qsav3')"></button>
         <p id="qsav3">Actualmente, está disponible esta referencia.</p>
-        <p>Actualmente, están disponibles estas referencias.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsav4')"></button>
+        <p id="qsav4">Actualmente, están disponibles estas referencias.</p>
       </div>
+      <!-- HP -->
       <div>
-        <!-- HP -->
         <h2>HP</h2>
         <h4>Phone</h4>
         <p>En este caso, por este chat no podemos validar el proceso, sin embargo, comunícate con la siguiente línea de atención, donde te pueden dar solución a tu requerimiento.</p>
@@ -76,7 +78,7 @@
         <h4>Model</h4>
         <p>Te comento, para la referencia que me indicas.</p>
         <h4>OMEN</h4>
-        <p>Tiene *OMEN Gaming Hub*, el programa exclusivo de HP, que permite administrar, optimizar y personalizar todo tu ambiente gaming.</p>
+        <p>Tiene *OMEN Gaming Hub*, el programa exclusivo de HP, que permite administrar, optimizar y personalizar todo tu ambiente gaming.</p>
         <h4>Query</h4>
         <p>Dime ¿Cuál es tu consulta?</p>
         <h4>Store</h4>
@@ -86,8 +88,8 @@
         <p>Dime ¿Para cuál modelo HP lo necesitas?</p>
         <p>Por favor, me confirmas el modelo HP al cual te refieres.</p>
       </div>
+      <!-- Wait -->
       <div>
-        <!-- Wait -->
         <h2>Espera</h2>
         <h4>line</h4>
         <p>¿Te encuentras aún en línea?</p>
@@ -100,42 +102,60 @@
       <div>
         <h2>Familias</h2>
         <h4>dia</h4>
-        <p>HP DeskJet Ink Advantage</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsfm1')"></button>
+        <p id="qsfm1">DeskJet Ink Advantage</p>
         <h4>hit</h4>
-        <p>HP Ink Tank</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsfm2')"></button>
+        <p id="qsfm2">Ink Tank</p>
         <h4>hlj</h4>
-        <p>HP LaserJet Pro</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsfm3')"></button>
+        <p id="qsfm3">LaserJet Pro</p>
         <h4>hoj</h4>
-        <p>HP OfficeJet Pro</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsfm4')"></button>
+        <p id="qsfm4">OfficeJet Pro</p>
         <h4>hst</h4>
-        <p>HP Smart Tank</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsfm5')"></button>
+        <p id="qsfm5">Smart Tank</p>
       </div>
       <!-- Final -->
       <div>
         <h2>Finalizar</h2>
         <h4>Ques</h4>
         <p>¿Tienes alguna duda adicional sobre los productos HP ofertados en la página?</p>
+        <h4>Attentionar</h4>
+        <button class="btn" onclick="copiarAlPortapapeles('qsat1')"></button>
+        <p id="qsat1">Lamentamos informar que hemos llegado al final del horario de atención, nos excusamos por no poder dar respuesta a tu consulta, para ello te invitamos a contactarte de lunes a domingo en los horarios de 09:00 a 23:00 horas y con mucho gusto continuaremos tu consulta.</p>
         <h4>Attentionco</h4>
-        <p>Lamentamos informar que hemos llegado al final del horario de atención, nos excusamos por no poder dar respuesta a tu consulta, para ello te invitamos a contactarte de lunes a domingo en los horarios de 07:00 a 21:00 horas y con mucho gusto continuaremos tu consulta.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsat2')"></button>
+        <p id="qsat2">Lamentamos informar que hemos llegado al final del horario de atención, nos excusamos por no poder dar respuesta a tu consulta, para ello te invitamos a contactarte de lunes a domingo en los horarios de 07:00 a 21:00 horas y con mucho gusto continuaremos tu consulta.</p>
         <h4>Attentioncl</h4>
-        <p>Lamentamos informar que hemos llegado al final del horario de atención, nos excusamos por no poder dar respuesta a tu consulta, para ello te invitamos a contactarte de lunes a domingo en los horarios de 08:00 a 22:00 horas y con mucho gusto continuaremos tu consulta.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsat3')"></button>
+        <p id="qsat3">Lamentamos informar que hemos llegado al final del horario de atención, nos excusamos por no poder dar respuesta a tu consulta, para ello te invitamos a contactarte de lunes a domingo en los horarios de 08:00 a 22:00 horas y con mucho gusto continuaremos tu consulta.</p>
         <h4>Attentionmx</h4>
-        <p>Lamentamos informar que hemos llegado al final del horario de atención, nos excusamos por no poder dar respuesta a tu consulta, para ello te invitamos a contactarte de lunes a domingo en los horarios de 07:00 a 20:00 horas y con mucho gusto continuaremos tu consulta.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsat4')"></button>
+        <p id="qsat4">Lamentamos informar que hemos llegado al final del horario de atención, nos excusamos por no poder dar respuesta a tu consulta, para ello te invitamos a contactarte de lunes a domingo en los horarios de 07:00 a 20:00 horas y con mucho gusto continuaremos tu consulta.</p>
       </div>
       <!-- HUB -->
       <div>
         <h2>HUB</h2>
         <h3>Log in</h3>
-        <p>Ingreso a turno HUB.</p>
-        <p>Salgo de turno HUB.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshb1')"></button>
+        <p id="qshb1">Ingreso a turno HUB.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshb2')"></button>
+        <p id="qshb2">Salgo de turno HUB.</p>
         <h3>Lunch</h3>
-        <p>Salgo a almuerzo HUB.</p>
-        <p>Entro de almuerzo HUB.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshb3')"></button>
+        <p id="qshb3">Salgo a almuerzo HUB.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshb4')"></button>
+        <p id="qshb4">Entro de almuerzo HUB.</p>
         <h3>Break</h3>
-        <p>Salgo a Break HUB.</p>
-        <p>Entro de Break HUB.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshb5')"></button>
+        <p id="qshb5">Salgo a Break HUB.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshb6')"></button>
+        <p id="qshb6">Entro de Break HUB.</p>
         <h4>Transfer</h4>
-        <p>En este momento te voy a transferir con el agente , quien te seguirá orientando en tus requerimientos.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshb7')"></button>
+        <p id="qshb7">En este momento te voy a transferir con el agente , quien te seguirá orientando en tus requerimientos.</p>
       </div>
       <!-- Printer -->
       <div>
@@ -189,14 +209,18 @@
         <h4>upset</h4>
         <p>Debido a que estás haciendo un uso inadecuado de este canal, me veo en la obligación de dar por terminado este chat; te pedimos que en tu próxima interacción seas más respetuoso y utilices este chat para aclarar tus dudas sobre los productos HP en la página.</p>
       </div>
+      <!-- Mercado libre-->
       <div>
         <h2>Mercado Libre</h2>
         <h4>Ventiapp</h4>
-        <p>¡Gracias por contactarnos ! En respuesta a tu pregunta,  Si tienes alguna otra consulta no dudes en ponerte en contacto con nosotros. ¡Qué tengas un excelente día!</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsvn1')"></button>
+        <p id="qsvn1">¡Gracias por contactarnos ! En respuesta a tu pregunta,  Si tienes alguna otra consulta no dudes en ponerte en contacto con nosotros. ¡Qué tengas un excelente día!</p>
         <h4>Facturaventiapp</h4>
-        <p>¡Gracias por contactarnos ! en respuesta a tu pregunta, sí, facturamos, para solicitar tu factura necesitas los siguientes datos: Nombre o Razón Social: RFC: Dirección Completa, Anexar Constancia de Situación Fiscal, Forma de Pago (en caso de ser tarjeta, especificar si es crédito o débito): Uso de CFDI: por seguridad, estos datos los puedes mandar en el chat de seguimiento de tu pedido al haber finalizado tu compra, la factura tarda de 3 a 5 días hábiles.  Si tienes alguna otra consulta no dudes en ponerte en contacto con nosotros. ¡Qué tengas un excelente día!</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsvn2')"></button>
+        <p id="qsvn2">¡Gracias por contactarnos ! en respuesta a tu pregunta, sí, facturamos, para solicitar tu factura necesitas los siguientes datos: Nombre o Razón Social: RFC: Dirección Completa, Anexar Constancia de Situación Fiscal, Forma de Pago (en caso de ser tarjeta, especificar si es crédito o débito): Uso de CFDI: por seguridad, estos datos los puedes mandar en el chat de seguimiento de tu pedido al haber finalizado tu compra, la factura tarda de 3 a 5 días hábiles.  Si tienes alguna otra consulta no dudes en ponerte en contacto con nosotros. ¡Qué tengas un excelente día!</p>
         <h4>Orderventiapp</h4>
-        <p>¡Gracias por contactarnos ! En respuesta a tu pregunta, por este chat no contamos con información de los pedidos, únicamente es dedicado a la asesoría de productos publicados en la página; lo indicado es que te comuniques por medio del chat de seguimiento de tu pedido, donde te pueden brindar la información sobre el mismo.  Si tienes alguna otra consulta no dudes en ponerte en contacto con nosotros. ¡Qué tengas un excelente día!</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsvn3')"></button>
+        <p id="qsvn3">¡Gracias por contactarnos ! En respuesta a tu pregunta, por este chat no contamos con información de los pedidos, únicamente es dedicado a la asesoría de productos publicados en la página; lo indicado es que te comuniques por medio del chat de seguimiento de tu pedido, donde te pueden brindar la información sobre el mismo.  Si tienes alguna otra consulta no dudes en ponerte en contacto con nosotros. ¡Qué tengas un excelente día!</p>
       </div>
     </section>
     <br />

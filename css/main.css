@@ -63,7 +63,7 @@ li {
 }
 
 ul li{
-  list-style-type: ;
+  list-style-type: none;
 }
 
 a {
@@ -237,7 +237,7 @@ legend {
 
 .menu {
   position: fixed;
-  overflow: ;
+  overflow: none;
 }
 
 .menu-list {

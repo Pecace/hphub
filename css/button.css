@@ -1,19 +1,21 @@
 /* Botón 2*/
 .btn2 {
+  position: fixed;
   background-color: #ff8a14;
   margin-right: 5px;
   width: 45px;
   height: 30px;
   border-radius: 5px;
-  display: flex;
+  display: inline-block;
+  z-index: 1;
 }
 
 .btn2::before {
   content: "";
+  display: inline-block;
   background-image: src("../media/icon/copy.png");
   position: absolute;
   background-size: 35px 35px;
-  z-index: 1;
 }
 
 /* Botón Omnitok */
