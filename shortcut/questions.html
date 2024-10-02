@@ -48,8 +48,8 @@
       </ul>
     </fieldset>
     <section>
+      <!-- Greeting -->
       <div>
-        <!-- Greeting -->
         <h2>Inicio</h2>
         <button class="btn" onclick="copiarAlPortapapeles('qsgr1')"></button>
         <p id="qsgr1">Por favor me indicas tu nombre.</p>
@@ -71,36 +71,43 @@
       <!-- HP -->
       <div>
         <h2>HP</h2>
-        <h4>Phone</h4>
-        <p>En este caso, por este chat no podemos validar el proceso, sin embargo, comunícate con la siguiente línea de atención, donde te pueden dar solución a tu requerimiento.</p>
         <h4>Interest</h4>
-        <p>Dime ¿En cuál producto HP tienes interés?</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshp1')"></button>
+        <p id="qshp1">Dime ¿En cuál producto HP tienes interés?</p>
         <h4>Model</h4>
-        <p>Te comento, para la referencia que me indicas.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshp2')"></button>
+        <p id="qshp2">Te comento, para la referencia que me indicas.</p>
         <h4>OMEN</h4>
-        <p>Tiene *OMEN Gaming Hub*, el programa exclusivo de HP, que permite administrar, optimizar y personalizar todo tu ambiente gaming.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshp3')"></button>
+        <p id="qshp3">Tiene *OMEN Gaming Hub*, el programa exclusivo de HP, que permite administrar, optimizar y personalizar todo tu ambiente gaming.</p>
         <h4>Query</h4>
-        <p>Dime ¿Cuál es tu consulta?</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshp4')"></button>
+        <p id="qshp4">Dime ¿Cuál es tu consulta?</p>
         <h4>Store</h4>
-        <p>Te comento, esta es una tienda virtual y no cuenta con puntos físicos, es decir, la compra solo es de forma online.</p>
-        <p>Sin embargo, las compras que realices por la página son totalmente seguras y se hace entrega de los productos que solicites.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshp5')"></button>
+        <p id="qshp5">Te comento, esta es una tienda virtual y tiene puntos físicos, la compra se hace online y la entrega es envío a domicilio.</p>
         <h4>Wh</h4>
-        <p>Dime ¿Para cuál modelo HP lo necesitas?</p>
-        <p>Por favor, me confirmas el modelo HP al cual te refieres.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshp6a')"></button>
+        <p id="qshp6a">Dime ¿Para cuál modelo HP lo necesitas?</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qshp6b')"></button>
+        <p id="qshp6b">Por favor, me confirmas el modelo HP al cual te refieres.</p>
       </div>
       <!-- Wait -->
       <div>
         <h2>Espera</h2>
         <h4>line</h4>
-        <p>¿Te encuentras aún en línea?</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qswt1')"></button>
+        <p id="qswt1">¿Te encuentras aún en línea?</p>
         <h4>Patience</h4>
-        <p>Gracias por tu tiempo en línea, en el momento no cuento con la información que has solicitado, te pido más tiempo y paciencia para colaborarte con tu requerimiento.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qswt2')"></button>
+        <p id="qswt2">Gracias por tu tiempo en línea, en el momento no cuento con la información que has solicitado, te pido más tiempo y paciencia para colaborarte con tu requerimiento.</p>
         <h4>Wait</h4>
-        <p>Agradezco tu amable espera en línea.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qswt3')"></button>
+        <p id="qswt3">Agradezco tu amable espera en línea.</p>
       </div>
       <!-- Family -->
       <div>
-        <h2>Familias</h2>
+        <h2>Printer Families</h2>
         <h4>dia</h4>
         <button class="btn" onclick="copiarAlPortapapeles('qsfm1')"></button>
         <p id="qsfm1">DeskJet Ink Advantage</p>
@@ -121,7 +128,8 @@
       <div>
         <h2>Finalizar</h2>
         <h4>Ques</h4>
-        <p>¿Tienes alguna duda adicional sobre los productos HP ofertados en la página?</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsfn1')"></button>
+        <p id="qsfn1">¿Tienes alguna duda adicional sobre los productos HP ofertados en la página?</p>
         <h4>Attentionar</h4>
         <button class="btn" onclick="copiarAlPortapapeles('qsat1')"></button>
         <p id="qsat1">Lamentamos informar que hemos llegado al final del horario de atención, nos excusamos por no poder dar respuesta a tu consulta, para ello te invitamos a contactarte de lunes a domingo en los horarios de 09:00 a 23:00 horas y con mucho gusto continuaremos tu consulta.</p>
@@ -161,53 +169,76 @@
       <div>
         <h2>Impresora</h2>
         <h4>ADF</h4>
-        <p>De igual forma, tiene *alimentador automático de documentos*, lo cual te permite realizar copias y escaneos en simultáneo, de hasta 35 páginas y en tamaño oficio.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qspr1')"></button>
+        <p id="qspr1">De igual forma, tiene *alimentador automático de documentos*, lo cual te permite realizar copias y escaneos en simultáneo, de hasta 35 páginas y en tamaño oficio.</p>
         <h4>Cthp</h4>
-        <p>Cartucho de Tinta HP</p>
-        <p>Cartucho de Tóner HP</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qspr2a')"></button>
+        <p id="qspr2a">Cartucho de Tinta HP</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qspr2b')"></button>
+        <p id="qspr2b">Cartucho de Tóner HP</p>
         <h4>Render</h4>
-        <p>Dan un rendimiento de hasta *00 páginas en negro* u hasta *00 páginas a color*.</p>
-        <p>Con las tintas que vienen en la caja, te da un rendimiento de hasta *.000 páginas en negro* u hasta *.000 páginas en color*.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qspr3a')"></button>
+        <p id="qspr3a">Dan un rendimiento de hasta *00 páginas en negro* u hasta *00 páginas a color*.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qspr3b')"></button>
+        <p id="qspr3b">Con las tintas que vienen en la caja, te da un rendimiento de hasta *.000 páginas en negro* u hasta *.000 páginas en color*.</p>
         <h4>Color</h4>
-        <p>Negro, Cian, Magenta y Amarillo*.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qspr4')"></button>
+        <p id="qspr4">Negro, Cian, Magenta y Amarillo*.</p>
         <h4>Tri</h4>
-        <p>Negro y Tricolor*.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qspr5')"></button>
+        <p id="qspr5">Negro y Tricolor*.</p>
         <h4>Speed</h4>
-        <p>Te comento, tiene una velocidad de impresión de hasta *ppm en negro* y hasta *ppm en color*.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qspr6')"></button>
+        <p id="qspr6">Te comento, tiene una velocidad de impresión de hasta *ppm en negro* y hasta *ppm en color*.</p>
         <h4>Smart</h4>
-        <p>Tiene conectividad Wi-Fi, así que podrás utilizarla desde dispositivos móviles como tu celular, y gracias a *HP Smart APP*, puedes configurar, imprimir, escanear y copiar, desde la palma de tu mano.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qspr7')"></button>
+        <p id="qspr7">Tiene conectividad Wi-Fi, así que podrás utilizarla desde dispositivos móviles como tu celular, y gracias a *HP Smart APP*, puedes configurar, imprimir, escanear y copiar, desde la palma de tu mano.</p>
       </div>
       <!-- buy -->
       <div>
         <h2>Compra</h2>
         <h4>Buy</h4>
-        <p>¿Quieres que te indique el paso a paso del proceso de compra?</p>
-        <h4>credit</h4>
-        <p>Te comento, puedes adquirir tu HP con tarjeta de crédito y diferir la compra directamente con tu entidad financiera a las cuotas que desees.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsby1')"></button>
+        <p id="qsby1">¿Quieres que te indique el paso a paso del proceso de compra?</p>
+        <h4>Credit</h4>
+        <button class="btn" onclick="copiarAlPortapapeles('qsby2')"></button>
+        <p id="qsby2">Te comento, puedes adquirir tu HP con tarjeta de crédito y diferir la compra directamente con tu entidad financiera a las cuotas que desees.</p>
         <h4>Delivery</h4>
-        <p>En general, el tiempo estimado de entrega es de 1 a 5 días hábiles.</p>
-        <p>En general, el tiempo estimado de entrega es de 2 a 4 días hábiles después de confirmado el pago.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsby3a')"></button>
+        <p id="qsby3a">En general, el tiempo estimado de entrega es de 1 a 5 días hábiles.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsby3b')"></button>
+        <p id="qsby3b">En general, el tiempo estimado de entrega es de 2 a 4 días hábiles después de confirmado el pago.</p>
         <h4>Discount</h4>
-        <p>¡Aprovecha! Adquiere tu nueva HP con el descuento actual.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsby4')"></button>
+        <p id="qsby4">¡Aprovecha! Adquiere tu nueva HP con el descuento actual.</p>
         <h4>MSI</h4>
-        <p>Para el beneficio de meses sin interés, aplica pagando con las siguientes tarjetas de crédito.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsby5')"></button>
+        <p id="qsby5">Para el beneficio de meses sin interés, aplica pagando con las siguientes tarjetas de crédito.</p>
+      </div>
+      <!-- Order -->
+      <div>
+        <h2>Pedido</h2>
         <h4>State</h4>
-        <p>Te puedo ayudar realizando el proceso, me confirmas el número de orden y el correo electrónico de tu pedido.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsst1')"></button>
+        <p id="qsst1">Te puedo ayudar realizando el proceso, me confirmas el número de orden y el correo electrónico de tu pedido.</p>
         <p>A tu correo llego un código, me confirmas dicho código.</p>
       </div>
       <!-- Support -->
       <div>
         <h2>Problemas</h2>
         <h4>Option</h4>
-        <p>También, puedes realizar la solicitud por medio del siguiente link:</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qssp1')"></button>
+        <p id="qssp1">También, puedes realizar la solicitud por medio del siguiente link:</p>
         <h4>screen</h4>
-        <p>Me compartes un pantallazo de lo que te aparece.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qssp2')"></button>
+        <p id="qssp2">Me compartes un pantallazo de lo que te aparece.</p>
       </div>
       <!-- upset -->
       <div>
         <h2>Bromas</h2>
         <h4>upset</h4>
-        <p>Debido a que estás haciendo un uso inadecuado de este canal, me veo en la obligación de dar por terminado este chat; te pedimos que en tu próxima interacción seas más respetuoso y utilices este chat para aclarar tus dudas sobre los productos HP en la página.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('qsup')"></button>
+        <p id="qsup">Debido a que estás haciendo un uso inadecuado de este canal, me veo en la obligación de dar por terminado este chat; te pedimos que en tu próxima interacción seas más respetuoso y utilices este chat para aclarar tus dudas sobre los productos HP en la página.</p>
       </div>
       <!-- Mercado libre-->
       <div>
