@@ -1,4 +1,4 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8">
@@ -34,7 +34,7 @@
       <div class="list-list">
         <a href="#sh1">Atención</a>
         <a href="#sh1st">Agotado</a>
-        <a href="#sh1ct">Cotización</a>
+        <a href="#sh1qt">Cotización</a>
         <a href="#sh1cp">Cupón</a>
         <a href="#sh1ds">Disponibilidad</a>
         <a href="#sh1fc">Factura</a>
@@ -68,7 +68,7 @@
       <!-- <h3>Donkey</h3>
       <p>Mil disculpas por asumir que su capacidad cerebral es mayor o similar a la de un simio, fue mi error, ya que no tuve en cuenta su nivel tan amplio de  analfabetismo.<br>He notado que su única neurona necesita una cita, para ver si encontrando pareja, se multiplican y así tengas la posibilidad de ser más inteligente.</p> -->
     </section>
-    <!-- Attention -->
+    <!-- Attention 1 -------------->
     <section id="sh1">
       <h2>Atención</h2>
       <!-- Buy -->
@@ -102,20 +102,35 @@
           <p>Te confirmo, al día de hoy, realizando la tasa de conversión de peso a peso, el precio de en peso es de $.</p>
         </div>
       </div>
-      <!-- Cotización -->
-      <div id="sh1ct">
+      <!-- Quotation -->
+      <div id="sh1qt">
         <h3>Cotización</h3>
-        <button class="btn" onclick="copiarAlPortapapeles('cot'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <button class="btn" onclick="copiarAlPortapapeles('cot')"><img src="../media/icon/copy.png"></img></button>
         <p id="cot">Respecto a las cotizaciones de equipos, para realizar dicho proceso es necesario comunicarse con las líneas de contacto directo de la tienda, las cuales te adjuntaré enseguida.</p>
         <span>Dirigete a <a href="attention.html">Atención</a> o <a href="retail.html">Retails</a>.</span>
+        <div>
+          <h4>Solicitud</h4>
+          <p>Quisiera ayudarte con tu requerimiento, sin embargo, este chat es exclusivo para asesoramiento de productos HP en la página y no podemos gestionar, ni generar cotizaciones; de igual forma, con el fin de ayudarte de manera efectiva, puedo pasar tu solicitud con el área encargada de ventas, quienes se contactarán contigo para dar manejo a tu requerimiento.</p>
+          <a href="#sh3pd">Pedir datos >></a>
+        </div>
       </div>
       <!-- Cupón -->
       <div id="sh1cp">
         <h3>Cupón</h3>
-        <button class="btn" onclick="copiarAlPortapapeles('cup1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <button class="btn" onclick="copiarAlPortapapeles('cup1')"><img src="../media/icon/copy.png"></img></button>
         <p id="cup1">Para aplicar el cupón, es posible, durante el proceso de compra.</p>
-        <button class="btn" onclick="copiarAlPortapapeles('cup2'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <button class="btn" onclick="copiarAlPortapapeles('cup2')"><img src="../media/icon/copy.png"></img></button>
         <p id="cup2">En el paso del _Carrito_, en la parte superior derecha, se encuentra un apartado que dice _APLICAR CUPÓN DE DESCUENTO_.</p>
+        <!-- Cupón BienvenidaHP -->
+        <div>
+          <h3>Problemas cupon de bienvenidaHP</h3>
+          <h4>No recibido</h4>
+          <p>Entiendo y quisiera ayudarte con la solicitud de tu cupón, sin embargo, este chat es exclusivo para asesoramiento de productos HP disponibles en la página, y no gestionamos lo referente a los cupones. De igual forma, con el fin de ayudarte de manera efectiva, puedo escalar un requerimiento con el área de venta, para que te envíen el cupón.</p>
+          <a href="#sh3pd">Pedir datos >></a>
+          <h4>Cupón no aplica por compra rechazada</h4>
+          <p>Debido a que el cupón, ya no es válido porque ya fue aplicado; quisiera ayudarte con tu requerimiento, no obstante, este chat es exclusivo para asesoría de los productos HP en la página y no contamos con los permisos para habilitarlo nuevamente. Sin embargo, con el fin de dar una solución a tu requerimiento, puedo pasar el caso con el área de ventas, para que te ayuden a aplicar el cupón nuevamente.</p>
+          <a href="#sh3pd">Pedir datos >></a>
+        </div>
       </div>
       <!-- Experience -->
       <div>
@@ -231,7 +246,7 @@
       </div>
     </section>
     <hr />
-    <!-- Support -->
+    <!-- Support 2 ---------------->
     <section id="sh2">
       <h2>Soporte</h2>
       <!-- Asesoria en ventas -->
@@ -242,10 +257,23 @@
           <li>Es frustrante que presentes problemas con tu producto. A pesar de que aquí nos concentramos en ayudarte a encontrar el producto ideal para tus necesidades, existe un excelente equipo de soporte técnico que está enfocado en solucionar problemas como el tuyo ¿Te comparto sus medios de atención?</li>
         </ol>
         <div class="btndiv">
-          <button class="btn" onclick="copiarAlPortapapeles('atn'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+          <button class="btn" onclick="copiarAlPortapapeles('atn')"><img src="../media/icon/copy.png"></img></button>
         </div>
         <p id="atn">Comunícate con Soporte de HP para dar solución a tu requerimiento, te comparto su medio de atención:</p>
         <span>Dirigete a <a href="support.html#supp">Soporte</a>.</span>
+      </div>
+      <!-- Proceso con soporte -->
+      <div>
+        <h3>Tiene un radicado con soporte</h3>
+        <p>Te comento, este chat es exclusivo para asesoramiento de productos HP disponibles en la página, y no tenemos información, ni gestionamos los procesos del área de servicio técnico. Lo indicado, es que te comuniques con el área de *Soporte de HP*, donde te darán información de tu solicitud realizada previamente.</p>
+      </div>
+      <!-- Asistencia en soporte -->
+      <div>
+        <h3>Asistencia con soporte</h3>
+        <button class="btn" onclick="copiarAlPortapapeles('sc3sp3a')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sc3sp3a">Entiendo tu solicitud, no obstante, te comento que actualmente este chat, no prestamos el servicio de _Asesoría de Soporte técnico_. :(</p>
+        <button class="btn" onclick="copiarAlPortapapeles('sc3sp3b')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sc3sp3b">Por lo cual, buscaré una solución al problema que presenta tu HP, pero en caso de no funcionar, es necesario el contacto con el canal de *Soporte de HP*.</p>
       </div>
       <!-- obsolete -->
       <div id="sh2ob">
@@ -260,19 +288,15 @@
       </div>
     </section>
     <hr />
-    <!-- Postventa -->
+    <!-- Postventa 3 -------------->
     <section id="sh3">
       <h2>Postventa</h2>
       <!-- Cases -->
       <div>
         <h3>Casos</h3>
-        <button class="btn" onclick="copiarAlPortapapeles('sh3cs1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
-        <p id="sh3cs1">Apreciado cliente, quiero ayudarte en tu requerimiento; sin embargo, este chat, es exclusivo para asesoría de productos HP y carecemos de información de los pedidos o demás procesos de postventa. Lo ideal es que te comuniques con las líneas de atención donde te darán solución a tu requerimiento, a continuación te comparto dichos medios:</p>
-        <span>Dirigete a <a href="attention.html">Atención</a>.</span>
-        <h4>Entre semana</h4>
-        <p id="sh3dv1">Debido a que este chat, es exclusivo para asesoría de productos HP, carecemos de información de los pedidos o demás procesos de postventa. En tal caso, lo ideal es que te comuniques con las líneas de atención donde te darán solución a tu requerimiento, a continuación te comparto dichos medios:</p>
-        <p>Asimismo, HP a puesto a tu disposición, un chat para dar solución a los requerimientos como el tuyo.</p>
-        <span>Chat asistente virtual <a href="#sh3av"><img src="../media/icon/chat.png"></a></span>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3cs1')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3cs1">Comprendo, y quisiera ayudarte con tu requerimiento, sin embargo, este chat es exclusivo para asesoría de los productos HP y no contamos con información de los pedidos, de igual forma, con el fin de ayudarte de manera efectiva, puedo escalar con el área encargada, para que te den información de tu pedido.</p>
+        <a href="#sh3pd">Pedir datos >></a>
       </div>
       <!-- Chat -->
       <div id="sh3av">
@@ -292,9 +316,9 @@
       <!-- Return -->
       <div id="sh3rt">
         <h3>Devolución</h3>
-        <span>¿Cómo hago la devolución?</span>
-        <button class="btn" onclick="copiarAlPortapapeles('sh3dv'); audio.play();"><img src="../media/icon/copy.png"></img></button>
-        <p id="sh3dv">Para realizar el proceso de devolución, lo indicado es que sigas los pasos que aparecen en *Términos y Condiciones* de la página; a continuación, te comparto el link:</p>
+        <h4>¿Cómo hago la devolución?</h4>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3rt1')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3rt1">Para realizar el proceso de devolución, lo indicado es que sigas los pasos que aparecen en *Términos y Condiciones* de la página; a continuación, te comparto el link:</p>
         <ul>
           <li><a href="https://www.hp.com/ar-es/shop/terminos-y-condiciones">Argentina - Proceso de devolución de productos</a></li>
           <li><a href="https://www.hp.com/cl-es/shop/terminos-y-condiciones">Chile - Proceso de devolución de productos</a></li>
@@ -303,31 +327,33 @@
           <li><a href="https://www.hp.com/pe-es/shop/terminos-y-condiciones">Perú - Proceso de devolución de productos</a></li>
         </ul>
         <p>Los pasos lo encuentras en el apartado de *Proceso de devolución*.</p>
-        <h4>Tengo número de devolución</h4>
-        <button class="btn" onclick="copiarAlPortapapeles('sh3dv1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <h4>Tiene número de devolución</h4>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3rt2')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3rt2">Te comento, este chat es exclusivo para asesoramiento de productos HP disponibles en la página, y no tenemos información, ni gestionamos los procesos de devolución. Lo indicado, es que te comuniques con el área de postventa, donde te darán información de tu solicitud realizada previamente.</p>
       </div>
-      <!-- Factura -->
+      <!-- Bill -->
       <div id="sh3fc">
         <h3>Factura</h3>
         <h4>Solicitar</h4>
         <p>Apreciado cliente, quiero ayudarte con tu requerimiento, sin embargo, por este medio, carecemos de información de las facturas y demás procesos de postventa; aun así, HP puso a tu disposición un chat donde puedes solicitar la factura de tu pedido.</p>
         <span>Chat asistente virtual: <a href="#sh3av"><img src="../media/icon/chat.png"></a></span>
-        <button class="btn" onclick="copiarAlPortapapeles('sh3sl'); audio.play();"><img src="../media/icon/copy.png"></img></button>
-        <p id="sh3sl">Si gustas, puedo escalar una solicitud con el área encargada de postventa, para que te envíen la factura de tu pedido.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3bl1')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3bl1">Quisiera ayudarte con tu requerimiento, sin embargo, por medio de este chat, solo contamos con asesoría de los productos HP en la página y no contamos con información de las facturas de los pedidos. De igual forma, con el fin de ayudarte de manera efectiva, puedo escalar el caso con el área encargada de postventa, quienes se contactarán contigo para dar manejo a tu requerimiento.</p>
         <a href="#sh3pd">Pedir datos >></a>
         <h4>Corregir</h4>
-        <button class="btn" onclick="copiarAlPortapapeles('sh3cr'); audio.play();"><img src="../media/icon/copy.png"></img></button>
-        <p id="sh3cr">Si gustas, por medio de este chat, puedo escalar con el área encargada de postventa, para que te ayuden con la corrección de la factura de tu pedido.</p>
-        <button class="btn" onclick="copiarAlPortapapeles('sh3cr1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
-        <p id="sh3cr1">Por favor, me confirmas número de orden, teléfono, correo electrónico registrado en la compra y datos a corregir.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3bl2')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3bl2">Comprendo, y quisiera ayudarte con tu requerimiento, sin embargo, este chat es exclusivo para asesoramiento en venta y no tenemos acceso a información ni administración de los pedidos; de igual forma, con el fin de ayudarte de manera efectiva, puedo escalar una solicitud con el área encargada de postventa para que te ayuden con la corrección de tu factura.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd1d')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3pd1d">Número de orden, teléfono, correo electrónico registrado en la compra y datos a corregir.</p>
       </div>
+      <hr />
       <!-- Order -->
       <div id="sh3or">
         <h3>Pedido</h3>
         <div>
           <h4>Consultar</h4>
-          <button class="btn" onclick="copiarAlPortapapeles('scpd0'); audio.play();"><img src="../media/icon/copy.png"></button>
-          <p id="scpd0">Te comento, para saber el estado de tu pedido, lo puedes revisar por medio del siguiente link:</p>
+          <button class="btn" onclick="copiarAlPortapapeles('sh3or1')"><img src="../media/icon/copy.png"></button>
+          <p id="sh3or1">Te comento, para saber el estado de tu pedido, lo puedes revisar por medio del siguiente link:</p>
           <h4>Argentina</h4>
           <p><a href="https://www.hp.com/ar-es/shop/sales/guest/form/">https://www.hp.com/ar-es/shop/sales/guest/form/</a></p>
           <h4>Colombia</h4>
@@ -338,24 +364,14 @@
           <p><a href="https://www.hp.com/mx-es/shop/sales/guest/form/">https://www.hp.com/mx-es/shop/sales/guest/form/</a></p>
           <h4>Perú</h4>
           <p><a href="https://www.hp.com/pe-es/shop/sales/guest/form/">https://www.hp.com/pe-es/shop/sales/guest/form/</a></p>
-          <button class="btn" onclick="copiarAlPortapapeles('scpd1'); audio.play();"><img src="../media/icon/copy.png"></button>
-          <p id="scpd1">Ingresa el número de orden de tu pedido y tu correo electrónico, luego, selecciona *Obtener el código de verificación*.</p>
+          <button class="btn" onclick="copiarAlPortapapeles('sc3or2')"><img src="../media/icon/copy.png"></button>
+          <p id="sc3or2">Ingresa el número de orden de tu pedido y tu correo electrónico, luego, selecciona *Obtener el código de verificación*.</p>
           <p>Al correo, llegará un código, el cual debes ingresar para acceder al estado del pedido.</p>
         </div>
         <div>
-          <h4>Estado</h4>
-          <p>Debido a que este chat, es exclusivo para asesoría de productos HP, carecemos de información de los pedidos o demás procesos de postventa; aun así, HP puso a tu disposición un chat donde puedes solicitar la información de tu pedido.</p>
-          <span>Chat asistente virtual: <a href="#sh3av"><img src="../media/icon/chat.png"></a></span>
-          <button class="btn" onclick="copiarAlPortapapeles('sh3pd'); audio.play();"><img src="../media/icon/copy.png"></img></button>
-          <p id="sh3pd">Si gustas, puedo escalar el caso con el área encargada de postventas, para que te den información acerca de tu pedido.</p>
-          <a href="#sh3pd">Pedir datos >></a>
-        </div>
-        <div>
-          <h4>Sesión iniciada</h4>
+          <h4>Con sesión iniciada</h4>
           <p>Te comento, puedes saber el estado de tu pedido, iniciando sesión en la página, por medio del siguiente link:</p>
-          <ul>
-            <li>https://www.hp.com/es-es/shop/sales/order/history/</li>
-          </ul>
+          <a href="https://www.hp.com/es-es/shop/sales/order/history/">https://www.hp.com/es-es/shop/sales/order/history/</a>
           <p>Te comento, por esta página, solo es posible saber el estado de tu pedido, es decir, no es posible saber el tiempo exacto de entrega.</p>
           <h4>Después del realizar el pedido</h4>
           <ol>
@@ -368,22 +384,33 @@
           </ol>
         </div>
       </div>
+      <hr />
       <!-- Pedir datos -->
       <div id="sh3pd">
         <h3>Pedir datos</h3>
-        <button class="btn" onclick="copiarAlPortapapeles('sh3pd1'); audio.play();"><img src="../media/icon/copy.png"></img></button>
-        <p id="sh3pd1">Por favor, me confirmas número de orden, teléfono y correo electrónico registrados en la compra.</p>
-        <button class="btn" onclick="copiarAlPortapapeles('sh3pd1a'); audio.play();"><img src="../media/icon/copy.png"></img></button>
-        <p id="sh3pd1a">De igual forma te puedes comunicar con las siguientes líneas de atención:</p>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd1a')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3pd1a">Por favor, me indicas los siguientes datos para hacer el escalamiento con el área encargada:</p>
+        <h4>Con número de orden</h4>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd1b')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3pd1b">Número de orden, teléfono y correo electrónico registrados en la compra.</p>
+        <h4>Sin número de orden</h4>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd1c')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3pd1c">Teléfono y correo electrónico de contacto.</p>
+      </div>
+      <div> 
+        <h3>Respuesta final</h3>
         <h4>Mañana</h4>
-          <button class="btn" onclick="copiarAlPortapapeles('sh3pd2'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd2')"><img src="../media/icon/copy.png"></img></button>
         <p id="sh3pd2">He escalado el caso con el área encargada; ten en cuenta que en el transcurso del día darán respuesta.</p>
         <h4>Tarde</h4>
-        <button class="btn" onclick="copiarAlPortapapeles('sh3pd3'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd3')"><img src="../media/icon/copy.png"></img></button>
         <p id="sh3pd3">He escalado el caso con el área encargada; ten en cuenta que en un lapso de 24 horas darán respuesta.</p>
         <h4>Fin de semana</h4>
-        <button class="btn" onclick="copiarAlPortapapeles('sh3pd4'); audio.play();"><img src="../media/icon/copy.png"></img></button>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd4') "><img src="../media/icon/copy.png"></img></button>
         <p id="sh3pd4">He escalado el caso con el área encargada; ten en cuenta que a partir del día lunes darán respuesta a dicha solicitud.</p>
+        <button class="btn" onclick="copiarAlPortapapeles('sh3pd5')"><img src="../media/icon/copy.png"></img></button>
+        <p id="sh3pd5">De igual forma te puedes comunicar con las siguientes líneas de atención:</p>
+        <span>Dirigete a <a href="attention.html">Atención</a>.</span>
       </div>
     </section>
     <hr />
