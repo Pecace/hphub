@@ -53,6 +53,9 @@
 
 ## Commits
 
+### Delete one file (241020)
+- Se elimina archivo hub/shortcut/support.html
+- Modifica archivos: shortcut, printer y question.
 
 
 End
