@@ -57,5 +57,8 @@
 - Se elimina archivo hub/shortcut/support.html
 - Modifica archivos: shortcut, printer y question.
 
+### Several changes (241108)
+- Se realiza cambios en los archivos: shortcut, hpshppping, linksupport, laptop y process.
+
 
 End
