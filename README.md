@@ -60,5 +60,9 @@
 ### Several changes (241108)
 - Se realiza cambios en los archivos: shortcut, hpshppping, linksupport, laptop y process.
 
+### Add info HP Store (241117)
+- Se realiza cambios en los archivos: shortcut, support, questions, printer y attention.
+- Se agrega info de HP Store Paraguay en attention.
+
 
 End
