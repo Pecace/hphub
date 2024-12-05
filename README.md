@@ -64,5 +64,11 @@
 - Se realiza cambios en los archivos: shortcut, support, questions, printer y attention.
 - Se agrega info de HP Store Paraguay en attention.
 
+### Several changes (241204)
+- Se realiza cambios en los archivos: retail, shortcut, hpshopping, laptop y printer.
+
+> [!note]
+> De ahora en adelante, el commit para cambios realizados es "Several changes".
+
 
 End
