@@ -70,5 +70,7 @@
 > [!note]
 > De ahora en adelante, el commit para cambios realizados es "Several changes".
 
+### New shortcut (241212) - branch shortcut
+- Se crea 3 archivos en shortcut: aftersale.html, assistant.html y support.html; enlaces con shortcut.html.
 
 End
