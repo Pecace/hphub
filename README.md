@@ -73,4 +73,10 @@
 ### New shortcut (241212) - branch shortcut
 - Se crea 3 archivos en shortcut: aftersale.html, assistant.html y support.html; enlaces con shortcut.html.
 
+### Merge pull request #1 (241229)
+- Cambios en questions.html
+
+### Several changes (25127)
+- En branch main: retail.html y questions.html
+
 End
