@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Impresión</title>
+    <link href="../css/maina.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="bar">
+        <ul>
+          <li><a class="active" href="../index.html">Índice</a></li>
+          <li><a href="../shortcut/printer.html">Impresoras</a></li>
+        </ul>
+    </div>
+    <h1>Consulta Impresoras</h1>
+    <button onclick="cargarDatos()">Cargar Datos</button>
+    <div id="resultado"></div>
+
+    <script>
+        // Reemplaza con la URL de tu API en Google Apps Script
+        const apiUrl = "https://script.google.com/macros/s/AKfycbyKYksomqE6IrGFK238Edbyw0CMSJ_i5YN1Ei1mjL-RqcAZoL1zymol58XvQRcu80On/exec";
+
+        async function cargarDatos() {
+            try {
+                let response = await fetch(apiUrl);
+                let data = await response.json();
+
+                console.log("Datos obtenidos de la API:", data); // Verificar datos en consola
+
+                let printers = data["printer"];
+                let codes = data["code"];
+
+                console.log("Printers:", printers);
+                console.log("Codes:", codes);
+
+                let resultadoHTML = "<h3>Lista de Impresoras con Código</h3><ul>";
+
+                printers.forEach(printer => {
+                    // Normalizar los valores antes de comparar (eliminar espacios y convertir a minúsculas)
+                    let printerCode = printer.id_code ? printer.id_code.trim().toLowerCase() : "";
+                    let code = codes.find(c => c.id_code && c.id_code.trim().toLowerCase() === printerCode);
+
+                    resultadoHTML += `<li>${printer.modelo} - ${code ? code.code_name : "Sin código"}</li>`;
+                });
+
+                resultadoHTML += "</ul>";
+                document.getElementById("resultado").innerHTML = resultadoHTML;
+            } catch (error) {
+                console.error("Error al cargar datos:", error);
+                document.getElementById("resultado").innerHTML = "<p>Error al obtener los datos.</p>";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -4,15 +4,23 @@
 
 <details>
   <summary>Organización general actual</summary>
-  <b>hphub</b>/hubhp 
+  <b>hphub</b>
+  
+  /css /index /link /media /script /shortcut index.html README.md
+
+</details>
+
+### hphub
+
   index.html
-  /css
+
+####  /css
     button.css
     main.css
     maina.css
     move.css
     
-  /index
+####  /index
     attention.html
     link.html
     main.html
@@ -23,11 +31,11 @@
     support.html
     tree.html
     
-  /link
+####  /link
     hpshopping.html
     linksupport.html
     
-  /media
+####  /media
     /audio
     /hpsmart
     /icon
@@ -35,11 +43,16 @@
     /screen
     image.html
     smartapp.html
+
+### product
+
     
-  /script
+####  /script
     script.js
     
-  /shortcut
+####  /shortcut
+    aftersale.html
+    assistant.html
     farewell.html
     gretting.html
     laptop.html
@@ -49,7 +62,7 @@
     question.html
     supply.html
     support.html
-</details>
+    
 
 ## Commits
 
@@ -71,12 +84,17 @@
 > De ahora en adelante, el commit para cambios realizados es "Several changes".
 
 ### New shortcut (241212) - branch shortcut
-- Se crea 3 archivos en shortcut: aftersale.html, assistant.html y support.html; enlaces con shortcut.html.
+- Se crea 3 archivos shortcut/ aftersale.html, assistant.html y support.html; enlaces con shortcut.html.
 
 ### Merge pull request #1 (241229)
 - Cambios en questions.html
 
 ### Several changes (25127)
 - En branch main: retail.html y questions.html
+
+### Create branch database
+- Cambios en shortcut/ questions.html; index/ support.hmtl.
+- Se crea archivo script/ database.js.
+- Se crea directorio product/ querypr.html.
 
 End
