@@ -93,8 +93,13 @@
 - En branch main: retail.html y questions.html
 
 ### Create branch database
-- Cambios en shortcut/ questions.html; index/ support.hmtl.
+- Cambios en shortcut/ questions; index/ support.
 - Se crea archivo script/ database.js.
 - Se crea directorio product/ querypr.html.
+
+### Create Data Query (25220)
+- Cambios en index/ retail, shortcut y support; shortcut/ questions; product/ query; script/ data y database.
+- Se crea script/ data.json, css/ test.css en branch database; .
+- Se agrega filtros de consulta de impresoras (product/ query).
 
 End
