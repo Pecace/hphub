@@ -18,24 +18,43 @@
     <div class="container">
         <div class="filters">
             <h2>Filtros de búsqueda</h2>
-            <select id="skuFilter">
-                <option value="">Seleccionar SKU</option>
-            </select>
-            <select id="familyFilter">
-                <option value="">Seleccionar Familia</option>
-            </select>
-            <select id="modelFilter">
-                <option value="">Seleccionar Modelo</option>
-            </select>
-            <select id="functionFilter">
-                <option value="">Seleccionar Función</option>
-            </select>
+            
+            <div class="filter-group">
+                <select id="skuFilter">
+                    <option value="">Seleccionar SKU</option>
+                </select>
+                <input type="text" id="skuInput" placeholder="O ingresa SKU">
+            </div>
+            
+            <div class="filter-group">
+                <select id="familyFilter">
+                    <option value="">Seleccionar Familia</option>
+                </select>
+                <input type="text" id="familyInput" placeholder="O ingresa la familia">
+            </div>
+
+            <div class="filter-group">
+                <select id="modelFilter">
+                    <option value="">Seleccionar Modelo</option>
+                </select>
+                <input type="text" id="modelInput" placeholder="O ingresa el modelo">
+            </div>
+
+            <div class="filter-group">
+                <select id="functionFilter">
+                    <option value="">Seleccionar Función</option>
+                </select>
+            </div>
+
             <button onclick="realizarConsulta()">Buscar</button>
+
+            <button class="clear-button" onclick="limpiarFiltros()">Limpiar Filtros</button>
         </div>
         <div class="results">
             <h2>Resultados</h2>
             <div id="resultadosTabla"></div>
         </div>
+        <br />
         
         <div id="contenidoIndexado"></div>
         <script async type="text/javascript" 
@@ -48,7 +67,7 @@
         
     </div>
 
-    <script src="../script/database.js"></script>
+    <script src="../script/queryprinter.js"></script>
 
 </body>
 </html>

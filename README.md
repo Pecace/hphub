@@ -102,4 +102,8 @@
 - Se crea script/ data.json, css/ test.css en branch database; .
 - Se agrega filtros de consulta de impresoras (product/ query).
 
+### Create query printer (25307)
+- Cambios en script/ database; product/ querypr; shortcut/ questions y printer.
+- Se crea product/ resultprinter.html; script/ resultprinter.js queryprinter.js.
+- Se agrega media/icon/ eye.
 End
