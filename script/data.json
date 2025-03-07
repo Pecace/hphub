@@ -239,156 +239,186 @@
       "family": "Essential",
       "product_name": "Kit de Cabezales de impresion HP",
       "id": "SKC"
+    },
+    {
+      "id_product": "PR31",
+      "category": "suministro",
+      "type": "Cartucho de Tinta",
+      "family": "Alto Rendimiento",
+      "product_name": "Cartucho de Tinta HP Alto Rendimiento",
+      "id": "TXL"
+    },
+    {
+      "id_product": "PR32",
+      "category": "suministro",
+      "type": "Cartucho de Toner",
+      "family": "Alto Rendimiento",
+      "product_name": "Cartucho de Toner HP Alto Rendimiento",
+      "id": "LXL"
+    },
+    {
+      "id_product": "PR33",
+      "category": "suministro",
+      "type": "Botella de Tinta",
+      "family": "Alto Rendimiento",
+      "product_name": "Botella de Tinta HP Alto Rendimiento",
+      "id": "BXL"
     }
   ],
   "code": [
     {
       "id_code": "CDN001",
-      "code_name": "Voco",
-      "id_product": "PR01",
-      "family": "OMEN"
+      "code_name": "Voco_24C1",
+      "id_product": "PR01"
     },
     {
       "id_code": "CDN002",
-      "code_name": "Hayden",
-      "id_product": "PR04",
-      "family": "ENVY"
+      "code_name": "Hayden_23C1",
+      "id_product": "PR04"
     },
     {
       "id_code": "CDN003",
-      "code_name": "Avid",
-      "id_product": "PR01",
-      "family": "OMEN"
+      "code_name": "Avid_24C1",
+      "id_product": "PR01"
     },
     {
       "id_code": "CDN004",
-      "code_name": "Opihr",
-      "id_product": "PR02",
-      "family": "VICTUS"
+      "code_name": "Opihr_24C1",
+      "id_product": "PR02"
     },
     {
       "id_code": "CDN005",
-      "code_name": "Willie",
-      "id_product": "PR03",
-      "family": "Spectre"
+      "code_name": "Willie_23C2",
+      "id_product": "PR03"
     },
     {
       "id_code": "CDN006",
-      "code_name": "Grand",
-      "id_product": "PR04",
-      "family": "ENVY"
+      "code_name": "Grand_24C1",
+      "id_product": "PR04"
     },
     {
       "id_code": "CDN007",
-      "code_name": "Park",
-      "id_product": "PR04",
-      "family": "ENVY"
+      "code_name": "Park_24C1",
+      "id_product": "PR04"
     },
     {
       "id_code": "CDN008",
-      "code_name": "Oski",
-      "id_product": "PR25",
-      "family": "Pavilion Plus"
+      "code_name": "Oski_24C1",
+      "id_product": "PR25"
     },
     {
       "id_code": "CDN009",
-      "code_name": "Conrad",
-      "id_product": "PR26",
-      "family": "Pavilion Aero"
+      "code_name": "Conrad_24C1",
+      "id_product": "PR26"
     },
     {
       "id_code": "CDN010",
-      "code_name": "Rameses",
-      "id_product": "PR06",
-      "family": "Essential"
+      "code_name": "Rameses_24C1",
+      "id_product": "PR06"
     },
     {
       "id_code": "CDN011",
       "code_name": "Tassel IA",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage"
+      "id_product": "PR07"
     },
     {
       "id_code": "CDN012",
       "code_name": "Taccola IA",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage"
+      "id_product": "PR07"
     },
     {
       "id_code": "CDN013",
       "code_name": "Wudang RF AiO",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage"
+      "id_product": "PR07"
     },
     {
       "id_code": "CDN014",
       "code_name": "Lhasa WL IA",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage"
+      "id_product": "PR07"
     },
     {
       "id_code": "CDN015",
       "code_name": "Sayan Premiun Plus",
-      "id_product": "PR10",
-      "family": "Smart Tank"
+      "id_product": "PR10"
     },
     {
       "id_code": "CDN016",
       "code_name": "Sayan ADF",
-      "id_product": "PR10",
-      "family": "Smart Tank"
+      "id_product": "PR10"
     },
     {
       "id_code": "CDN017",
       "code_name": "Sayan WL",
-      "id_product": "PR10",
-      "family": "Smart Tank"
+      "id_product": "PR10"
     },
     {
       "id_code": "CDN018",
       "code_name": "Sayan Lite",
-      "id_product": "PR10",
-      "family": "Smart Tank"
+      "id_product": "PR10"
     },
     {
       "id_code": "CDN019",
       "code_name": "Poseidon Plus",
-      "id_product": "PR10",
-      "family": "Smart Tank"
+      "id_product": "PR10"
     },
     {
       "id_code": "CDN020",
       "code_name": "LEBI WL",
-      "id_product": "PR10",
-      "family": "Smart Tank"
+      "id_product": "PR10"
+    },
+    {
+      "id_code": "CDN021",
+      "code_name": "Poseidon ADF",
+      "id_product": "PR10"
+    },
+    {
+      "id_code": "CDN022",
+      "code_name": "LEBI AIO",
+      "id_product": "PR10"
+    },
+    {
+      "id_code": "CDN023",
+      "code_name": "LEBI SF",
+      "id_product": "PR10"
+    },
+    {
+      "id_code": "CDN024",
+      "code_name": "Gaheris",
+      "id_product": "PR14"
+    },
+    {
+      "id_code": "CDN025",
+      "code_name": "Kay",
+      "id_product": "PR14"
+    },
+    {
+      "id_code": "CDN026",
+      "code_name": "Kay",
+      "id_product": "PR14"
     }
   ],
   "pc": [
     {
       "id_pc": "LOM001",
       "sku": "A0DH7LA",
-      "id_product": "PR01",
-      "laptop": "OMEN",
       "id_code": "CDN001",
-      "code_name": "Voco",
       "model": "14-fb0004la",
       "reference": "OMEN 14-fb0004la (A0DH7LA)",
       "color": "negro",
       "id_cpu": "I001",
-      "cpu": "Intel Core Ultra 9 185H",
       "npu": "si",
       "id_ram": "RM001",
       "ram": 32,
       "ram_slots": "onboard",
       "ssd": 2,
       "id_graphic": "GR001",
-      "name_graphic": "NVIDIA GeForce RTX 4070 para laptop GPU de 8 dedicada",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": 0.2,
       "region": "Latina",
       "month": "february",
       "year": 2024,
+      "image": "c08867112",
       "upc": 198122627066,
       "indexado": "65e5cd94b3c2881398cf6080",
       "oid": 2102237674
@@ -396,28 +426,24 @@
     {
       "id_pc": "LOM002",
       "sku": "A0DH6LA",
-      "id_product": "PR01",
-      "laptop": "OMEN",
       "id_code": "CDN001",
-      "code_name": "Voco",
       "model": "14-fb0001la",
       "reference": "OMEN 14-fb0001la (A0DH6LA)",
       "color": "negro",
       "id_cpu": "I002",
-      "cpu": "Intel Core Ultra 7 155H",
       "npu": "si",
       "id_ram": "RM001",
       "ram": 16,
       "ram_slots": "onboard",
       "ssd": 1,
       "id_graphic": "GR004",
-      "name_graphic": "NVIDIA GeForce RTX 4060 para laptop GPU de 8 dedicada",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": 0.2,
       "region": "Latina",
       "month": "february",
       "year": 2024,
+      "image": "c08867112",
       "upc": 198122627073,
       "indexado": "65e5cd80444dc60bbdaf2566",
       "oid": 2102237672
@@ -425,28 +451,24 @@
     {
       "id_pc": "LOM003",
       "sku": "A0AP2LA",
-      "id_product": "PR01",
-      "laptop": "OMEN",
       "id_code": "CDN001",
-      "code_name": "Voco",
       "model": "14-fb0000la",
       "reference": "OMEN 14-fb0000la (A0AP2LA)",
       "color": "blanco",
       "id_cpu": "I002",
-      "cpu": "Intel Core Ultra 7 155H",
       "npu": "si",
       "id_ram": "RM001",
       "ram": 16,
       "ram_slots": "onboard",
       "ssd": 1,
       "id_graphic": "GR004",
-      "name_graphic": "NVIDIA GeForce RTX 4060 para laptop GPU de 8 dedicada",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": 0.2,
       "region": "Latina",
       "month": "february",
       "year": 2024,
+      "image": "c08872519",
       "upc": 198122618019,
       "indexado": "65e5cd6658a8c70b9ae795d8",
       "oid": 2102236544
@@ -454,28 +476,24 @@
     {
       "id_pc": "LEN001",
       "sku": "833U5LA",
-      "id_product": "PR04",
-      "laptop": "ENVY",
       "id_code": "CDN002",
-      "code_name": "Hayden",
       "model": "16-h1003la",
       "reference": "HP ENVY 16-h1003la (833U5LA) + Mochila HP Creator",
       "color": "plateado",
       "id_cpu": "I003",
-      "cpu": "Intel Core i9 13900H",
       "npu": "no",
       "id_ram": "RM006",
       "ram": 32,
       "ram_slots": 2,
       "ssd": 1,
       "id_graphic": "GR004",
-      "name_graphic": "NVIDIA GeForce RTX 4060 para laptop GPU de 8 dedicada",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": "null",
       "region": "Latina",
       "month": "april",
       "year": 2023,
+      "image": "c08426513",
       "upc": 197497359879,
       "indexado": "6424b16d744a38f86016babd",
       "oid": 2101723241
@@ -483,28 +501,24 @@
     {
       "id_pc": "LEN002",
       "sku": "834S4LA",
-      "id_product": "PR04",
-      "laptop": "ENVY",
       "id_code": "CDN002",
-      "code_name": "Hayden",
       "model": "16-h1001la",
       "reference": "HP ENVY 16-h1001la (834S4LA) + Mochila HP Creator",
       "color": "plateado",
       "id_cpu": "I003",
-      "cpu": "Intel Core i9 13900H",
       "npu": "no",
       "id_ram": "RM006",
       "ram": 32,
       "ram_slots": 2,
       "ssd": 1,
       "id_graphic": "GR004",
-      "name_graphic": "NVIDIA GeForce RTX 4060 para laptop GPU de 8 dedicada",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": "null",
       "region": "Chile",
       "month": "april",
       "year": 2023,
+      "image": "c08426513",
       "upc": 197497363715,
       "indexado": "6424b16e744a38f86016bac0",
       "oid": 2101724033
@@ -512,28 +526,24 @@
     {
       "id_pc": "LEN003",
       "sku": "834S5LA",
-      "id_product": "PR04",
-      "laptop": "ENVY",
       "id_code": "CDN002",
-      "code_name": "Hayden",
       "model": "16-h1002la",
       "reference": "HP ENVY 16-h1002la (834S5LA) + Mochila HP Creator",
       "color": "plateado",
       "id_cpu": "I004",
-      "cpu": "Intel Core i7 13700H",
       "npu": "no",
       "id_ram": "RM006",
       "ram": 16,
       "ram_slots": 2,
       "ssd": 1,
       "id_graphic": "GR004",
-      "name_graphic": "NVIDIA GeForce RTX 4060 para laptop GPU de 8 dedicada",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": "null",
       "region": "Chile",
       "month": "april",
       "year": 2023,
+      "image": "c08426513",
       "upc": 197497363722,
       "indexado": "6424b16e744a38f86016bac1",
       "oid": 2101724034
@@ -541,28 +551,24 @@
     {
       "id_pc": "LEN004",
       "sku": "833U4LA",
-      "id_product": "PR04",
-      "laptop": "ENVY",
       "id_code": "CDN002",
-      "code_name": "Hayden",
       "model": "16-h1000la",
       "reference": "HP ENVY 16-h1000la (833U4LA) + Mochila HP Creator",
       "color": "plateado",
       "id_cpu": "I004",
-      "cpu": "Intel Core i7 13700H",
       "npu": "no",
       "id_ram": "RM006",
       "ram": 16,
       "ram_slots": 2,
       "ssd": 1,
       "id_graphic": "GR004",
-      "name_graphic": "NVIDIA GeForce RTX 4060 para laptop GPU de 8 dedicada",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": "null",
       "region": "Latina",
       "month": "april",
       "year": 2023,
+      "image": "c08426513",
       "upc": 197497359862,
       "indexado": "6424b16d744a38f86016babc",
       "oid": 2101723239
@@ -570,28 +576,24 @@
     {
       "id_pc": "LOM004",
       "sku": "A14RDLA",
-      "id_product": "PR01",
-      "laptop": "OMEN",
       "id_code": "CDN003",
-      "code_name": "Avid",
       "model": "17-db0009la",
       "reference": "OMEN 17-db0009la (A14RDLA)",
       "color": "negro",
       "id_cpu": "A001",
-      "cpu": "AMD Ryzen 9 8945HS",
       "npu": "si",
       "id_ram": "RM004",
       "ram": 32,
       "ram_slots": 2,
       "ssd": 1,
       "id_graphic": "GR004",
-      "name_graphic": "NVIDIA GeForce RTX 4060 para laptop GPU de 8 dedicada",
       "id_screen": "SC002",
       "refresh_rate": 240,
       "response_time_ms": 3,
       "region": "Latina",
       "month": "april",
       "year": 2024,
+      "image": "c08933918",
       "upc": 198122722365,
       "indexado": "65e5c7bb58a8c70b9ae795d2",
       "oid": 2102250056
@@ -599,28 +601,24 @@
     {
       "id_pc": "LOM005",
       "sku": "A14M1LA",
-      "id_product": "PR01",
-      "laptop": "OMEN",
       "id_code": "CDN003",
-      "code_name": "Avid",
       "model": "17-db0006la",
       "reference": "OMEN 17-db0006la (A14M1LA)",
       "color": "negro",
       "id_cpu": "A002",
-      "cpu": "AMD Ryzen 7 8840HS",
       "npu": "si",
       "id_ram": "RM004",
       "ram": 16,
       "ram_slots": 2,
       "ssd": 1,
       "id_graphic": "GR008",
-      "name_graphic": "NVIDIA GeForce RTX 4050 para laptop GPU de 6 dedicada",
       "id_screen": "SC003",
       "refresh_rate": 144,
       "response_time_ms": 7,
       "region": "Latina",
       "month": "april",
       "year": 2024,
+      "image": "c08933918",
       "upc": 198122718450,
       "indexado": "65e5c773125d3115d043173b",
       "oid": 2102249508
@@ -628,28 +626,24 @@
     {
       "id_pc": "LVC001",
       "sku": "A14LLLA",
-      "id_product": "PR02",
-      "laptop": "VICTUS",
       "id_code": "CDN004",
-      "code_name": "Opihr",
       "model": "15-fb2002la",
       "reference": "VICTUS 15-fb2002la (A14LLLA)",
       "color": "negro",
       "id_cpu": "A003",
-      "cpu": "AMD Ryzen 5 8640HS",
       "npu": "si",
       "id_ram": "RM004",
       "ram": 8,
       "ram_slots": 1,
       "ssd": 1,
       "id_graphic": "GR017",
-      "name_graphic": "NVIDIA GeForce RTX 3050 para laptop GPU de 6 dedicada",
       "id_screen": "SC003",
       "refresh_rate": 144,
       "response_time_ms": "null",
       "region": "Latina",
       "month": "february",
       "year": 2024,
+      "image": "c08403028",
       "upc": 198122718313,
       "indexado": "65e5c92a444dc60bbdaf2563",
       "oid": 2102249482
@@ -657,28 +651,24 @@
     {
       "id_pc": "LVC002",
       "sku": "A14LQLA",
-      "id_product": "PR02",
-      "laptop": "VICTUS",
       "id_code": "CDN004",
-      "code_name": "Opihr",
       "model": "15-fb2021la",
       "reference": "VICTUS 15-fb2021la (A14LQLA)",
       "color": "negro",
       "id_cpu": "A003",
-      "cpu": "AMD Ryzen 5 8640HS",
       "npu": "si",
       "id_ram": "RM004",
       "ram": 16,
       "ram_slots": 2,
       "ssd": 1,
       "id_graphic": "GR008",
-      "name_graphic": "NVIDIA GeForce RTX 4050 para laptop GPU de 6 dedicada",
       "id_screen": "SC003",
       "refresh_rate": 144,
       "response_time_ms": "null",
       "region": "Latina",
       "month": "february",
       "year": 2024,
+      "image": "c08403028",
       "upc": 198122718351,
       "indexado": "65e5ca0925ab93028409236d",
       "oid": 2102249489
@@ -686,28 +676,24 @@
     {
       "id_pc": "LSP001",
       "sku": "A14MTLA",
-      "id_product": "PR03",
-      "laptop": "Spectre",
       "id_code": "CDN005",
-      "code_name": "Willie",
       "model": "14-eu0000la",
       "reference": "HP Spectre x360 14-eu0000la (A14MTLA)",
       "color": "azul",
       "id_cpu": "I002",
-      "cpu": "Intel Core Ultra 7 155H",
       "npu": "si",
       "id_ram": "RM001",
       "ram": 32,
       "ram_slots": "onboard",
       "ssd": 1,
       "id_graphic": "null",
-      "name_graphic": "Intel ARC",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": 0.2,
       "region": "Latina",
       "month": "february",
       "year": 2024,
+      "image": "c08744318",
       "upc": 198122720378,
       "indexado": "66214c1dc585537cf5324b95",
       "oid": 2102249634
@@ -715,28 +701,24 @@
     {
       "id_pc": "LEN005",
       "sku": "A1UD6LA",
-      "id_product": "PR04",
-      "laptop": "ENVY",
       "id_code": "CDN006",
-      "code_name": "Grand",
       "model": "16-ac0000la",
       "reference": "HP ENVY x360 16-ac0000la (A1UD6LA)",
       "color": "plateado",
       "id_cpu": "I005",
-      "cpu": "Intel Core Ultra 7 155U",
       "npu": "si",
       "id_ram": "RM002",
       "ram": 32,
       "ram_slots": "onboard",
       "ssd": 1,
       "id_graphic": "null",
-      "name_graphic": "Intel",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": 0.2,
       "region": "Latina",
       "month": "february",
       "year": 2024,
+      "image": "c08917967",
       "upc": 198122843633,
       "indexado": "65e5c908ddf8f80a541d5706",
       "oid": 2102268643
@@ -744,28 +726,24 @@
     {
       "id_pc": "LEN006",
       "sku": "A4CJ0LA",
-      "id_product": "PR04",
-      "laptop": "ENVY",
       "id_code": "CDN007",
-      "code_name": "Park",
       "model": "16-ad0003la",
       "reference": "HP ENVY x360 16-ad0003la (A4CJ0LA)",
       "color": "plateado",
       "id_cpu": "A002",
-      "cpu": "AMD Ryzen 7 8840HS",
       "npu": "si",
       "id_ram": "RM002",
       "ram": 16,
       "ram_slots": "onboard",
       "ssd": 1,
       "id_graphic": "null",
-      "name_graphic": "AMD Radeon",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": 0.2,
       "region": "Latina",
       "month": "april",
       "year": 2024,
+      "image": "c08902020",
       "upc": 198415275608,
       "indexado": "662fb194f48bbd01350358b4",
       "oid": 2102394739
@@ -773,28 +751,24 @@
     {
       "id_pc": "LPP001",
       "sku": "A1UC8LA",
-      "id_product": "PR25",
-      "laptop": "Pavilion Plus",
       "id_code": "CDN008",
-      "code_name": "Oski",
       "model": "14-ew1001la",
       "reference": "HP Pavilion Plus 14-ew1001la (A1UC8LA)",
       "color": "plateado",
       "id_cpu": "I002",
-      "cpu": "Intel Core Ultra 7 155H",
       "npu": "si",
       "id_ram": "RM002",
       "ram": 32,
       "ram_slots": "onboard",
       "ssd": 1,
       "id_graphic": "null",
-      "name_graphic": "Intel ARC",
       "id_screen": "SC001",
       "refresh_rate": 120,
       "response_time_ms": 0.2,
       "region": "Latina",
       "month": "february",
       "year": 2024,
+      "image": "c08885083",
       "upc": 198122843701,
       "indexado": "65e5ccdfb3c2881398cf607c",
       "oid": 2102268627
@@ -802,28 +776,24 @@
     {
       "id_pc": "LPA001",
       "sku": "A1UC0LA",
-      "id_product": "PR26",
-      "laptop": "Pavilion Aero",
       "id_code": "CDN009",
-      "code_name": "Conrad",
       "model": "13-bg0000la",
       "reference": "HP Pavilion Aero 13-bg0000la (A1UC0LA)",
       "color": "azul",
       "id_cpu": "A004",
-      "cpu": "AMD Ryzen 7 8840U",
       "npu": "si",
       "id_ram": "RM002",
       "ram": 16,
       "ram_slots": "onboard",
       "ssd": 1,
       "id_graphic": "null",
-      "name_graphic": "AMD Radeon",
       "id_screen": "SC004",
       "refresh_rate": 60,
       "response_time_ms": "null",
       "region": "Latina",
       "month": "april",
       "year": 2024,
+      "image": "c08932248",
       "upc": 198122844289,
       "indexado": "65e5c8cf125d3115d043173c",
       "oid": 2102268611
@@ -831,28 +801,24 @@
     {
       "id_pc": "LPA002",
       "sku": "A1UC1LA",
-      "id_product": "PR26",
-      "laptop": "Pavilion Aero",
       "id_code": "CDN009",
-      "code_name": "Conrad",
       "model": "13-bg0002la",
       "reference": "HP Pavilion Aero 13-bg0002la (A1UC1LA)",
       "color": "plateado",
       "id_cpu": "A005",
-      "cpu": "AMD Ryzen 5 8640U",
       "npu": "si",
       "id_ram": "RM002",
       "ram": 16,
       "ram_slots": "onboard",
       "ssd": 512,
       "id_graphic": "null",
-      "name_graphic": "AMD Radeon",
       "id_screen": "SC004",
       "refresh_rate": 60,
       "response_time_ms": "null",
       "region": "Latina",
       "month": "april",
       "year": 2024,
+      "image": "c08964424",
       "upc": 198122844272,
       "indexado": "65e5c8e358a8c70b9ae795d3",
       "oid": 2102268613
@@ -860,28 +826,24 @@
     {
       "id_pc": "LES001",
       "sku": "A38S0LA",
-      "id_product": "PR06",
-      "laptop": "Essential",
       "id_code": "CDN010",
-      "code_name": "Rameses",
       "model": "14-ep1000la",
       "reference": "HP Laptop 14-ep1000la (A38S0LA)",
       "color": "plateado",
       "id_cpu": "I006",
-      "cpu": "Intel Core Ultra 5 125H",
       "npu": "si",
       "id_ram": "RM004",
       "ram": 16,
       "ram_slots": 2,
       "ssd": 512,
       "id_graphic": "null",
-      "name_graphic": "Intel ARC",
       "id_screen": "SC003",
       "refresh_rate": 60,
       "response_time_ms": "null",
       "region": "Latina",
       "month": "april",
       "year": 2024,
+      "image": "c08484216",
       "upc": 198415102829,
       "indexado": "662fbef7f48bbd01350358ba",
       "oid": 2102307214
@@ -1066,7 +1028,6 @@
       "family": "Core Ultra",
       "number": 9,
       "model": "185H",
-      "name": "Intel Core Ultra 9 185H",
       "serie": "Ultra",
       "cores": 16,
       "p_core": 6,
@@ -1089,7 +1050,6 @@
       "family": "Core Ultra",
       "number": 7,
       "model": "155H",
-      "name": "Intel Core Ultra 7 155H",
       "serie": "Ultra",
       "cores": 16,
       "p_core": 6,
@@ -1112,7 +1072,6 @@
       "family": "Core",
       "number": "i9",
       "model": "13900H",
-      "name": "Intel Core i9 13900H",
       "serie": 13,
       "cores": 14,
       "p_core": 6,
@@ -1135,7 +1094,6 @@
       "family": "Core",
       "number": "i7",
       "model": "13700H",
-      "name": "Intel Core i7 13700H",
       "serie": 13,
       "cores": 14,
       "p_core": 6,
@@ -1158,7 +1116,6 @@
       "family": "Ryzen",
       "number": 9,
       "model": "8945HS",
-      "name": "AMD Ryzen 9 8945HS",
       "serie": 8000,
       "cores": 8,
       "p_core": "null",
@@ -1181,7 +1138,6 @@
       "family": "Ryzen",
       "number": 7,
       "model": "8840HS",
-      "name": "AMD Ryzen 7 8840HS",
       "serie": 8000,
       "cores": 8,
       "p_core": "null",
@@ -1204,7 +1160,6 @@
       "family": "Ryzen",
       "number": 5,
       "model": "8640HS",
-      "name": "AMD Ryzen 5 8640HS",
       "serie": 8000,
       "cores": 6,
       "p_core": "null",
@@ -1227,7 +1182,6 @@
       "family": "Core Ultra",
       "number": 7,
       "model": "155U",
-      "name": "Intel Core Ultra 7 155U",
       "serie": "Ultra",
       "cores": 12,
       "p_core": 2,
@@ -1250,7 +1204,6 @@
       "family": "Ryzen",
       "number": 7,
       "model": "8840U",
-      "name": "AMD Ryzen 7 8840U",
       "serie": 8000,
       "cores": 8,
       "p_core": "null",
@@ -1273,7 +1226,6 @@
       "family": "Ryzen",
       "number": 5,
       "model": "8640U",
-      "name": "AMD Ryzen 5 8640U",
       "serie": 8000,
       "cores": 6,
       "p_core": "null",
@@ -1296,7 +1248,6 @@
       "family": "Core Ultra",
       "number": 5,
       "model": "125H",
-      "name": "Intel Core Ultra 5 125H",
       "serie": "Ultra",
       "cores": 14,
       "p_core": 4,
@@ -1320,209 +1271,171 @@
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 4070,
-      "name": "NVIDIA GeForce RTX 4070",
       "for": "laptop GPU",
       "memory_size_gb": 8,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 4070 para laptop GPU de 8 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR002",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 4070,
-      "name": "NVIDIA GeForce RTX 4070",
       "for": "laptop GPU",
       "memory_size_gb": 6,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 4070 para laptop GPU de 6 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR003",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 4070,
-      "name": "NVIDIA GeForce RTX 4070",
       "for": "laptop GPU",
       "memory_size_gb": 4,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 4070 para laptop GPU de 4 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR004",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 4060,
-      "name": "NVIDIA GeForce RTX 4060",
       "for": "laptop GPU",
       "memory_size_gb": 8,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 4060 para laptop GPU de 8 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR005",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 4060,
-      "name": "NVIDIA GeForce RTX 4060",
       "for": "laptop GPU",
       "memory_size_gb": 6,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 4060 para laptop GPU de 6 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR006",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 4060,
-      "name": "NVIDIA GeForce RTX 4060",
       "for": "laptop GPU",
       "memory_size_gb": 4,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 4060 para laptop GPU de 4 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR007",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 4050,
-      "name": "NVIDIA GeForce RTX 4050",
       "for": "laptop GPU",
       "memory_size_gb": 8,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 4050 para laptop GPU de 8 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR008",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 4050,
-      "name": "NVIDIA GeForce RTX 4050",
       "for": "laptop GPU",
       "memory_size_gb": 6,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 4050 para laptop GPU de 6 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR009",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 4050,
-      "name": "NVIDIA GeForce RTX 4050",
       "for": "laptop GPU",
       "memory_size_gb": 4,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 4050 para laptop GPU de 4 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR010",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 3070,
-      "name": "NVIDIA GeForce RTX 3070",
       "for": "laptop GPU",
       "memory_size_gb": 8,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 3070 para laptop GPU de 8 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR011",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 3070,
-      "name": "NVIDIA GeForce RTX 3070",
       "for": "laptop GPU",
       "memory_size_gb": 6,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 3070 para laptop GPU de 6 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR012",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 3070,
-      "name": "NVIDIA GeForce RTX 3070",
       "for": "laptop GPU",
       "memory_size_gb": 4,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 3070 para laptop GPU de 4 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR013",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 3060,
-      "name": "NVIDIA GeForce RTX 3060",
       "for": "laptop GPU",
       "memory_size_gb": 8,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 3060 para laptop GPU de 8 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR014",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 3060,
-      "name": "NVIDIA GeForce RTX 3060",
       "for": "laptop GPU",
       "memory_size_gb": 6,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 3060 para laptop GPU de 6 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR015",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 3060,
-      "name": "NVIDIA GeForce RTX 3060",
       "for": "laptop GPU",
       "memory_size_gb": 4,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 3060 para laptop GPU de 4 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR016",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 3050,
-      "name": "NVIDIA GeForce RTX 3050",
       "for": "laptop GPU",
       "memory_size_gb": 8,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 3050 para laptop GPU de 8 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR017",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 3050,
-      "name": "NVIDIA GeForce RTX 3050",
       "for": "laptop GPU",
       "memory_size_gb": 6,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 3050 para laptop GPU de 6 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR018",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 3050,
-      "name": "NVIDIA GeForce RTX 3050",
       "for": "laptop GPU",
       "memory_size_gb": 4,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 3050 para laptop GPU de 4 dedicada"
+      "memory_type": "GDDR6"
     },
     {
       "id_graphic": "GR019",
       "brand": "NVIDIA",
       "family": "GeForce RTX",
       "number": 2050,
-      "name": "NVIDIA GeForce RTX 2050",
       "for": "laptop GPU",
       "memory_size_gb": 4,
-      "memory_type": "GDDR6",
-      "description": "NVIDIA GeForce RTX 2050 para laptop GPU de 4 dedicada"
+      "memory_type": "GDDR6"
     }
   ],
   "camera": [
@@ -1535,8 +1448,7 @@
       "infrared": "IR",
       "shutter": "si",
       "microphone": "digitales doble de matriz integrada",
-      "noise_reduction": "temporal",
-      "description": "9MP HP Wide Vision con IR, obturador y micrófonos digitales doble de matriz integrada con reducción temporal ruido."
+      "noise_reduction": "temporal"
     },
     {
       "id_camera": "CMR02",
@@ -1547,8 +1459,7 @@
       "infrared": "IR",
       "shutter": "null",
       "microphone": "digitales doble de matriz integrada",
-      "noise_reduction": "temporal",
-      "description": "5MP HP Wide Vision con IR, micrófonos digitales doble de matriz integrada con reducción temporal ruido."
+      "noise_reduction": "temporal"
     },
     {
       "id_camera": "CMR03",
@@ -1559,8 +1470,7 @@
       "infrared": "IR",
       "shutter": "si",
       "microphone": "digitales doble de matriz integrada",
-      "noise_reduction": "temporal",
-      "description": "5MP HP True Vision con IR, obturador y micrófonos digitales doble de matriz integrada con reducción temporal ruido."
+      "noise_reduction": "temporal"
     },
     {
       "id_camera": "CMR04",
@@ -1571,8 +1481,7 @@
       "infrared": "IR",
       "shutter": "null",
       "microphone": "digitales doble de matriz integrada",
-      "noise_reduction": "temporal",
-      "description": "1080p FHD HP True Vision con IR, micrófonos digitales doble de matriz integrada con reducción temporal ruido."
+      "noise_reduction": "temporal"
     },
     {
       "id_camera": "CMR05",
@@ -1583,8 +1492,7 @@
       "infrared": "null",
       "shutter": "null",
       "microphone": "digitales doble de matriz integrada",
-      "noise_reduction": "temporal",
-      "description": "1080p FHD HP True Vision con micrófonos digitales doble de matriz integrada con reducción temporal ruido."
+      "noise_reduction": "temporal"
     },
     {
       "id_camera": "CMR06",
@@ -1595,8 +1503,7 @@
       "infrared": "null",
       "shutter": "null",
       "microphone": "digitales doble de matriz integrada",
-      "noise_reduction": "temporal",
-      "description": "720p HD HP Wide Vision con micrófonos digitales doble de matriz integrada con reducción temporal ruido."
+      "noise_reduction": "temporal"
     },
     {
       "id_camera": "CMR07",
@@ -1607,8 +1514,7 @@
       "infrared": "null",
       "shutter": "null",
       "microphone": "digitales doble de matriz integrada",
-      "noise_reduction": "temporal",
-      "description": "720p HD HP True Vision con micrófonos digitales doble de matriz integrada con reducción temporal ruido."
+      "noise_reduction": "temporal"
     }
   ],
   "screen": [
@@ -2042,163 +1948,167 @@
     {
       "id_connection": "CN0001",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_port": "PT012",
-      "port": "USB 2"
+      "id_port": "PT012"
     },
     {
       "id_connection": "CN0002",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_port": "PT017",
-      "port": "Wi-Fi 4"
+      "id_port": "PT017"
     },
     {
       "id_connection": "CN0003",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_port": "PT012",
-      "port": "USB 2"
+      "id_port": "PT012"
     },
     {
       "id_connection": "CN0004",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_port": "PT017",
-      "port": "Wi-Fi 4"
+      "id_port": "PT017"
     },
     {
       "id_connection": "CN0005",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_port": "PT012",
-      "port": "USB 2"
+      "id_port": "PT012"
     },
     {
       "id_connection": "CN0006",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_port": "PT012",
-      "port": "USB 2"
+      "id_port": "PT012"
     },
     {
       "id_connection": "CN0007",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_port": "PT017",
-      "port": "Wi-Fi 4"
+      "id_port": "PT017"
     },
     {
       "id_connection": "CN0008",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_port": "PT016",
-      "port": "Wi-Fi 5"
+      "id_port": "PT016"
     },
     {
       "id_connection": "CN0009",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_port": "PT033",
-      "port": "Ethernet "
+      "id_port": "PT033"
     },
     {
       "id_connection": "CN0010",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_port": "PT012",
-      "port": "USB 2"
+      "id_port": "PT012"
     },
     {
       "id_connection": "CN0011",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_port": "PT032",
-      "port": "FAX "
+      "id_port": "PT032"
     },
     {
       "id_connection": "CN0012",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_port": "PT016",
-      "port": "Wi-Fi 5"
+      "id_port": "PT016"
     },
     {
       "id_connection": "CN0013",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_port": "PT033",
-      "port": "Ethernet "
+      "id_port": "PT033"
     },
     {
       "id_connection": "CN0014",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_port": "PT012",
-      "port": "USB 2"
+      "id_port": "PT012"
     },
     {
       "id_connection": "CN0015",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_port": "PT016",
-      "port": "Wi-Fi 5"
+      "id_port": "PT016"
     },
     {
       "id_connection": "CN0016",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_port": "PT012",
-      "port": "USB 2"
+      "id_port": "PT012"
     },
     {
       "id_connection": "CN0017",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_port": "PT016",
-      "port": "Wi-Fi 5"
+      "id_port": "PT016"
     },
     {
       "id_connection": "CN0018",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_port": "PT012",
-      "port": "USB 2"
+      "id_port": "PT012"
     },
     {
       "id_connection": "CN0019",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_port": "PT016",
-      "port": "Wi-Fi 5"
+      "id_port": "PT016"
     },
     {
       "id_connection": "CN0020",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_port": "PT012",
-      "port": "USB 2"
+      "id_port": "PT012"
     },
     {
       "id_connection": "CN0021",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_port": "PT032",
-      "port": "FAX "
+      "id_port": "PT032"
     },
     {
       "id_connection": "CN0022",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_port": "PT017",
-      "port": "Wi-Fi 4"
+      "id_port": "PT017"
     },
     {
       "id_connection": "CN0023",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_port": "PT012",
-      "port": "USB 2"
+      "id_port": "PT012"
+    },
+    {
+      "id_connection": "CN0024",
+      "id_code": "CDN021",
+      "id_port": "PT017"
+    },
+    {
+      "id_connection": "CN0025",
+      "id_code": "CDN021",
+      "id_port": "PT012"
+    },
+    {
+      "id_connection": "CN0026",
+      "id_code": "CDN022",
+      "id_port": "PT012"
+    },
+    {
+      "id_connection": "CN0027",
+      "id_code": "CDN023",
+      "id_port": "PT017"
+    },
+    {
+      "id_connection": "CN0028",
+      "id_code": "CDN023",
+      "id_port": "PT012"
+    },
+    {
+      "id_connection": "CN0029",
+      "id_code": "CDN024",
+      "id_port": "PT017"
+    },
+    {
+      "id_connection": "CN0030",
+      "id_code": "CDN024",
+      "id_port": "PT012"
+    },
+    {
+      "id_connection": "CN0031",
+      "id_code": "CDN025",
+      "id_port": "PT017"
+    },
+    {
+      "id_connection": "CN0032",
+      "id_code": "CDN025",
+      "id_port": "PT012"
+    },
+    {
+      "id_connection": "CN0033",
+      "id_code": "CDN026",
+      "id_port": "PT012"
     }
   ],
   "software": [
@@ -2319,576 +2229,602 @@
     {
       "id_softwarecm": "SCM0001",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_software": "SF001",
-      "software": "Windows 11"
+      "id_software": "SF001"
     },
     {
       "id_softwarecm": "SCM0002",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_software": "SF002",
-      "software": "Windows 10"
+      "id_software": "SF002"
     },
     {
       "id_softwarecm": "SCM0003",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_software": "SF010",
-      "software": "Mac 10.14"
+      "id_software": "SF010"
     },
     {
       "id_softwarecm": "SCM0004",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_software": "SF011",
-      "software": "Mac 10.15"
+      "id_software": "SF011"
     },
     {
       "id_softwarecm": "SCM0005",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_software": "SF012",
-      "software": "Mac 11"
+      "id_software": "SF012"
     },
     {
       "id_softwarecm": "SCM0006",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_software": "SF013",
-      "software": "Mac 12"
+      "id_software": "SF013"
     },
     {
       "id_softwarecm": "SCM0007",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_software": "SF014",
-      "software": "Mac 13"
+      "id_software": "SF014"
     },
     {
       "id_softwarecm": "SCM0008",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_software": "SF015",
-      "software": "Mac 14"
+      "id_software": "SF015"
     },
     {
       "id_softwarecm": "SCM0009",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_software": "SF006",
-      "software": "Chrome 0"
+      "id_software": "SF006"
     },
     {
       "id_softwarecm": "SCM0010",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_software": "SF001",
-      "software": "Windows 11"
+      "id_software": "SF001"
     },
     {
       "id_softwarecm": "SCM0011",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_software": "SF002",
-      "software": "Windows 10"
+      "id_software": "SF002"
     },
     {
       "id_softwarecm": "SCM0012",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_software": "SF004",
-      "software": "Windows 7"
+      "id_software": "SF004"
     },
     {
       "id_softwarecm": "SCM0013",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_software": "SF008",
-      "software": "Mac 10.12"
+      "id_software": "SF008"
     },
     {
       "id_softwarecm": "SCM0014",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_software": "SF009",
-      "software": "Mac 10.13"
+      "id_software": "SF009"
     },
     {
       "id_softwarecm": "SCM0015",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_software": "SF010",
-      "software": "Mac 10.14"
+      "id_software": "SF010"
     },
     {
       "id_softwarecm": "SCM0016",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_software": "SF011",
-      "software": "Mac 10.15"
+      "id_software": "SF011"
     },
     {
       "id_softwarecm": "SCM0017",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_software": "SF012",
-      "software": "Mac 11"
+      "id_software": "SF012"
     },
     {
       "id_softwarecm": "SCM0018",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_software": "SF006",
-      "software": "Chrome 0"
+      "id_software": "SF006"
     },
     {
       "id_softwarecm": "SCM0019",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_software": "SF001",
-      "software": "Windows 11"
+      "id_software": "SF001"
     },
     {
       "id_softwarecm": "SCM0020",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_software": "SF002",
-      "software": "Windows 10"
+      "id_software": "SF002"
     },
     {
       "id_softwarecm": "SCM0021",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_software": "SF004",
-      "software": "Windows 7"
+      "id_software": "SF004"
     },
     {
       "id_softwarecm": "SCM0022",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_software": "SF014",
-      "software": "Mac 13"
+      "id_software": "SF014"
     },
     {
       "id_softwarecm": "SCM0023",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_software": "SF015",
-      "software": "Mac 14"
+      "id_software": "SF015"
     },
     {
       "id_softwarecm": "SCM0024",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_software": "SF001",
-      "software": "Windows 11"
+      "id_software": "SF001"
     },
     {
       "id_softwarecm": "SCM0025",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_software": "SF002",
-      "software": "Windows 10"
+      "id_software": "SF002"
     },
     {
       "id_softwarecm": "SCM0026",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_software": "SF003",
-      "software": "Windows 8"
+      "id_software": "SF003"
     },
     {
       "id_softwarecm": "SCM0027",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_software": "SF004",
-      "software": "Windows 7"
+      "id_software": "SF004"
     },
     {
       "id_softwarecm": "SCM0028",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_software": "SF006",
-      "software": "Chrome 0"
+      "id_software": "SF006"
     },
     {
       "id_softwarecm": "SCM0029",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_software": "SF007",
-      "software": "Mac 10.11"
+      "id_software": "SF007"
     },
     {
       "id_softwarecm": "SCM0030",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_software": "SF001",
-      "software": "Windows 11"
+      "id_software": "SF001"
     },
     {
       "id_softwarecm": "SCM0031",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_software": "SF002",
-      "software": "Windows 10"
+      "id_software": "SF002"
     },
     {
       "id_softwarecm": "SCM0032",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_software": "SF004",
-      "software": "Windows 7"
+      "id_software": "SF004"
     },
     {
       "id_softwarecm": "SCM0033",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_software": "SF010",
-      "software": "Mac 10.14"
+      "id_software": "SF010"
     },
     {
       "id_softwarecm": "SCM0034",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_software": "SF011",
-      "software": "Mac 10.15"
+      "id_software": "SF011"
     },
     {
       "id_softwarecm": "SCM0035",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_software": "SF012",
-      "software": "Mac 11"
+      "id_software": "SF012"
     },
     {
       "id_softwarecm": "SCM0036",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_software": "SF013",
-      "software": "Mac 12"
+      "id_software": "SF013"
     },
     {
       "id_softwarecm": "SCM0037",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_software": "SF014",
-      "software": "Mac 13"
+      "id_software": "SF014"
     },
     {
       "id_softwarecm": "SCM0038",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_software": "SF015",
-      "software": "Mac 14"
+      "id_software": "SF015"
     },
     {
       "id_softwarecm": "SCM0039",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_software": "SF001",
-      "software": "Windows 11"
+      "id_software": "SF001"
     },
     {
       "id_softwarecm": "SCM0040",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_software": "SF002",
-      "software": "Windows 10"
+      "id_software": "SF002"
     },
     {
       "id_softwarecm": "SCM0041",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_software": "SF004",
-      "software": "Windows 7"
+      "id_software": "SF004"
     },
     {
       "id_softwarecm": "SCM0042",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_software": "SF010",
-      "software": "Mac 10.14"
+      "id_software": "SF010"
     },
     {
       "id_softwarecm": "SCM0043",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_software": "SF011",
-      "software": "Mac 10.15"
+      "id_software": "SF011"
     },
     {
       "id_softwarecm": "SCM0044",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_software": "SF012",
-      "software": "Mac 11"
+      "id_software": "SF012"
     },
     {
       "id_softwarecm": "SCM0045",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_software": "SF013",
-      "software": "Mac 12"
+      "id_software": "SF013"
     },
     {
       "id_softwarecm": "SCM0046",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_software": "SF014",
-      "software": "Mac 13"
+      "id_software": "SF014"
     },
     {
       "id_softwarecm": "SCM0047",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_software": "SF015",
-      "software": "Mac 14"
+      "id_software": "SF015"
     },
     {
       "id_softwarecm": "SCM0048",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_software": "SF001",
-      "software": "Windows 11"
+      "id_software": "SF001"
     },
     {
       "id_softwarecm": "SCM0049",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_software": "SF002",
-      "software": "Windows 10"
+      "id_software": "SF002"
     },
     {
       "id_softwarecm": "SCM0050",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_software": "SF004",
-      "software": "Windows 7"
+      "id_software": "SF004"
     },
     {
       "id_softwarecm": "SCM0051",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_software": "SF010",
-      "software": "Mac 10.14"
+      "id_software": "SF010"
     },
     {
       "id_softwarecm": "SCM0052",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_software": "SF011",
-      "software": "Mac 10.15"
+      "id_software": "SF011"
     },
     {
       "id_softwarecm": "SCM0053",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_software": "SF012",
-      "software": "Mac 11"
+      "id_software": "SF012"
     },
     {
       "id_softwarecm": "SCM0054",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_software": "SF013",
-      "software": "Mac 12"
+      "id_software": "SF013"
     },
     {
       "id_softwarecm": "SCM0055",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_software": "SF014",
-      "software": "Mac 13"
+      "id_software": "SF014"
     },
     {
       "id_softwarecm": "SCM0056",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_software": "SF015",
-      "software": "Mac 14"
+      "id_software": "SF015"
     },
     {
       "id_softwarecm": "SCM0057",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_software": "SF001",
-      "software": "Windows 11"
+      "id_software": "SF001"
     },
     {
       "id_softwarecm": "SCM0058",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_software": "SF002",
-      "software": "Windows 10"
+      "id_software": "SF002"
     },
     {
       "id_softwarecm": "SCM0059",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_software": "SF004",
-      "software": "Windows 7"
+      "id_software": "SF004"
     },
     {
       "id_softwarecm": "SCM0060",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_software": "SF010",
-      "software": "Mac 10.14"
+      "id_software": "SF010"
     },
     {
       "id_softwarecm": "SCM0061",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_software": "SF011",
-      "software": "Mac 10.15"
+      "id_software": "SF011"
     },
     {
       "id_softwarecm": "SCM0062",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_software": "SF012",
-      "software": "Mac 11"
+      "id_software": "SF012"
     },
     {
       "id_softwarecm": "SCM0063",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_software": "SF013",
-      "software": "Mac 12"
+      "id_software": "SF013"
     },
     {
       "id_softwarecm": "SCM0064",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_software": "SF014",
-      "software": "Mac 13"
+      "id_software": "SF014"
     },
     {
       "id_softwarecm": "SCM0065",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_software": "SF015",
-      "software": "Mac 14"
+      "id_software": "SF015"
     },
     {
       "id_softwarecm": "SCM0066",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_software": "SF001",
-      "software": "Windows 11"
+      "id_software": "SF001"
     },
     {
       "id_softwarecm": "SCM0067",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_software": "SF002",
-      "software": "Windows 10"
+      "id_software": "SF002"
     },
     {
       "id_softwarecm": "SCM0068",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_software": "SF003",
-      "software": "Windows 8"
+      "id_software": "SF003"
     },
     {
       "id_softwarecm": "SCM0069",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_software": "SF004",
-      "software": "Windows 7"
+      "id_software": "SF004"
     },
     {
       "id_softwarecm": "SCM0070",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_software": "SF007",
-      "software": "Mac 10.11"
+      "id_software": "SF007"
     },
     {
       "id_softwarecm": "SCM0071",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_software": "SF008",
-      "software": "Mac 10.12"
+      "id_software": "SF008"
     },
     {
       "id_softwarecm": "SCM0072",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_software": "SF009",
-      "software": "Mac 10.13"
+      "id_software": "SF009"
     },
     {
       "id_softwarecm": "SCM0073",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_software": "SF010",
-      "software": "Mac 10.14"
+      "id_software": "SF010"
     },
     {
       "id_softwarecm": "SCM0074",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_software": "SF014",
-      "software": "Mac 13"
+      "id_software": "SF014"
     },
     {
       "id_softwarecm": "SCM0075",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_software": "SF015",
-      "software": "Mac 14"
+      "id_software": "SF015"
     },
     {
       "id_softwarecm": "SCM0076",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_software": "SF001",
-      "software": "Windows 11"
+      "id_software": "SF001"
     },
     {
       "id_softwarecm": "SCM0077",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_software": "SF002",
-      "software": "Windows 10"
+      "id_software": "SF002"
     },
     {
       "id_softwarecm": "SCM0078",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_software": "SF011",
-      "software": "Mac 10.15"
+      "id_software": "SF011"
     },
     {
       "id_softwarecm": "SCM0079",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_software": "SF012",
-      "software": "Mac 11"
+      "id_software": "SF012"
     },
     {
       "id_softwarecm": "SCM0080",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_software": "SF013",
-      "software": "Mac 12"
+      "id_software": "SF013"
     },
     {
       "id_softwarecm": "SCM0081",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_software": "SF014",
-      "software": "Mac 13"
+      "id_software": "SF014"
     },
     {
       "id_softwarecm": "SCM0082",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_software": "SF015",
-      "software": "Mac 14"
+      "id_software": "SF015"
+    },
+    {
+      "id_softwarecm": "SCM0083",
+      "id_code": "CDN021",
+      "id_software": "SF001"
+    },
+    {
+      "id_softwarecm": "SCM0084",
+      "id_code": "CDN021",
+      "id_software": "SF002"
+    },
+    {
+      "id_softwarecm": "SCM0085",
+      "id_code": "CDN021",
+      "id_software": "SF004"
+    },
+    {
+      "id_softwarecm": "SCM0086",
+      "id_code": "CDN021",
+      "id_software": "SF007"
+    },
+    {
+      "id_softwarecm": "SCM0087",
+      "id_code": "CDN021",
+      "id_software": "SF008"
+    },
+    {
+      "id_softwarecm": "SCM0088",
+      "id_code": "CDN021",
+      "id_software": "SF009"
+    },
+    {
+      "id_softwarecm": "SCM0089",
+      "id_code": "CDN021",
+      "id_software": "SF010"
+    },
+    {
+      "id_softwarecm": "SCM0090",
+      "id_code": "CDN021",
+      "id_software": "SF012"
+    },
+    {
+      "id_softwarecm": "SCM0091",
+      "id_code": "CDN021",
+      "id_software": "SF013"
+    },
+    {
+      "id_softwarecm": "SCM0092",
+      "id_code": "CDN021",
+      "id_software": "SF014"
+    },
+    {
+      "id_softwarecm": "SCM0093",
+      "id_code": "CDN021",
+      "id_software": "SF015"
+    },
+    {
+      "id_softwarecm": "SCM0094",
+      "id_code": "CDN022",
+      "id_software": "SF001"
+    },
+    {
+      "id_softwarecm": "SCM0095",
+      "id_code": "CDN022",
+      "id_software": "SF002"
+    },
+    {
+      "id_softwarecm": "SCM0096",
+      "id_code": "CDN023",
+      "id_software": "SF001"
+    },
+    {
+      "id_softwarecm": "SCM0097",
+      "id_code": "CDN023",
+      "id_software": "SF002"
+    },
+    {
+      "id_softwarecm": "SCM0098",
+      "id_code": "CDN023",
+      "id_software": "SF011"
+    },
+    {
+      "id_softwarecm": "SCM0099",
+      "id_code": "CDN023",
+      "id_software": "SF012"
+    },
+    {
+      "id_softwarecm": "SCM0100",
+      "id_code": "CDN023",
+      "id_software": "SF013"
+    },
+    {
+      "id_softwarecm": "SCM0101",
+      "id_code": "CDN023",
+      "id_software": "SF014"
+    },
+    {
+      "id_softwarecm": "SCM0102",
+      "id_code": "CDN023",
+      "id_software": "SF015"
+    },
+    {
+      "id_softwarecm": "SCM0103",
+      "id_code": "CDN024",
+      "id_software": "SF001"
+    },
+    {
+      "id_softwarecm": "SCM0104",
+      "id_code": "CDN024",
+      "id_software": "SF002"
+    },
+    {
+      "id_softwarecm": "SCM0105",
+      "id_code": "CDN024",
+      "id_software": "SF010"
+    },
+    {
+      "id_softwarecm": "SCM0106",
+      "id_code": "CDN024",
+      "id_software": "SF011"
+    },
+    {
+      "id_softwarecm": "SCM0107",
+      "id_code": "CDN024",
+      "id_software": "SF016"
+    },
+    {
+      "id_softwarecm": "SCM0108",
+      "id_code": "CDN024",
+      "id_software": "SF005"
+    },
+    {
+      "id_softwarecm": "SCM0109",
+      "id_code": "CDN025",
+      "id_software": "SF001"
+    },
+    {
+      "id_softwarecm": "SCM0110",
+      "id_code": "CDN025",
+      "id_software": "SF002"
+    },
+    {
+      "id_softwarecm": "SCM0111",
+      "id_code": "CDN025",
+      "id_software": "SF011"
+    },
+    {
+      "id_softwarecm": "SCM0112",
+      "id_code": "CDN025",
+      "id_software": "SF012"
+    },
+    {
+      "id_softwarecm": "SCM0113",
+      "id_code": "CDN025",
+      "id_software": "SF016"
+    },
+    {
+      "id_softwarecm": "SCM0114",
+      "id_code": "CDN025",
+      "id_software": "SF005"
+    },
+    {
+      "id_softwarecm": "SCM0115",
+      "id_code": "CDN026",
+      "id_software": "SF001"
+    },
+    {
+      "id_softwarecm": "SCM0116",
+      "id_code": "CDN026",
+      "id_software": "SF002"
+    },
+    {
+      "id_softwarecm": "SCM0117",
+      "id_code": "CDN026",
+      "id_software": "SF010"
+    },
+    {
+      "id_softwarecm": "SCM0118",
+      "id_code": "CDN026",
+      "id_software": "SF011"
+    },
+    {
+      "id_softwarecm": "SCM0119",
+      "id_code": "CDN026",
+      "id_software": "SF012"
+    },
+    {
+      "id_softwarecm": "SCM0120",
+      "id_code": "CDN026",
+      "id_software": "SF005"
     }
   ],
   "printer": [
@@ -2896,9 +2832,6 @@
       "Id_printer": "PDA001",
       "sku": "588S4A",
       "id_code": "CDN011",
-      "code_name": "Tassel IA",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage",
       "model": 2875,
       "reference": "HP Multifuncional DeskJet Ink Advantage 2875 (588S4A)",
       "color": "blanco con gris",
@@ -2907,6 +2840,7 @@
       "region": "Latam",
       "month": "october",
       "year": 2023,
+      "image": "c08943259",
       "upc": 196337380066,
       "indexado": "654390f1e1cddb077b3749e8",
       "oid": 2101377137
@@ -2915,9 +2849,6 @@
       "Id_printer": "PDA002",
       "sku": "60K46A",
       "id_code": "CDN011",
-      "code_name": "Tassel IA",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage",
       "model": 2874,
       "reference": "HP Multifuncional DeskJet Ink Advantage 2874 (60K46A)",
       "color": "negro",
@@ -2926,6 +2857,7 @@
       "region": "Latam",
       "month": "october",
       "year": 2023,
+      "image": "c08727687",
       "upc": 196337821095,
       "indexado": "65fc4ab506cbb206c3a5ff9d",
       "oid": 2101619048
@@ -2934,9 +2866,6 @@
       "Id_printer": "PDA003",
       "sku": "7FR21A",
       "id_code": "CDN012",
-      "code_name": "Taccola IA",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage",
       "model": 2775,
       "reference": "Impresora Multifuncional HP DeskJet Ink Advantage 2775 (7FR21A)",
       "color": "blanco con gris",
@@ -2945,6 +2874,7 @@
       "region": "Latam",
       "month": "june",
       "year": 2020,
+      "image": "c08644861",
       "upc": 194441901856,
       "indexado": "5ecc01da00a599d5640c38c4",
       "oid": 31081433
@@ -2953,9 +2883,6 @@
       "Id_printer": "PDA004",
       "sku": "7FR23A",
       "id_code": "CDN012",
-      "code_name": "Taccola IA",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage",
       "model": 2774,
       "reference": "Impresora Multifuncional HP DeskJet Ink Advantage 2774 (7FR23A)",
       "color": "negro",
@@ -2964,6 +2891,7 @@
       "region": "Latam",
       "month": "december",
       "year": 2021,
+      "image": "c08813517",
       "upc": 196337690080,
       "indexado": "61d389c61060d10027aab2cf",
       "oid": 2100496354
@@ -2972,9 +2900,6 @@
       "Id_printer": "PDA005",
       "sku": "7WQ01A",
       "id_code": "CDN013",
-      "code_name": "Wudang RF AiO",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage",
       "model": 2375,
       "reference": "Impresora Multifuncional HP DeskJet Ink Advantage 2375 (7WQ01A)",
       "color": "blanco con verde",
@@ -2983,6 +2908,7 @@
       "region": "Latam",
       "month": "april",
       "year": 2020,
+      "image": "c08811814",
       "upc": 194721097897,
       "indexado": "5ecc03c400a599d5640c38d3",
       "oid": 33691578
@@ -2991,9 +2917,6 @@
       "Id_printer": "PDA006",
       "sku": "7WQ03A",
       "id_code": "CDN013",
-      "code_name": "Wudang RF AiO",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage",
       "model": 2374,
       "reference": "Impresora Multifuncional HP DeskJet Ink Advantage 2374 (7WQ03A)",
       "color": "blanco",
@@ -3002,6 +2925,7 @@
       "region": "Latam",
       "month": "april",
       "year": 2020,
+      "image": "c09068061",
       "upc": 194721097934,
       "indexado": "622b6ef5ad5cfa016c858f68",
       "oid": 33691580
@@ -3010,9 +2934,6 @@
       "Id_printer": "PDA007",
       "sku": "J9V87A",
       "id_code": "CDN014",
-      "code_name": "Lhasa WL IA",
-      "id_product": "PR07",
-      "family": "DeskJet Ink Advantage",
       "model": 3775,
       "reference": "Impresora Multifuncional HP DeskJet Ink Advantage 3775 (J9V87A)",
       "color": "blanco con azul",
@@ -3021,6 +2942,7 @@
       "region": "Latam",
       "month": "august",
       "year": 2016,
+      "image": "c05248667",
       "upc": 889894785558,
       "indexado": "57c093c6d87f178d358c00d6",
       "oid": 8949783
@@ -3029,9 +2951,6 @@
       "Id_printer": "PST001",
       "sku": "4WF66A",
       "id_code": "CDN015",
-      "code_name": "Sayan Premiun Plus",
-      "id_product": "PR10",
-      "family": "Smart Tank",
       "model": 790,
       "reference": "Impresora Multifuncional HP Smart Tank 790 (4WF66A)",
       "color": "blanco con negro",
@@ -3040,6 +2959,7 @@
       "region": "Latam",
       "month": "october",
       "year": 2021,
+      "image": "c08564123",
       "upc": 195908302926,
       "indexado": "61785ee877ae7f223bd14bdf",
       "oid": 2100179002
@@ -3048,9 +2968,6 @@
       "Id_printer": "PST002",
       "sku": "6UU47A",
       "id_code": "CDN016",
-      "code_name": "Sayan ADF",
-      "id_product": "PR10",
-      "family": "Smart Tank",
       "model": 750,
       "reference": "Impresora Multifuncional HP Smart Tank 750 (6UU47A)",
       "color": "blanco con negro",
@@ -3059,6 +2976,7 @@
       "region": "Latam",
       "month": "september",
       "year": 2021,
+      "image": "c08565803",
       "upc": 195908303183,
       "indexado": "61781ba26a66b91870ec91e8",
       "oid": 2100178990
@@ -3067,9 +2985,6 @@
       "Id_printer": "PST003",
       "sku": "6UU46A",
       "id_code": "CDN017",
-      "code_name": "Sayan WL",
-      "id_product": "PR10",
-      "family": "Smart Tank",
       "model": 720,
       "reference": "Impresora Multifuncional HP Smart Tank 720 (6UU46A)",
       "color": "blanco con negro",
@@ -3078,6 +2993,7 @@
       "region": "Latam",
       "month": "october",
       "year": 2021,
+      "image": "c08577789",
       "upc": 195908303053,
       "indexado": "61786cd42f0f611e275deda0",
       "oid": 2100178976
@@ -3086,9 +3002,6 @@
       "Id_printer": "PST004",
       "sku": "6UU48A",
       "id_code": "CDN018",
-      "code_name": "Sayan Lite",
-      "id_product": "PR10",
-      "family": "Smart Tank",
       "model": 670,
       "reference": "Impresora Multifuncional HP Smart Tank 670 (6UU48A)",
       "color": "blanco con negro",
@@ -3097,6 +3010,7 @@
       "region": "Latam",
       "month": "september",
       "year": 2021,
+      "image": "c08560583",
       "upc": 195908303244,
       "indexado": "61785a8d2f0f611e275ded9d",
       "oid": 2100178962
@@ -3105,9 +3019,6 @@
       "Id_printer": "PST005",
       "sku": "Y0F71A",
       "id_code": "CDN019",
-      "code_name": "Poseidon Plus",
-      "id_product": "PR10",
-      "family": "Smart Tank",
       "model": 615,
       "reference": "Impresora Multifuncional HP Smart Tank 615 (Y0F71A)",
       "color": "blanco con negro",
@@ -3116,6 +3027,7 @@
       "region": "Latam",
       "month": "june",
       "year": 2019,
+      "image": "c08577515",
       "upc": 192545948234,
       "indexado": "5d166faa2397931f946603c2",
       "oid": 18695770
@@ -3124,9 +3036,6 @@
       "Id_printer": "PST006",
       "sku": "1F3Y4A",
       "id_code": "CDN020",
-      "code_name": "LEBI WL",
-      "id_product": "PR10",
-      "family": "Smart Tank",
       "model": 585,
       "reference": "Impresora Multifuncional HP Smart Tank 585 (1F3Y4A)",
       "color": "blanco con azul",
@@ -3135,6 +3044,7 @@
       "region": "Latam",
       "month": "november",
       "year": 2022,
+      "image": "c08433165",
       "upc": 196548866854,
       "indexado": "6419ccb56a2e4a005a99ee02",
       "oid": 2100426106
@@ -3143,9 +3053,6 @@
       "Id_printer": "PST007",
       "sku": "4A8D7A",
       "id_code": "CDN020",
-      "code_name": "LEBI WL",
-      "id_product": "PR10",
-      "family": "Smart Tank",
       "model": 583,
       "reference": "Impresora Multifuncional HP Smart Tank 583 (4A8D7A)",
       "color": "blanco con portobello",
@@ -3154,6 +3061,7 @@
       "region": "Latam",
       "month": "february",
       "year": 2023,
+      "image": "c08900711",
       "upc": 196548867035,
       "indexado": "653985c78877990534780c3b",
       "oid": 2101280824
@@ -3162,9 +3070,6 @@
       "Id_printer": "PST008",
       "sku": "4A8D5A",
       "id_code": "CDN020",
-      "code_name": "LEBI WL",
-      "id_product": "PR10",
-      "family": "Smart Tank",
       "model": 581,
       "reference": "Impresora Multifuncional HP Smart Tank 581 (4A8D5A)",
       "color": "negro",
@@ -3173,6 +3078,7 @@
       "region": "Latam",
       "month": "march",
       "year": 2023,
+      "image": "c08491630",
       "upc": 196548993154,
       "indexado": "642de0f6a42e4000279e3cc1",
       "oid": 2101280822
@@ -3181,9 +3087,6 @@
       "Id_printer": "PST009",
       "sku": "1F3Y2A",
       "id_code": "CDN020",
-      "code_name": "LEBI WL",
-      "id_product": "PR10",
-      "family": "Smart Tank",
       "model": 580,
       "reference": "Impresora Multifuncional HP Smart Tank 580 (1F3Y2A)",
       "color": "blanco con gris",
@@ -3192,21 +3095,191 @@
       "region": "Latam",
       "month": "november",
       "year": 2022,
+      "image": "c08432895",
       "upc": 196548866786,
       "indexado": "63935b00f9194501969a272d",
       "oid": 2100426104
+    },
+    {
+      "Id_printer": "PST010",
+      "sku": "9KV01A",
+      "id_code": "CDN021",
+      "model": 534,
+      "reference": "Impresora Multifuncional HP Smart Tank 534 (9KV01A)",
+      "color": "blanco con negro",
+      "black_setup": 2,
+      "warranty": 1,
+      "region": "Latam",
+      "month": "june",
+      "year": 2020,
+      "image": "c08901042",
+      "upc": 194850174063,
+      "indexado": "61f17e3026207900ef9421da",
+      "oid": 37972752
+    },
+    {
+      "Id_printer": "PST011",
+      "sku": "9KV00A",
+      "id_code": "CDN021",
+      "model": 533,
+      "reference": "Impresora Multifuncional HP Smart Tank 533 (9KV00A)",
+      "color": "blanco con negro",
+      "black_setup": 2,
+      "warranty": 1,
+      "region": "Latam",
+      "month": "june",
+      "year": 2020,
+      "image": "c08952693",
+      "upc": 194850174049,
+      "indexado": "5f2081414f068fcb0b8a9b9d",
+      "oid": 37972749
+    },
+    {
+      "Id_printer": "PST012",
+      "sku": "4SB24A",
+      "id_code": "CDN021",
+      "model": 530,
+      "reference": "Impresora Multifuncional HP Smart Tank 530 (4SB24A)",
+      "color": "negro",
+      "black_setup": 2,
+      "warranty": 1,
+      "region": "Latam",
+      "month": "august",
+      "year": 2019,
+      "image": "c08565927",
+      "upc": 193424413508,
+      "indexado": "5d27b64960676adbc59cbfe0",
+      "oid": 26342888
+    },
+    {
+      "Id_printer": "PST013",
+      "sku": "1F3W3A",
+      "id_code": "CDN022",
+      "model": 525,
+      "reference": "Impresora Multifuncional HP Smart Tank 525  (1F3W3A)",
+      "color": "blanco con azul",
+      "black_setup": 2,
+      "warranty": 2,
+      "region": "Latam",
+      "month": "november",
+      "year": 2022,
+      "image": "c08432684",
+      "upc": 196548866724,
+      "indexado": "6419cc6ee850580079be95a6",
+      "oid": 2100426097
+    },
+    {
+      "Id_printer": "PST014",
+      "sku": "4A8S2A",
+      "id_code": "CDN022",
+      "model": 523,
+      "reference": "Impresora Multifuncional HP Smart Tank 523 (4A8S2A)",
+      "color": "blanco con portobello",
+      "black_setup": 1,
+      "warranty": 1,
+      "region": "Latam",
+      "month": "november",
+      "year": 2023,
+      "image": "c08744798",
+      "upc": 197498249704,
+      "indexado": "65439d09e1cddb077b3749ea",
+      "oid": 2101278899
+    },
+    {
+      "Id_printer": "PST015",
+      "sku": "1F3W2A",
+      "id_code": "CDN022",
+      "model": 520,
+      "reference": "Impresora Todo-en-Uno HP Smart Tank 520 (1F3W2A)",
+      "color": "blanco con gris",
+      "black_setup": 2,
+      "warranty": 2,
+      "region": "Latam",
+      "month": "november",
+      "year": 2022,
+      "image": "c08433195",
+      "upc": 196548866687,
+      "indexado": "63935ae04da426027dcd4b69",
+      "oid": 2100426096
+    },
+    {
+      "Id_printer": "PST016",
+      "sku": "3D4L3A",
+      "id_code": "CDN023",
+      "model": 210,
+      "reference": "Impresora Smart Tank 210 (3D4L3A)",
+      "color": "blanco con negro",
+      "black_setup": 2,
+      "warranty": 2,
+      "region": "Latam",
+      "month": "march",
+      "year": 2023,
+      "image": "c09047129",
+      "upc": 196786546044,
+      "indexado": "63d29bb9c54c0d0209958dad",
+      "oid": 2101019181
+    },
+    {
+      "Id_printer": "PST017",
+      "sku": "7MD74A",
+      "id_code": "CDN024",
+      "model": "M141w",
+      "reference": "Multifuncional HP Laserjet Pro M141W (7MD74A)",
+      "color": "blanco",
+      "black_setup": 1,
+      "warranty": 1,
+      "region": "Latam",
+      "month": "december",
+      "year": 2021,
+      "image": "c07836461",
+      "upc": 194850677434,
+      "indexado": "6400d3223c56630028c20ff0",
+      "oid": 34443716
+    },
+    {
+      "Id_printer": "PST018",
+      "sku": "7MD68A",
+      "id_code": "CDN025",
+      "model": "M111w",
+      "reference": "Impresora HP Laserjet M111W (7MD68A)",
+      "color": "blanco",
+      "black_setup": 1,
+      "warranty": 1,
+      "region": "Latam",
+      "month": "october",
+      "year": 2021,
+      "image": "c08568918",
+      "upc": 194850677083,
+      "indexado": "6400e98f51b508002f8dda7f",
+      "oid": 34443751
+    },
+    {
+      "Id_printer": "PST019",
+      "sku": "7MD67A",
+      "id_code": "CDN026",
+      "model": "M111a",
+      "reference": "HP LaserJet M111a Printer (7MD67A)",
+      "color": "blanco",
+      "black_setup": 1,
+      "warranty": 1,
+      "region": "Latam",
+      "month": "october",
+      "year": 2021,
+      "image": "c08569171",
+      "upc": 197029688156,
+      "indexado": "65fd7b8a053d8500c4b2806e",
+      "oid": 34443748
     }
   ],
   "code_pr": [
     {
       "id_codepr": "CPR001",
       "id_code": "CDN011",
-      "tecnology": "inyeccion termica de tinta",
-      "chromatic": "Si",
+      "tecnology": "tij",
+      "chromatic": "si",
       "function": "multifuncional",
       "id_size": "SZ004",
-      "tamaño": "legal",
-      "weight_g/m": 75,
+      "weight": 75,
       "borderless": "null",
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
@@ -3218,7 +3291,7 @@
       "adf_capacity": "null",
       "scan_duplex": "null",
       "scan_duplex_size": "null",
-      "scan_resolution_ppp": "1200 x 1200",
+      "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
       "direct": "si",
       "front_usb": "no",
@@ -3226,8 +3299,8 @@
       "volume_max": 100,
       "cycle": 1000,
       "speed_print_black_ppm": 7.5,
-      "speed_print_color_ppm": 5.5,
       "speed_draft_black_ppm": 20,
+      "speed_print_color_ppm": 5.5,
       "speed_draft_color_ppm": 16,
       "memory_mb": 64,
       "users": 3,
@@ -3243,12 +3316,11 @@
     {
       "id_codepr": "CPR002",
       "id_code": "CDN012",
-      "tecnology": "inyeccion termica de tinta",
-      "chromatic": "Si",
+      "tecnology": "tij",
+      "chromatic": "si",
       "function": "multifuncional",
       "id_size": "SZ004",
-      "tamaño": "legal",
-      "weight_g/m": 75,
+      "weight": 75,
       "borderless": "null",
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
@@ -3260,7 +3332,7 @@
       "adf_capacity": "null",
       "scan_duplex": "null",
       "scan_duplex_size": "null",
-      "scan_resolution_ppp": "1200 x 1200",
+      "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
       "direct": "si",
       "front_usb": "no",
@@ -3268,8 +3340,8 @@
       "volume_max": 100,
       "cycle": 1000,
       "speed_print_black_ppm": 7.5,
-      "speed_print_color_ppm": 5.5,
       "speed_draft_black_ppm": 20,
+      "speed_print_color_ppm": 5.5,
       "speed_draft_color_ppm": 16,
       "memory_mb": 86,
       "users": 3,
@@ -3285,12 +3357,11 @@
     {
       "id_codepr": "CPR003",
       "id_code": "CDN013",
-      "tecnology": "inyeccion termica de tinta",
-      "chromatic": "Si",
+      "tecnology": "tij",
+      "chromatic": "si",
       "function": "multifuncional",
       "id_size": "SZ004",
-      "tamaño": "legal",
-      "weight_g/m": 75,
+      "weight": 75,
       "borderless": "null",
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
@@ -3302,7 +3373,7 @@
       "adf_capacity": "null",
       "scan_duplex": "null",
       "scan_duplex_size": "null",
-      "scan_resolution_ppp": "1200 x 1200",
+      "scan_resolution_ppi": "1200 x 1200",
       "wireless": "no",
       "direct": "no",
       "front_usb": "no",
@@ -3310,8 +3381,8 @@
       "volume_max": 100,
       "cycle": 1000,
       "speed_print_black_ppm": 7.5,
-      "speed_print_color_ppm": 5.5,
       "speed_draft_black_ppm": 20,
+      "speed_print_color_ppm": 5.5,
       "speed_draft_color_ppm": 16,
       "memory_mb": "integrated",
       "users": 3,
@@ -3327,12 +3398,11 @@
     {
       "id_codepr": "CPR004",
       "id_code": "CDN014",
-      "tecnology": "inyeccion termica de tinta",
-      "chromatic": "Si",
+      "tecnology": "tij",
+      "chromatic": "si",
       "function": "multifuncional",
       "id_size": "SZ004",
-      "tamaño": "legal",
-      "weight_g/m": 75,
+      "weight": 75,
       "borderless": "null",
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
@@ -3344,7 +3414,7 @@
       "adf_capacity": 1,
       "scan_duplex": "no",
       "scan_duplex_size": "null",
-      "scan_resolution_ppp": "1200 x 1200",
+      "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
       "direct": "si",
       "front_usb": "no",
@@ -3352,8 +3422,8 @@
       "volume_max": 200,
       "cycle": 1000,
       "speed_print_black_ppm": 8,
-      "speed_print_color_ppm": 5.5,
       "speed_draft_black_ppm": 19,
+      "speed_print_color_ppm": 5.5,
       "speed_draft_color_ppm": 15,
       "memory_mb": 64,
       "users": 3,
@@ -3369,12 +3439,11 @@
     {
       "id_codepr": "CPR005",
       "id_code": "CDN015",
-      "tecnology": "inyeccion termica de tinta",
-      "chromatic": "Si",
+      "tecnology": "tij",
+      "chromatic": "si",
       "function": "multifuncional",
       "id_size": "SZ004",
-      "tamaño": "legal",
-      "weight_g/m": 105,
+      "weight": 105,
       "borderless": "carta",
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
@@ -3386,7 +3455,7 @@
       "adf_capacity": 35,
       "scan_duplex": "no",
       "scan_duplex_size": "null",
-      "scan_resolution_ppp": "1200 x 1200",
+      "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
       "direct": "si",
       "front_usb": "si",
@@ -3394,8 +3463,8 @@
       "volume_max": 1200,
       "cycle": 6000,
       "speed_print_black_ppm": 15,
+      "speed_draft_black_ppm": 23,
       "speed_print_color_ppm": 9,
-      "speed_draft_black_ppm": 30,
       "speed_draft_color_ppm": 22,
       "memory_mb": 256,
       "users": 3,
@@ -3411,12 +3480,11 @@
     {
       "id_codepr": "CPR006",
       "id_code": "CDN016",
-      "tecnology": "inyeccion termica de tinta",
-      "chromatic": "Si",
+      "tecnology": "tij",
+      "chromatic": "si",
       "function": "multifuncional",
       "id_size": "SZ004",
-      "tamaño": "legal",
-      "weight_g/m": 105,
+      "weight": 105,
       "borderless": "carta",
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
@@ -3428,7 +3496,7 @@
       "adf_capacity": 35,
       "scan_duplex": "no",
       "scan_duplex_size": "null",
-      "scan_resolution_ppp": "1200 x 1200",
+      "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
       "direct": "si",
       "front_usb": "no",
@@ -3436,8 +3504,8 @@
       "volume_max": 800,
       "cycle": 5000,
       "speed_print_black_ppm": 15,
+      "speed_draft_black_ppm": 23,
       "speed_print_color_ppm": 9,
-      "speed_draft_black_ppm": 30,
       "speed_draft_color_ppm": 22,
       "memory_mb": 256,
       "users": 3,
@@ -3453,12 +3521,11 @@
     {
       "id_codepr": "CPR007",
       "id_code": "CDN017",
-      "tecnology": "inyeccion termica de tinta",
-      "chromatic": "Si",
+      "tecnology": "tij",
+      "chromatic": "si",
       "function": "multifuncional",
       "id_size": "SZ004",
-      "tamaño": "legal",
-      "weight_g/m": 105,
+      "weight": 105,
       "borderless": "carta",
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
@@ -3470,7 +3537,7 @@
       "adf_capacity": "null",
       "scan_duplex": "null",
       "scan_duplex_size": "null",
-      "scan_resolution_ppp": "1200 x 1200",
+      "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
       "direct": "si",
       "front_usb": "no",
@@ -3478,8 +3545,8 @@
       "volume_max": 800,
       "cycle": 5000,
       "speed_print_black_ppm": 15,
+      "speed_draft_black_ppm": 23,
       "speed_print_color_ppm": 9,
-      "speed_draft_black_ppm": 30,
       "speed_draft_color_ppm": 22,
       "memory_mb": 128,
       "users": 3,
@@ -3495,12 +3562,11 @@
     {
       "id_codepr": "CPR008",
       "id_code": "CDN018",
-      "tecnology": "inyeccion termica de tinta",
-      "chromatic": "Si",
+      "tecnology": "tij",
+      "chromatic": "si",
       "function": "multifuncional",
       "id_size": "SZ004",
-      "tamaño": "legal",
-      "weight_g/m": 105,
+      "weight": 105,
       "borderless": "carta",
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
@@ -3512,7 +3578,7 @@
       "adf_capacity": "null",
       "scan_duplex": "null",
       "scan_duplex_size": "null",
-      "scan_resolution_ppp": "1200 x 1200",
+      "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
       "direct": "si",
       "front_usb": "no",
@@ -3520,13 +3586,13 @@
       "volume_max": 800,
       "cycle": 3000,
       "speed_print_black_ppm": 12,
+      "speed_draft_black_ppm": 22,
       "speed_print_color_ppm": 7,
-      "speed_draft_black_ppm": 30,
       "speed_draft_color_ppm": 22,
       "memory_mb": 128,
       "users": 3,
       "copy_id": "no",
-      "input_tray": 250,
+      "input_tray": 150,
       "output_tray": 100,
       "widht_mm": 427,
       "depth_mm": 364,
@@ -3537,12 +3603,11 @@
     {
       "id_codepr": "CPR009",
       "id_code": "CDN019",
-      "tecnology": "inyeccion termica de tinta",
-      "chromatic": "Si",
+      "tecnology": "tij",
+      "chromatic": "si",
       "function": "multifuncional",
       "id_size": "SZ004",
-      "tamaño": "legal",
-      "weight_g/m": 75,
+      "weight": 75,
       "borderless": "carta",
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
@@ -3554,7 +3619,7 @@
       "adf_capacity": 35,
       "scan_duplex": "no",
       "scan_duplex_size": "null",
-      "scan_resolution_ppp": "1200 x 1200",
+      "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
       "direct": "si",
       "front_usb": "no",
@@ -3562,8 +3627,8 @@
       "volume_max": 800,
       "cycle": 1000,
       "speed_print_black_ppm": 11,
+      "speed_draft_black_ppm": 22,
       "speed_print_color_ppm": 5,
-      "speed_draft_black_ppm": 30,
       "speed_draft_color_ppm": 16,
       "memory_mb": 256,
       "users": 3,
@@ -3579,12 +3644,11 @@
     {
       "id_codepr": "CPR010",
       "id_code": "CDN020",
-      "tecnology": "inyeccion termica de tinta",
-      "chromatic": "Si",
+      "tecnology": "tij",
+      "chromatic": "si",
       "function": "multifuncional",
       "id_size": "SZ004",
-      "tamaño": "legal",
-      "weight_g/m": 75,
+      "weight": 75,
       "borderless": "carta",
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
@@ -3596,7 +3660,7 @@
       "adf_capacity": "null",
       "scan_duplex": "null",
       "scan_duplex_size": "null",
-      "scan_resolution_ppp": "1200 x 1200",
+      "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
       "direct": "si",
       "front_usb": "no",
@@ -3604,8 +3668,8 @@
       "volume_max": 800,
       "cycle": 3000,
       "speed_print_black_ppm": 12,
+      "speed_draft_black_ppm": 22,
       "speed_print_color_ppm": 5,
-      "speed_draft_black_ppm": 30,
       "speed_draft_color_ppm": 16,
       "memory_mb": 64,
       "users": 3,
@@ -3617,6 +3681,252 @@
       "height_mm": 157,
       "depth_tray_mm": 361,
       "height_tray_mm": 157
+    },
+    {
+      "id_codepr": "CPR011",
+      "id_code": "CDN021",
+      "tecnology": "tij",
+      "chromatic": "si",
+      "function": "multifuncional",
+      "id_size": "SZ004",
+      "weight": 75,
+      "borderless": "carta",
+      "print_resolution_black_ppp": "1200 x 1200",
+      "print_resolution_color_ppp": "4800 x 1200",
+      "print_duplex": "manual",
+      "flatbed": "si",
+      "flatbed_size": "carta",
+      "adf": "si",
+      "adf_size": "legal",
+      "adf_capacity": 35,
+      "scan_duplex": "no",
+      "scan_duplex_size": "null",
+      "scan_resolution_ppi": "1200 x 1200",
+      "wireless": "si",
+      "direct": "si",
+      "front_usb": "no",
+      "volume_min": 400,
+      "volume_max": 800,
+      "cycle": 1000,
+      "speed_print_black_ppm": 11,
+      "speed_draft_black_ppm": 22,
+      "speed_print_color_ppm": 5,
+      "speed_draft_color_ppm": 16,
+      "memory_mb": 256,
+      "users": 3,
+      "copy_id": "si",
+      "input_tray": 100,
+      "output_tray": 30,
+      "widht_mm": 449,
+      "depth_mm": 373,
+      "height_mm": 198,
+      "depth_tray_mm": 373,
+      "height_tray_mm": 198
+    },
+    {
+      "id_codepr": "CPR012",
+      "id_code": "CDN022",
+      "tecnology": "tij",
+      "chromatic": "si",
+      "function": "multifuncional",
+      "id_size": "SZ004",
+      "weight": 75,
+      "borderless": "carta",
+      "print_resolution_black_ppp": "1200 x 1200",
+      "print_resolution_color_ppp": "4800 x 1200",
+      "print_duplex": "manual",
+      "flatbed": "si",
+      "flatbed_size": "carta",
+      "adf": "no",
+      "adf_size": "null",
+      "adf_capacity": "null",
+      "scan_duplex": "no",
+      "scan_duplex_size": "null",
+      "scan_resolution_ppi": "1200 x 1200",
+      "wireless": "no",
+      "direct": "no",
+      "front_usb": "no",
+      "volume_min": 400,
+      "volume_max": 800,
+      "cycle": 3000,
+      "speed_print_black_ppm": 12,
+      "speed_draft_black_ppm": 22,
+      "speed_print_color_ppm": 5,
+      "speed_draft_color_ppm": 16,
+      "memory_mb": 64,
+      "users": 3,
+      "copy_id": "si",
+      "input_tray": 100,
+      "output_tray": 30,
+      "widht_mm": 434,
+      "depth_mm": 361,
+      "height_mm": 157,
+      "depth_tray_mm": 361,
+      "height_tray_mm": 157
+    },
+    {
+      "id_codepr": "CPR013",
+      "id_code": "CDN023",
+      "tecnology": "tij",
+      "chromatic": "si",
+      "function": "impresion",
+      "id_size": "SZ004",
+      "weight": 75,
+      "borderless": "carta",
+      "print_resolution_black_ppp": "1200 x 1200",
+      "print_resolution_color_ppp": "4800 x 1200",
+      "print_duplex": "manual",
+      "flatbed": "no",
+      "flatbed_size": "null",
+      "adf": "no",
+      "adf_size": "null",
+      "adf_capacity": "null",
+      "scan_duplex": "null",
+      "scan_duplex_size": "null",
+      "scan_resolution_ppi": "null",
+      "wireless": "si",
+      "direct": "si",
+      "front_usb": "no",
+      "volume_min": 400,
+      "volume_max": 800,
+      "cycle": 3000,
+      "speed_print_black_ppm": 12,
+      "speed_draft_black_ppm": 22,
+      "speed_print_color_ppm": 5,
+      "speed_draft_color_ppm": 16,
+      "memory_mb": 64,
+      "users": 3,
+      "copy_id": "no",
+      "input_tray": 100,
+      "output_tray": 30,
+      "widht_mm": 434,
+      "depth_mm": 360,
+      "height_mm": 134,
+      "depth_tray_mm": 360,
+      "height_tray_mm": 134
+    },
+    {
+      "id_codepr": "CPR014",
+      "id_code": "CDN024",
+      "tecnology": "laser",
+      "chromatic": "no",
+      "function": "multifuncional",
+      "id_size": "SZ004",
+      "weight": 65,
+      "borderless": "null",
+      "print_resolution_black_ppp": "600 x 600",
+      "print_resolution_color_ppp": "null",
+      "print_duplex": "no",
+      "flatbed": "si",
+      "flatbed_size": "carta",
+      "adf": "no",
+      "adf_size": "null",
+      "adf_capacity": "null",
+      "scan_duplex": "null",
+      "scan_duplex_size": "null",
+      "scan_resolution_ppi": 600,
+      "wireless": "si",
+      "direct": "no",
+      "front_usb": "no",
+      "volume_min": 100,
+      "volume_max": 1000,
+      "cycle": 8000,
+      "speed_print_black_ppm": 20,
+      "speed_draft_black_ppm": 0,
+      "speed_print_color_ppm": 0,
+      "speed_draft_color_ppm": 0,
+      "memory_mb": 64,
+      "users": 3,
+      "copy_id": "si",
+      "input_tray": 150,
+      "output_tray": 100,
+      "widht_mm": 360,
+      "depth_mm": 264,
+      "height_mm": 197,
+      "depth_tray_mm": 0,
+      "height_tray_mm": 0
+    },
+    {
+      "id_codepr": "CPR015",
+      "id_code": "CDN025",
+      "tecnology": "laser",
+      "chromatic": "no",
+      "function": "impresion",
+      "id_size": "SZ004",
+      "weight": 65,
+      "borderless": "null",
+      "print_resolution_black_ppp": "600 x 600",
+      "print_resolution_color_ppp": "null",
+      "print_duplex": "no",
+      "flatbed": "no",
+      "flatbed_size": "null",
+      "adf": "no",
+      "adf_size": "null",
+      "adf_capacity": "null",
+      "scan_duplex": "null",
+      "scan_duplex_size": "null",
+      "scan_resolution_ppi": "null",
+      "wireless": "si",
+      "direct": "no",
+      "front_usb": "no",
+      "volume_min": 100,
+      "volume_max": 1000,
+      "cycle": 8000,
+      "speed_print_black_ppm": 20,
+      "speed_draft_black_ppm": 0,
+      "speed_print_color_ppm": 0,
+      "speed_draft_color_ppm": 0,
+      "memory_mb": 32,
+      "users": 3,
+      "copy_id": "no",
+      "input_tray": 150,
+      "output_tray": 100,
+      "widht_mm": 346,
+      "depth_mm": 189,
+      "height_mm": 159,
+      "depth_tray_mm": 0,
+      "height_tray_mm": 0
+    },
+    {
+      "id_codepr": "CPR016",
+      "id_code": "CDN026",
+      "tecnology": "laser",
+      "chromatic": "no",
+      "function": "impresion",
+      "id_size": "SZ004",
+      "weight": 65,
+      "borderless": "null",
+      "print_resolution_black_ppp": "600 x 600",
+      "print_resolution_color_ppp": "null",
+      "print_duplex": "no",
+      "flatbed": "no",
+      "flatbed_size": "null",
+      "adf": "no",
+      "adf_size": "null",
+      "adf_capacity": "null",
+      "scan_duplex": "null",
+      "scan_duplex_size": "null",
+      "scan_resolution_ppi": "null",
+      "wireless": "no",
+      "direct": "no",
+      "front_usb": "no",
+      "volume_min": 100,
+      "volume_max": 1000,
+      "cycle": 8000,
+      "speed_print_black_ppm": 20,
+      "speed_draft_black_ppm": 0,
+      "speed_print_color_ppm": 0,
+      "speed_draft_color_ppm": 0,
+      "memory_mb": 16,
+      "users": 3,
+      "copy_id": "no",
+      "input_tray": 150,
+      "output_tray": 100,
+      "widht_mm": 346,
+      "depth_mm": 189,
+      "height_mm": 159,
+      "depth_tray_mm": 0,
+      "height_tray_mm": 0
     }
   ],
   "paper": [
@@ -3661,371 +3971,387 @@
     {
       "id_weight": "WG0001",
       "id_code": "CDN011",
-      "name": "Tassel IA",
       "id_paper": "PP001",
-      "paper": "común",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 90
-    },
-    {
-      "id_weight": "WG0002",
-      "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_paper": "PP002",
-      "paper": "folleto",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 90
+      "weight_min_gm": 60,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0003",
       "id_code": "CDN011",
-      "name": "Tassel IA",
       "id_paper": "PP003",
-      "paper": "sobre",
-      "weight_min_g/m": 75,
-      "weight_max_g/m": 90
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0004",
       "id_code": "CDN011",
-      "name": "Tassel IA",
       "id_paper": "PP004",
-      "paper": "tarjetas",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 200
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0005",
       "id_code": "CDN011",
-      "name": "Tassel IA",
       "id_paper": "PP005",
-      "paper": "fotográfico",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 300
+      "weight_min_gm": "null",
+      "weight_max_gm": 300
     },
     {
       "id_weight": "WG0006",
       "id_code": "CDN012",
-      "name": "Taccola IA",
       "id_paper": "PP001",
-      "paper": "común",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 90
+      "weight_min_gm": 60,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0007",
       "id_code": "CDN012",
-      "name": "Taccola IA",
       "id_paper": "PP003",
-      "paper": "sobre",
-      "weight_min_g/m": 75,
-      "weight_max_g/m": 90
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0008",
       "id_code": "CDN012",
-      "name": "Taccola IA",
       "id_paper": "PP004",
-      "paper": "tarjetas",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 200
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0009",
       "id_code": "CDN012",
-      "name": "Taccola IA",
       "id_paper": "PP005",
-      "paper": "fotográfico",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 300
+      "weight_min_gm": "null",
+      "weight_max_gm": 300
     },
     {
       "id_weight": "WG0010",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
       "id_paper": "PP001",
-      "paper": "común",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 90
+      "weight_min_gm": 60,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0011",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
       "id_paper": "PP003",
-      "paper": "sobre",
-      "weight_min_g/m": 75,
-      "weight_max_g/m": 90
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0012",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
       "id_paper": "PP004",
-      "paper": "tarjetas",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 200
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0013",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
       "id_paper": "PP005",
-      "paper": "fotográfico",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 300
+      "weight_min_gm": "null",
+      "weight_max_gm": 300
     },
     {
       "id_weight": "WG0014",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
       "id_paper": "PP001",
-      "paper": "común",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 90
+      "weight_min_gm": 60,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0015",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
       "id_paper": "PP003",
-      "paper": "sobre",
-      "weight_min_g/m": 75,
-      "weight_max_g/m": 90
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0016",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
       "id_paper": "PP004",
-      "paper": "tarjetas",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 200
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0017",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
       "id_paper": "PP005",
-      "paper": "fotográfico",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 300
+      "weight_min_gm": "null",
+      "weight_max_gm": 300
     },
     {
       "id_weight": "WG0018",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
       "id_paper": "PP001",
-      "paper": "común",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 105
+      "weight_min_gm": 60,
+      "weight_max_gm": 105
     },
     {
       "id_weight": "WG0019",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
       "id_paper": "PP003",
-      "paper": "sobre",
-      "weight_min_g/m": 75,
-      "weight_max_g/m": 90
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0020",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
       "id_paper": "PP004",
-      "paper": "tarjetas",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 200
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0021",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
       "id_paper": "PP005",
-      "paper": "fotográfico",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 250
+      "weight_min_gm": "null",
+      "weight_max_gm": 250
     },
     {
       "id_weight": "WG0022",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
       "id_paper": "PP001",
-      "paper": "común",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 105
+      "weight_min_gm": 60,
+      "weight_max_gm": 105
     },
     {
       "id_weight": "WG0023",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
       "id_paper": "PP003",
-      "paper": "sobre",
-      "weight_min_g/m": 75,
-      "weight_max_g/m": 90
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0024",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
       "id_paper": "PP004",
-      "paper": "tarjetas",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 200
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0025",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
       "id_paper": "PP005",
-      "paper": "fotográfico",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 250
+      "weight_min_gm": "null",
+      "weight_max_gm": 250
     },
     {
       "id_weight": "WG0026",
       "id_code": "CDN017",
-      "name": "Sayan WL",
       "id_paper": "PP001",
-      "paper": "común",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 105
+      "weight_min_gm": 60,
+      "weight_max_gm": 105
     },
     {
       "id_weight": "WG0027",
       "id_code": "CDN017",
-      "name": "Sayan WL",
       "id_paper": "PP003",
-      "paper": "sobre",
-      "weight_min_g/m": 75,
-      "weight_max_g/m": 90
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0028",
       "id_code": "CDN017",
-      "name": "Sayan WL",
       "id_paper": "PP004",
-      "paper": "tarjetas",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 200
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0029",
       "id_code": "CDN017",
-      "name": "Sayan WL",
       "id_paper": "PP005",
-      "paper": "fotográfico",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 250
+      "weight_min_gm": "null",
+      "weight_max_gm": 250
     },
     {
       "id_weight": "WG0030",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
       "id_paper": "PP001",
-      "paper": "común",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 105
+      "weight_min_gm": 60,
+      "weight_max_gm": 105
     },
     {
       "id_weight": "WG0031",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
       "id_paper": "PP003",
-      "paper": "sobre",
-      "weight_min_g/m": 75,
-      "weight_max_g/m": 90
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0032",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
       "id_paper": "PP004",
-      "paper": "tarjetas",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 200
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0033",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
       "id_paper": "PP005",
-      "paper": "fotográfico",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 250
+      "weight_min_gm": "null",
+      "weight_max_gm": 250
     },
     {
       "id_weight": "WG0034",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
       "id_paper": "PP001",
-      "paper": "común",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 90
+      "weight_min_gm": 60,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0035",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
       "id_paper": "PP003",
-      "paper": "sobre",
-      "weight_min_g/m": 75,
-      "weight_max_g/m": 90
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0036",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
       "id_paper": "PP004",
-      "paper": "tarjetas",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 200
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0037",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
       "id_paper": "PP005",
-      "paper": "fotográfico",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 300
+      "weight_min_gm": "null",
+      "weight_max_gm": 300
     },
     {
       "id_weight": "WG0038",
       "id_code": "CDN020",
-      "name": "LEBI WL",
       "id_paper": "PP001",
-      "paper": "común",
-      "weight_min_g/m": 60,
-      "weight_max_g/m": 90
+      "weight_min_gm": 60,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0039",
       "id_code": "CDN020",
-      "name": "LEBI WL",
       "id_paper": "PP003",
-      "paper": "sobre",
-      "weight_min_g/m": 75,
-      "weight_max_g/m": 90
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0040",
       "id_code": "CDN020",
-      "name": "LEBI WL",
       "id_paper": "PP004",
-      "paper": "tarjetas",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 200
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0041",
       "id_code": "CDN020",
-      "name": "LEBI WL",
       "id_paper": "PP005",
-      "paper": "fotográfico",
-      "weight_min_g/m": "null",
-      "weight_max_g/m": 300
+      "weight_min_gm": "null",
+      "weight_max_gm": 300
+    },
+    {
+      "id_weight": "WG0042",
+      "id_code": "CDN021",
+      "id_paper": "PP001",
+      "weight_min_gm": 60,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0043",
+      "id_code": "CDN021",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0044",
+      "id_code": "CDN021",
+      "id_paper": "PP004",
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
+    },
+    {
+      "id_weight": "WG0045",
+      "id_code": "CDN021",
+      "id_paper": "PP005",
+      "weight_min_gm": "null",
+      "weight_max_gm": 300
+    },
+    {
+      "id_weight": "WG0046",
+      "id_code": "CDN022",
+      "id_paper": "PP001",
+      "weight_min_gm": 60,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0047",
+      "id_code": "CDN022",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0048",
+      "id_code": "CDN022",
+      "id_paper": "PP004",
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
+    },
+    {
+      "id_weight": "WG0049",
+      "id_code": "CDN022",
+      "id_paper": "PP005",
+      "weight_min_gm": "null",
+      "weight_max_gm": 300
+    },
+    {
+      "id_weight": "WG0050",
+      "id_code": "CDN023",
+      "id_paper": "PP001",
+      "weight_min_gm": 60,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0051",
+      "id_code": "CDN023",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0052",
+      "id_code": "CDN023",
+      "id_paper": "PP004",
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
+    },
+    {
+      "id_weight": "WG0053",
+      "id_code": "CDN023",
+      "id_paper": "PP005",
+      "weight_min_gm": "null",
+      "weight_max_gm": 300
+    },
+    {
+      "id_weight": "WG0054",
+      "id_code": "CDN024",
+      "id_paper": "PP001",
+      "weight_min_gm": 65,
+      "weight_max_gm": 120
+    },
+    {
+      "id_weight": "WG0055",
+      "id_code": "CDN025",
+      "id_paper": "PP001",
+      "weight_min_gm": 65,
+      "weight_max_gm": 120
+    },
+    {
+      "id_weight": "WG0056",
+      "id_code": "CDN026",
+      "id_paper": "PP001",
+      "weight_min_gm": 65,
+      "weight_max_gm": 120
     }
   ],
   "size": [
@@ -4448,352 +4774,387 @@
     {
       "id_sizepr": "SP0001",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_size": "SZ001",
-      "size": "carta"
+      "id_size": "SZ001"
     },
     {
       "id_sizepr": "SP0002",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_size": "SZ004",
-      "size": "legal"
+      "id_size": "SZ004"
     },
     {
       "id_sizepr": "SP0003",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_size": "SZ008",
-      "size": "sobre DL"
+      "id_size": "SZ008"
     },
     {
       "id_sizepr": "SP0004",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_size": "SZ009",
-      "size": "postal"
+      "id_size": "SZ009"
     },
     {
       "id_sizepr": "SP0005",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_size": "SZ043",
-      "size": "tarjeta"
+      "id_size": "SZ043"
     },
     {
       "id_sizepr": "SP0006",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_size": "SZ026",
-      "size": "B5"
+      "id_size": "SZ026"
     },
     {
       "id_sizepr": "SP0007",
       "id_code": "CDN011",
-      "name": "Tassel IA",
-      "id_size": "SZ045",
-      "size": "fotografia"
+      "id_size": "SZ045"
     },
     {
       "id_sizepr": "SP0008",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_size": "SZ001",
-      "size": "carta"
+      "id_size": "SZ001"
     },
     {
       "id_sizepr": "SP0009",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_size": "SZ004",
-      "size": "legal"
+      "id_size": "SZ004"
     },
     {
       "id_sizepr": "SP0010",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_size": "SZ008",
-      "size": "sobre DL"
+      "id_size": "SZ008"
     },
     {
       "id_sizepr": "SP0011",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_size": "SZ009",
-      "size": "postal"
+      "id_size": "SZ009"
     },
     {
       "id_sizepr": "SP0012",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_size": "SZ043",
-      "size": "tarjeta"
+      "id_size": "SZ043"
     },
     {
       "id_sizepr": "SP0013",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_size": "SZ026",
-      "size": "B5"
+      "id_size": "SZ026"
     },
     {
       "id_sizepr": "SP0014",
       "id_code": "CDN012",
-      "name": "Taccola IA",
-      "id_size": "SZ045",
-      "size": "fotografia"
+      "id_size": "SZ045"
     },
     {
       "id_sizepr": "SP0015",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_size": "SZ001",
-      "size": "carta"
+      "id_size": "SZ001"
     },
     {
       "id_sizepr": "SP0016",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_size": "SZ004",
-      "size": "legal"
+      "id_size": "SZ004"
     },
     {
       "id_sizepr": "SP0017",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_size": "SZ008",
-      "size": "sobre DL"
+      "id_size": "SZ008"
     },
     {
       "id_sizepr": "SP0018",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_size": "SZ009",
-      "size": "postal"
+      "id_size": "SZ009"
     },
     {
       "id_sizepr": "SP0019",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_size": "SZ043",
-      "size": "tarjeta"
+      "id_size": "SZ043"
     },
     {
       "id_sizepr": "SP0020",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_size": "SZ026",
-      "size": "B5"
+      "id_size": "SZ026"
     },
     {
       "id_sizepr": "SP0021",
       "id_code": "CDN013",
-      "name": "Wudang RF AiO",
-      "id_size": "SZ045",
-      "size": "fotografia"
+      "id_size": "SZ045"
     },
     {
       "id_sizepr": "SP0022",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_size": "SZ001",
-      "size": "carta"
+      "id_size": "SZ001"
     },
     {
       "id_sizepr": "SP0023",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_size": "SZ004",
-      "size": "legal"
+      "id_size": "SZ004"
     },
     {
       "id_sizepr": "SP0024",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_size": "SZ008",
-      "size": "sobre DL"
+      "id_size": "SZ008"
     },
     {
       "id_sizepr": "SP0025",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_size": "SZ009",
-      "size": "postal"
+      "id_size": "SZ009"
     },
     {
       "id_sizepr": "SP0026",
       "id_code": "CDN014",
-      "name": "Lhasa WL IA",
-      "id_size": "SZ043",
-      "size": "tarjeta"
+      "id_size": "SZ043"
     },
     {
       "id_sizepr": "SP0027",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_size": "SZ001",
-      "size": "carta"
+      "id_size": "SZ001"
     },
     {
       "id_sizepr": "SP0028",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_size": "SZ004",
-      "size": "legal"
+      "id_size": "SZ004"
     },
     {
       "id_sizepr": "SP0029",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_size": "SZ009",
-      "size": "postal"
+      "id_size": "SZ009"
     },
     {
       "id_sizepr": "SP0030",
       "id_code": "CDN015",
-      "name": "Sayan Premiun Plus",
-      "id_size": "SZ046",
-      "size": "ejecutivo"
+      "id_size": "SZ046"
     },
     {
       "id_sizepr": "SP0031",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_size": "SZ001",
-      "size": "carta"
+      "id_size": "SZ001"
     },
     {
       "id_sizepr": "SP0032",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_size": "SZ004",
-      "size": "legal"
+      "id_size": "SZ004"
     },
     {
       "id_sizepr": "SP0033",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_size": "SZ009",
-      "size": "postal"
+      "id_size": "SZ009"
     },
     {
       "id_sizepr": "SP0034",
       "id_code": "CDN016",
-      "name": "Sayan ADF",
-      "id_size": "SZ046",
-      "size": "ejecutivo"
+      "id_size": "SZ046"
     },
     {
       "id_sizepr": "SP0035",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_size": "SZ001",
-      "size": "carta"
+      "id_size": "SZ001"
     },
     {
       "id_sizepr": "SP0036",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_size": "SZ004",
-      "size": "legal"
+      "id_size": "SZ004"
     },
     {
       "id_sizepr": "SP0037",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_size": "SZ009",
-      "size": "postal"
+      "id_size": "SZ009"
     },
     {
       "id_sizepr": "SP0038",
       "id_code": "CDN017",
-      "name": "Sayan WL",
-      "id_size": "SZ046",
-      "size": "ejecutivo"
+      "id_size": "SZ046"
     },
     {
       "id_sizepr": "SP0039",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_size": "SZ001",
-      "size": "carta"
+      "id_size": "SZ001"
     },
     {
       "id_sizepr": "SP0040",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_size": "SZ004",
-      "size": "legal"
+      "id_size": "SZ004"
     },
     {
       "id_sizepr": "SP0041",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_size": "SZ009",
-      "size": "postal"
+      "id_size": "SZ009"
     },
     {
       "id_sizepr": "SP0042",
       "id_code": "CDN018",
-      "name": "Sayan Lite",
-      "id_size": "SZ046",
-      "size": "ejecutivo"
+      "id_size": "SZ046"
     },
     {
       "id_sizepr": "SP0043",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_size": "SZ001",
-      "size": "carta"
+      "id_size": "SZ001"
     },
     {
       "id_sizepr": "SP0044",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_size": "SZ004",
-      "size": "legal"
+      "id_size": "SZ004"
     },
     {
       "id_sizepr": "SP0045",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_size": "SZ009",
-      "size": "postal"
+      "id_size": "SZ009"
     },
     {
       "id_sizepr": "SP0046",
       "id_code": "CDN019",
-      "name": "Poseidon Plus",
-      "id_size": "SZ008",
-      "size": "sobre DL"
+      "id_size": "SZ008"
     },
     {
       "id_sizepr": "SP0047",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_size": "SZ001",
-      "size": "carta"
+      "id_size": "SZ001"
     },
     {
       "id_sizepr": "SP0048",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_size": "SZ004",
-      "size": "legal"
+      "id_size": "SZ004"
     },
     {
       "id_sizepr": "SP0049",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_size": "SZ009",
-      "size": "postal"
+      "id_size": "SZ009"
     },
     {
       "id_sizepr": "SP0050",
       "id_code": "CDN020",
-      "name": "LEBI WL",
-      "id_size": "SZ008",
-      "size": "sobre DL"
+      "id_size": "SZ008"
+    },
+    {
+      "id_sizepr": "SP0051",
+      "id_code": "CDN021",
+      "id_size": "SZ001"
+    },
+    {
+      "id_sizepr": "SP0052",
+      "id_code": "CDN021",
+      "id_size": "SZ004"
+    },
+    {
+      "id_sizepr": "SP0053",
+      "id_code": "CDN021",
+      "id_size": "SZ008"
+    },
+    {
+      "id_sizepr": "SP0054",
+      "id_code": "CDN021",
+      "id_size": "SZ009"
+    },
+    {
+      "id_sizepr": "SP0055",
+      "id_code": "CDN021",
+      "id_size": "SZ045"
+    },
+    {
+      "id_sizepr": "SP0056",
+      "id_code": "CDN022",
+      "id_size": "SZ001"
+    },
+    {
+      "id_sizepr": "SP0057",
+      "id_code": "CDN022",
+      "id_size": "SZ004"
+    },
+    {
+      "id_sizepr": "SP0058",
+      "id_code": "CDN022",
+      "id_size": "SZ008"
+    },
+    {
+      "id_sizepr": "SP0059",
+      "id_code": "CDN022",
+      "id_size": "SZ009"
+    },
+    {
+      "id_sizepr": "SP0060",
+      "id_code": "CDN022",
+      "id_size": "SZ045"
+    },
+    {
+      "id_sizepr": "SP0061",
+      "id_code": "CDN023",
+      "id_size": "SZ001"
+    },
+    {
+      "id_sizepr": "SP0062",
+      "id_code": "CDN023",
+      "id_size": "SZ004"
+    },
+    {
+      "id_sizepr": "SP0063",
+      "id_code": "CDN023",
+      "id_size": "SZ008"
+    },
+    {
+      "id_sizepr": "SP0064",
+      "id_code": "CDN023",
+      "id_size": "SZ009"
+    },
+    {
+      "id_sizepr": "SP0065",
+      "id_code": "CDN023",
+      "id_size": "SZ045"
+    },
+    {
+      "id_sizepr": "SP0066",
+      "id_code": "CDN024",
+      "id_size": "SZ001"
+    },
+    {
+      "id_sizepr": "SP0067",
+      "id_code": "CDN024",
+      "id_size": "SZ004"
+    },
+    {
+      "id_sizepr": "SP0068",
+      "id_code": "CDN024",
+      "id_size": "SZ008"
+    },
+    {
+      "id_sizepr": "SP0069",
+      "id_code": "CDN024",
+      "id_size": "SZ009"
+    },
+    {
+      "id_sizepr": "SP0070",
+      "id_code": "CDN025",
+      "id_size": "SZ001"
+    },
+    {
+      "id_sizepr": "SP0071",
+      "id_code": "CDN025",
+      "id_size": "SZ004"
+    },
+    {
+      "id_sizepr": "SP0072",
+      "id_code": "CDN025",
+      "id_size": "SZ008"
+    },
+    {
+      "id_sizepr": "SP0073",
+      "id_code": "CDN025",
+      "id_size": "SZ009"
+    },
+    {
+      "id_sizepr": "SP0074",
+      "id_code": "CDN026",
+      "id_size": "SZ001"
+    },
+    {
+      "id_sizepr": "SP0075",
+      "id_code": "CDN026",
+      "id_size": "SZ004"
+    },
+    {
+      "id_sizepr": "SP0076",
+      "id_code": "CDN026",
+      "id_size": "SZ008"
+    },
+    {
+      "id_sizepr": "SP0077",
+      "id_code": "CDN026",
+      "id_size": "SZ009"
     }
   ],
   "supply": [
@@ -4801,7 +5162,6 @@
       "id_supply": "SCT001",
       "sku": "3YM79AL",
       "id_product": "PR20",
-      "family": "Cartucho de Tinta",
       "model": 667,
       "reference": "Cartucho de tinta HP 667 negra Original (3YM79AL)",
       "type": "Estandar",
@@ -4811,6 +5171,7 @@
       "volumen_ml": 2,
       "based": "Pigmento",
       "region": "Latam",
+      "image": "c06597091",
       "upc": 193015522459,
       "indexado": "5ecd59945eb3a8d56ae076f1",
       "oid": 24026936
@@ -4819,7 +5180,6 @@
       "id_supply": "SCT002",
       "sku": "3YM78AL",
       "id_product": "PR20",
-      "family": "Cartucho de Tinta",
       "model": 667,
       "reference": "Cartucho de tinta HP 667 tricolor Original (3YM78AL)",
       "type": "Estandar",
@@ -4829,6 +5189,7 @@
       "volumen_ml": 2,
       "based": "Colorantes",
       "region": "Latam",
+      "image": "c06597062",
       "upc": 193015522435,
       "indexado": "5ecd599400a599d5640c3c24",
       "oid": 24026933
@@ -4836,8 +5197,7 @@
     {
       "id_supply": "SCT003",
       "sku": "3YM81AL",
-      "id_product": "PR20",
-      "family": "Cartucho de Tinta",
+      "id_product": "PR31",
       "model": "667XL",
       "reference": "Cartucho de tinta HP 667XL negra Original (3YM81AL)",
       "type": "Alto Rendimiento",
@@ -4847,6 +5207,7 @@
       "volumen_ml": 8.5,
       "based": "Pigmento",
       "region": "Latam",
+      "image": "c06597145",
       "upc": 193015522497,
       "indexado": "5ecd59945eb3a8d56ae076f2",
       "oid": 24026942
@@ -4854,8 +5215,7 @@
     {
       "id_supply": "SCT004",
       "sku": "3YM80AL",
-      "id_product": "PR20",
-      "family": "Cartucho de Tinta",
+      "id_product": "PR31",
       "model": "667XL",
       "reference": "Cartucho de tinta HP 667XL tricolor Original (3YM80AL)",
       "type": "Alto Rendimiento",
@@ -4865,6 +5225,7 @@
       "volumen_ml": 8,
       "based": "Colorantes",
       "region": "Latam",
+      "image": "c06597118",
       "upc": 193015522473,
       "indexado": "5ecd599400a599d5640c3c25",
       "oid": 24026939
@@ -4873,7 +5234,6 @@
       "id_supply": "SCT005",
       "sku": "F6V29AL",
       "id_product": "PR20",
-      "family": "Cartucho de Tinta",
       "model": 664,
       "reference": "Cartucho de tinta HP 664 negra Original (F6V29AL)",
       "type": "Estandar",
@@ -4883,6 +5243,7 @@
       "volumen_ml": 2,
       "based": "Pigmento",
       "region": "Latam",
+      "image": "c04834496",
       "upc": 889296597148,
       "indexado": "56e183439976157c5703d880",
       "oid": 7907798
@@ -4891,7 +5252,6 @@
       "id_supply": "SCT006",
       "sku": "F6V28AL",
       "id_product": "PR20",
-      "family": "Cartucho de Tinta",
       "model": 664,
       "reference": "Cartucho de tinta HP 664 Tricolor Original (F6V28AL)",
       "type": "Estandar",
@@ -4901,6 +5261,7 @@
       "volumen_ml": 2,
       "based": "Colorantes",
       "region": "Latam",
+      "image": "c06589230",
       "upc": 889296597124,
       "indexado": "56e183439976157c5703d881",
       "oid": 7907791
@@ -4908,8 +5269,7 @@
     {
       "id_supply": "SCT007",
       "sku": "F6V31AL",
-      "id_product": "PR20",
-      "family": "Cartucho de Tinta",
+      "id_product": "PR31",
       "model": "664XL",
       "reference": "Cartucho de tinta HP 664XL negra Original (F6V31AL)",
       "type": "Alto Rendimiento",
@@ -4919,6 +5279,7 @@
       "volumen_ml": 8.5,
       "based": "Pigmento",
       "region": "Latam",
+      "image": "c06589176",
       "upc": 889296597186,
       "indexado": "56e183439976157c5703d882",
       "oid": 7907829
@@ -4926,8 +5287,7 @@
     {
       "id_supply": "SCT008",
       "sku": "F6V30AL",
-      "id_product": "PR20",
-      "family": "Cartucho de Tinta",
+      "id_product": "PR31",
       "model": "664XL",
       "reference": "Cartucho de tinta HP 664XL Tricolor Original (F6V30AL)",
       "type": "Alto Rendimiento",
@@ -4937,6 +5297,7 @@
       "volumen_ml": 8,
       "based": "Colorantes",
       "region": "Latam",
+      "image": "c06589257",
       "upc": 889296597162,
       "indexado": "56e183439976157c5703d883",
       "oid": 7907803
@@ -4945,7 +5306,6 @@
       "id_supply": "SCT009",
       "sku": "CZ103AL",
       "id_product": "PR20",
-      "family": "Cartucho de Tinta",
       "model": 662,
       "reference": "Cartucho de tinta HP 662 negra Original (CZ103AL)",
       "type": "Estandar",
@@ -4955,6 +5315,7 @@
       "volumen_ml": 2,
       "based": "Pigmento",
       "region": "Latam",
+      "image": "c03299657",
       "upc": 886112670115,
       "indexado": "56e0488eb3582a35ae8e35d5",
       "oid": 5234323
@@ -4963,7 +5324,6 @@
       "id_supply": "SCT010",
       "sku": "CZ104AL",
       "id_product": "PR20",
-      "family": "Cartucho de Tinta",
       "model": 662,
       "reference": "Cartucho de tinta HP 662 Tricolor Original (CZ104AL)",
       "type": "Estandar",
@@ -4973,6 +5333,7 @@
       "volumen_ml": 2,
       "based": "Colorantes",
       "region": "Latam",
+      "image": "c03299798",
       "upc": 886112670122,
       "indexado": "56e0488eb3582a35ae8e35d7",
       "oid": 5234326
@@ -4980,8 +5341,7 @@
     {
       "id_supply": "SCT011",
       "sku": "CZ105AL",
-      "id_product": "PR20",
-      "family": "Cartucho de Tinta",
+      "id_product": "PR31",
       "model": "662XL",
       "reference": "Cartucho de tinta HP 662XL negra Original (CZ105AL)",
       "type": "Alto Rendimiento",
@@ -4991,6 +5351,7 @@
       "volumen_ml": 8.5,
       "based": "Pigmento",
       "region": "Latam",
+      "image": "c03299687",
       "upc": 886112670139,
       "indexado": "56e0488eb3582a35ae8e35d8",
       "oid": 5234329
@@ -4998,8 +5359,7 @@
     {
       "id_supply": "SCT012",
       "sku": "CZ106AL",
-      "id_product": "PR20",
-      "family": "Cartucho de Tinta",
+      "id_product": "PR31",
       "model": "662XL",
       "reference": "Cartucho de tinta HP 662XL Tricolor Original (CZ106AL)",
       "type": "Alto Rendimiento",
@@ -5009,6 +5369,7 @@
       "volumen_ml": 8,
       "based": "Colorantes",
       "region": "Latam",
+      "image": "c03299966",
       "upc": 886112670146,
       "indexado": "56e0488eb3582a35ae8e35da",
       "oid": 5234332
@@ -5016,8 +5377,7 @@
     {
       "id_supply": "SBT001",
       "sku": "1VV21AL",
-      "id_product": "PR22",
-      "family": "Botella de Tinta",
+      "id_product": "PR33",
       "model": "GT53XL",
       "reference": "Botella de Tinta Negra HP GT53XL Original (1VV21AL)",
       "type": "Alto Rendimiento",
@@ -5027,6 +5387,7 @@
       "volumen_ml": 135,
       "based": "Pigmento",
       "region": "Latam",
+      "image": "c08720882",
       "upc": "null",
       "indexado": "null",
       "oid": 24596868
@@ -5035,7 +5396,6 @@
       "id_supply": "SBT002",
       "sku": "1VV22AL",
       "id_product": "PR22",
-      "family": "Botella de Tinta",
       "model": "GT53",
       "reference": "Botella de Tinta Negra HP GT53 Original (1VV22AL)",
       "type": "Estandar",
@@ -5045,6 +5405,7 @@
       "volumen_ml": 90,
       "based": "Pigmento",
       "region": "Latam",
+      "image": "c06303620",
       "upc": 192545527583,
       "indexado": "5d23c4e260676adbc59cb7d7",
       "oid": 24596872
@@ -5053,7 +5414,6 @@
       "id_supply": "SBT003",
       "sku": "M0H54AL",
       "id_product": "PR22",
-      "family": "Botella de Tinta",
       "model": "GT52",
       "reference": "Botella de Tinta Cian HP GT52 Original (M0H54AL)",
       "type": "Estandar",
@@ -5063,6 +5423,7 @@
       "volumen_ml": 70,
       "based": "Colorantes",
       "region": "Latam",
+      "image": "c08831277",
       "upc": 190780132524,
       "indexado": "589e2231ad9383c3b111faa2",
       "oid": 12206751
@@ -5071,7 +5432,6 @@
       "id_supply": "SBT004",
       "sku": "M0H55AL",
       "id_product": "PR22",
-      "family": "Botella de Tinta",
       "model": "GT52",
       "reference": "Botella de Tinta Magenta HP GT52 Original (M0H55AL)",
       "type": "Estandar",
@@ -5081,6 +5441,7 @@
       "volumen_ml": 70,
       "based": "Colorantes",
       "region": "Latam",
+      "image": "c08831431",
       "upc": 190780132548,
       "indexado": "589e24ecad9383c3b111fad6",
       "oid": 12206753
@@ -5089,7 +5450,6 @@
       "id_supply": "SBT005",
       "sku": "M0H56AL",
       "id_product": "PR22",
-      "family": "Botella de Tinta",
       "model": "GT52",
       "reference": "Botella de Tinta Amarilla HP GT52 Original (M0H56AL)",
       "type": "Estandar",
@@ -5099,6 +5459,7 @@
       "volumen_ml": 70,
       "based": "Colorantes",
       "region": "Latam",
+      "image": "c06157655",
       "upc": 190780132562,
       "indexado": "589e243aad9383c3b111fabc",
       "oid": 12206755
@@ -5107,7 +5468,6 @@
       "id_supply": "SBT006",
       "sku": "M0H57AL",
       "id_product": "PR22",
-      "family": "Botella de Tinta",
       "model": "GT51",
       "reference": "Botella de Tinta Negra HP GT51 Original (M0H57AL)",
       "type": "Estandar",
@@ -5117,6 +5477,7 @@
       "volumen_ml": 80,
       "based": "Pigmento",
       "region": "Latam",
+      "image": "c08831552",
       "upc": 190780132586,
       "indexado": "589e222dad9383c3b111faa1",
       "oid": 12206757
@@ -5124,8 +5485,7 @@
     {
       "id_supply": "SBT007",
       "sku": "X4E40AL",
-      "id_product": "PR22",
-      "family": "Botella de Tinta",
+      "id_product": "PR33",
       "model": "GT51XL",
       "reference": "Botella de Tinta Negra HP GT51XL Original (X4E40AL)",
       "type": "Alto Rendimiento",
@@ -5135,6 +5495,7 @@
       "volumen_ml": 135,
       "based": "Pigmento",
       "region": "Latam",
+      "image": "c05991527",
       "upc": "null",
       "indexado": "null",
       "oid": 17346163
@@ -5143,7 +5504,6 @@
       "id_supply": "SBT008",
       "sku": "9F3N4AL",
       "id_product": "PR27",
-      "family": "Pack Botella de Tinta",
       "model": "GT53/GT52",
       "reference": "Pack de 4 botellas de tinta HP GT53/GT52 Original (9F3N4AL) Negro, Cyan, Magenta, Amarillo",
       "type": "Estandar",
@@ -5153,6 +5513,7 @@
       "volumen_ml": 70,
       "based": "Colorantes",
       "region": "Latam",
+      "image": "c08983591",
       "upc": 197192539347,
       "indexado": "667d7b2a07d51403662fa9b3",
       "oid": 2102345641
@@ -5161,7 +5522,6 @@
       "id_supply": "SKR001",
       "sku": "W1540A",
       "id_product": "PR23",
-      "family": "Kit de Recarga de Toner",
       "model": "154A",
       "reference": "Kit de Recarga de Tóner HP 154A Negro LaserJet Original (W1540A)",
       "type": "Estandar",
@@ -5171,6 +5531,7 @@
       "volumen_ml": "null",
       "based": "Polvillo",
       "region": "Latam",
+      "image": "c08352382",
       "upc": "null",
       "indexado": "null",
       "oid": 2101151766
@@ -5179,7 +5540,6 @@
       "id_supply": "SKR002",
       "sku": "W1540X",
       "id_product": "PR23",
-      "family": "Kit de Recarga de Toner",
       "model": "154X",
       "reference": "HP 154X Black Original LaserJet Tank Toner Reload Kit (W1540X)",
       "type": "Alto Rendimiento",
@@ -5189,6 +5549,7 @@
       "volumen_ml": "null",
       "based": "Polvillo",
       "region": "Latam",
+      "image": "c08351258",
       "upc": 195697898303,
       "indexado": "null",
       "oid": 2101151767
@@ -5197,7 +5558,6 @@
       "id_supply": "SKR003",
       "sku": "W1103A",
       "id_product": "PR23",
-      "family": "Kit de Recarga de Toner",
       "model": "103A",
       "reference": "Kit de recarga de tóner original HP Laser 103A negro (W1103A)",
       "type": "Estandar",
@@ -5207,6 +5567,7 @@
       "volumen_ml": "null",
       "based": "Polvillo",
       "region": "Latam",
+      "image": "c06378421",
       "upc": 193015553248,
       "indexado": "5d6d8b814d61d91523f1b639",
       "oid": 25389409
@@ -5215,7 +5576,6 @@
       "id_supply": "SKR004",
       "sku": "W1103AD",
       "id_product": "PR28",
-      "family": "Pack Kit de Recarga de Toner",
       "model": "103AD",
       "reference": "Pack de 2 Kits de recarga de tóner original HP Laser 103AD negro (W1103AD)",
       "type": "Estandar",
@@ -5225,6 +5585,7 @@
       "volumen_ml": "null",
       "based": "Polvillo",
       "region": "Latam",
+      "image": "c06378449",
       "upc": 193015553286,
       "indexado": "5d6e6dd64d61d91523f1b73c",
       "oid": 25389517
@@ -5233,7 +5594,6 @@
       "id_supply": "STI001",
       "sku": "W1104A",
       "id_product": "PR24",
-      "family": "Tambor de Creación de Imágenes",
       "model": "104A",
       "reference": "Tambor de creación de imágenes láser original HP 104A negro (W1104A)",
       "type": "Estandar",
@@ -5243,6 +5603,7 @@
       "volumen_ml": "null",
       "based": "Polvillo",
       "region": "Latam",
+      "image": "c06378477",
       "upc": 193015553255,
       "indexado": "5d6e764a4d61d91523f1b777",
       "oid": 25389522
@@ -5251,7 +5612,6 @@
       "id_supply": "SCI001",
       "sku": "M0H50AL",
       "id_product": "PR29",
-      "family": "Cabezal de Impresion",
       "model": "M0H50AL",
       "reference": "Cabezal de impresión HP GT M0H50A de sustitución, tricolor (M0H50AL)",
       "type": "Estandar",
@@ -5261,6 +5621,7 @@
       "volumen_ml": "null",
       "based": "null",
       "region": "Latam",
+      "image": "c06599456",
       "upc": 193905505197,
       "indexado": "62608d9145ffac0063aecac8",
       "oid": 33849401
@@ -5269,7 +5630,6 @@
       "id_supply": "SCI002",
       "sku": "M0H51AL",
       "id_product": "PR29",
-      "family": "Cabezal de Impresion",
       "model": "M0H51AL",
       "reference": "Cabezal de impresión HP GT M0H51A de sustitución, negro (M0H51AL)",
       "type": "Estandar",
@@ -5279,6 +5639,7 @@
       "volumen_ml": "null",
       "based": "null",
       "region": "Latam",
+      "image": "c06599568",
       "upc": 193905505203,
       "indexado": "6213a11f8d853d01de6ffd2c",
       "oid": 33849405
@@ -5287,7 +5648,6 @@
       "id_supply": "SCI003",
       "sku": "3YP86AL",
       "id_product": "PR30",
-      "family": "Kit de Cabezales de impresion",
       "model": "3YP86AL",
       "reference": "Kit de cabezales de impresión HP GT 3YP86AL, negro/tricolor (3YP86AL)",
       "type": "Estandar",
@@ -5297,6 +5657,7 @@
       "volumen_ml": "null",
       "based": "null",
       "region": "Latam",
+      "image": "c06309879",
       "upc": 193808292804,
       "indexado": "62607b144582170027541117",
       "oid": 29191287
@@ -5305,7 +5666,6 @@
       "id_supply": "SCI004",
       "sku": "3YP17AL",
       "id_product": "PR29",
-      "family": "Cabezal de Impresion",
       "model": "3YP17AL",
       "reference": "Cabezal de impresión HP Inktank 3YP17AL de sustitución, tricolor (3YP17AL)",
       "type": "Estandar",
@@ -5315,6 +5675,7 @@
       "volumen_ml": "null",
       "based": "null",
       "region": "Latam",
+      "image": "c08698973",
       "upc": "null",
       "indexado": "null",
       "oid": 2101927998
@@ -5323,7 +5684,6 @@
       "id_supply": "SCI005",
       "sku": "X4E75LA",
       "id_product": "PR29",
-      "family": "Cabezal de Impresion",
       "model": "X4E75LA",
       "reference": "Cabezal de impresión HP Inktank X4E75LA de sustitución, negro (X4E75LA)",
       "type": "Estandar",
@@ -5333,427 +5693,486 @@
       "volumen_ml": "null",
       "based": "null",
       "region": "Latam",
+      "image": "c06599595",
       "upc": 193905578320,
       "indexado": "null",
       "oid": 33849408
+    },
+    {
+      "id_supply": "SBT009",
+      "sku": "X4E44AL",
+      "id_product": "PR27",
+      "model": "GT52",
+      "reference": "Pack de 3 Botellas de Tinta HP GT52 Tricolor Original (X4E44AL)",
+      "type": "Estandar",
+      "quantity": 3,
+      "color": "Color",
+      "yield": 8000,
+      "volumen_ml": 70,
+      "based": "Colorantes",
+      "region": "Latam",
+      "image": "null",
+      "upc": 190781409670,
+      "indexado": "5b2d6c154ecfd7dc13469fd2",
+      "oid": "null"
+    },
+    {
+      "id_supply": "SCL001",
+      "sku": "W1500A",
+      "id_product": "PR21",
+      "model": "150A",
+      "reference": "Cartucho de Tóner Original HP LaserJet 150A negro (W1500A)",
+      "type": "Estandar",
+      "quantity": 1,
+      "color": "Negro",
+      "yield": 975,
+      "volumen_ml": "null",
+      "based": "null",
+      "region": "Latam",
+      "image": "c08647474",
+      "upc": 194850740633,
+      "indexado": "62e859a7e25766006d3fc7aa",
+      "oid": 35832657
     }
   ],
   "compatible": [
     {
       "id_compatible": "CM0001",
       "id_code": "CDN011",
-      "code_name": "Tassel IA",
       "id_supply": "SCT001",
-      "supply": "Cartucho de Tinta 667 Negro",
       "yield_setup": 120
     },
     {
       "id_compatible": "CM0002",
       "id_code": "CDN011",
-      "code_name": "Tassel IA",
       "id_supply": "SCT002",
-      "supply": "Cartucho de Tinta 667 Tricolor",
       "yield_setup": 100
     },
     {
       "id_compatible": "CM0003",
       "id_code": "CDN011",
-      "code_name": "Tassel IA",
       "id_supply": "SCT003",
-      "supply": "Cartucho de Tinta 667XL Negro",
       "yield_setup": "null"
     },
     {
       "id_compatible": "CM0004",
       "id_code": "CDN011",
-      "code_name": "Tassel IA",
       "id_supply": "SCT004",
-      "supply": "Cartucho de Tinta 667XL Tricolor",
       "yield_setup": "null"
     },
     {
       "id_compatible": "CM0005",
       "id_code": "CDN012",
-      "code_name": "Taccola IA",
       "id_supply": "SCT001",
-      "supply": "Cartucho de Tinta 667 Negro",
       "yield_setup": 120
     },
     {
       "id_compatible": "CM0006",
       "id_code": "CDN012",
-      "code_name": "Taccola IA",
       "id_supply": "SCT002",
-      "supply": "Cartucho de Tinta 667 Tricolor",
       "yield_setup": 75
     },
     {
       "id_compatible": "CM0007",
       "id_code": "CDN012",
-      "code_name": "Taccola IA",
       "id_supply": "SCT003",
-      "supply": "Cartucho de Tinta 667XL Negro",
       "yield_setup": "null"
     },
     {
       "id_compatible": "CM0008",
       "id_code": "CDN012",
-      "code_name": "Taccola IA",
       "id_supply": "SCT004",
-      "supply": "Cartucho de Tinta 667XL Tricolor",
       "yield_setup": "null"
     },
     {
       "id_compatible": "CM0009",
       "id_code": "CDN013",
-      "code_name": "Wudang RF AiO",
       "id_supply": "SCT001",
-      "supply": "Cartucho de Tinta 667 Negro",
       "yield_setup": 120
     },
     {
       "id_compatible": "CM0010",
       "id_code": "CDN013",
-      "code_name": "Wudang RF AiO",
       "id_supply": "SCT002",
-      "supply": "Cartucho de Tinta 667 Tricolor",
       "yield_setup": 75
     },
     {
       "id_compatible": "CM0011",
       "id_code": "CDN013",
-      "code_name": "Wudang RF AiO",
       "id_supply": "SCT003",
-      "supply": "Cartucho de Tinta 667XL Negro",
       "yield_setup": "null"
     },
     {
       "id_compatible": "CM0012",
       "id_code": "CDN013",
-      "code_name": "Wudang RF AiO",
       "id_supply": "SCT004",
-      "supply": "Cartucho de Tinta 667XL Tricolor",
       "yield_setup": "null"
     },
     {
       "id_compatible": "CM0013",
       "id_code": "CDN014",
-      "code_name": "Lhasa WL IA",
       "id_supply": "SCT005",
-      "supply": "Cartucho de Tinta 664 Negro",
       "yield_setup": 120
     },
     {
       "id_compatible": "CM0014",
       "id_code": "CDN014",
-      "code_name": "Lhasa WL IA",
       "id_supply": "SCT006",
-      "supply": "Cartucho de Tinta 664 Tricolor",
       "yield_setup": 100
     },
     {
       "id_compatible": "CM0015",
       "id_code": "CDN014",
-      "code_name": "Lhasa WL IA",
       "id_supply": "SCT007",
-      "supply": "Cartucho de Tinta 664XL Negro",
       "yield_setup": "null"
     },
     {
       "id_compatible": "CM0016",
       "id_code": "CDN014",
-      "code_name": "Lhasa WL IA",
       "id_supply": "SCT008",
-      "supply": "Cartucho de Tinta 664XL Tricolor",
       "yield_setup": "null"
     },
     {
       "id_compatible": "CM0017",
       "id_code": "CDN015",
-      "code_name": "Sayan Premiun Plus",
       "id_supply": "SBT002",
-      "supply": "Botella de Tinta GT53 Negro",
       "yield_setup": 6000
     },
     {
       "id_compatible": "CM0018",
       "id_code": "CDN015",
-      "code_name": "Sayan Premiun Plus",
       "id_supply": "SBT003",
-      "supply": "Botella de Tinta GT52 Cian",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0019",
       "id_code": "CDN015",
-      "code_name": "Sayan Premiun Plus",
       "id_supply": "SBT004",
-      "supply": "Botella de Tinta GT52 Magenta",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0020",
       "id_code": "CDN015",
-      "code_name": "Sayan Premiun Plus",
       "id_supply": "SBT005",
-      "supply": "Botella de Tinta GT52 Amarillo",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0021",
       "id_code": "CDN015",
-      "code_name": "Sayan Premiun Plus",
       "id_supply": "SCI004",
-      "supply": "Cabezal de Impresion 3YP17AL Color",
       "yield_setup": 50000
     },
     {
       "id_compatible": "CM0022",
       "id_code": "CDN015",
-      "code_name": "Sayan Premiun Plus",
       "id_supply": "SCI005",
-      "supply": "Cabezal de Impresion X4E75LA Negro",
       "yield_setup": 50000
     },
     {
       "id_compatible": "CM0023",
       "id_code": "CDN016",
-      "code_name": "Sayan ADF",
       "id_supply": "SBT002",
-      "supply": "Botella de Tinta GT53 Negro",
       "yield_setup": 6000
     },
     {
       "id_compatible": "CM0024",
       "id_code": "CDN016",
-      "code_name": "Sayan ADF",
       "id_supply": "SBT003",
-      "supply": "Botella de Tinta GT52 Cian",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0025",
       "id_code": "CDN016",
-      "code_name": "Sayan ADF",
       "id_supply": "SBT004",
-      "supply": "Botella de Tinta GT52 Magenta",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0026",
       "id_code": "CDN016",
-      "code_name": "Sayan ADF",
       "id_supply": "SBT005",
-      "supply": "Botella de Tinta GT52 Amarillo",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0027",
       "id_code": "CDN016",
-      "code_name": "Sayan ADF",
       "id_supply": "SCI004",
-      "supply": "Cabezal de Impresion 3YP17AL Color",
       "yield_setup": 30000
     },
     {
       "id_compatible": "CM0028",
       "id_code": "CDN016",
-      "code_name": "Sayan ADF",
       "id_supply": "SCI005",
-      "supply": "Cabezal de Impresion X4E75LA Negro",
       "yield_setup": 30000
     },
     {
       "id_compatible": "CM0029",
       "id_code": "CDN017",
-      "code_name": "Sayan WL",
       "id_supply": "SBT002",
-      "supply": "Botella de Tinta GT53 Negro",
       "yield_setup": 6000
     },
     {
       "id_compatible": "CM0030",
       "id_code": "CDN017",
-      "code_name": "Sayan WL",
       "id_supply": "SBT003",
-      "supply": "Botella de Tinta GT52 Cian",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0031",
       "id_code": "CDN017",
-      "code_name": "Sayan WL",
       "id_supply": "SBT004",
-      "supply": "Botella de Tinta GT52 Magenta",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0032",
       "id_code": "CDN017",
-      "code_name": "Sayan WL",
       "id_supply": "SBT005",
-      "supply": "Botella de Tinta GT52 Amarillo",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0033",
       "id_code": "CDN017",
-      "code_name": "Sayan WL",
       "id_supply": "SCI004",
-      "supply": "Cabezal de Impresion 3YP17AL Color",
       "yield_setup": 30000
     },
     {
       "id_compatible": "CM0034",
       "id_code": "CDN017",
-      "code_name": "Sayan WL",
       "id_supply": "SCI005",
-      "supply": "Cabezal de Impresion X4E75LA Negro",
       "yield_setup": 30000
     },
     {
       "id_compatible": "CM0035",
       "id_code": "CDN018",
-      "code_name": "Sayan Lite",
       "id_supply": "SBT002",
-      "supply": "Botella de Tinta GT53 Negro",
       "yield_setup": 6000
     },
     {
       "id_compatible": "CM0036",
       "id_code": "CDN018",
-      "code_name": "Sayan Lite",
       "id_supply": "SBT003",
-      "supply": "Botella de Tinta GT52 Cian",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0037",
       "id_code": "CDN018",
-      "code_name": "Sayan Lite",
       "id_supply": "SBT004",
-      "supply": "Botella de Tinta GT52 Magenta",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0038",
       "id_code": "CDN018",
-      "code_name": "Sayan Lite",
       "id_supply": "SBT005",
-      "supply": "Botella de Tinta GT52 Amarillo",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0039",
       "id_code": "CDN018",
-      "code_name": "Sayan Lite",
       "id_supply": "SCI004",
-      "supply": "Cabezal de Impresion 3YP17AL Color",
       "yield_setup": 30000
     },
     {
       "id_compatible": "CM0040",
       "id_code": "CDN018",
-      "code_name": "Sayan Lite",
       "id_supply": "SCI005",
-      "supply": "Cabezal de Impresion X4E75LA Negro",
       "yield_setup": 30000
     },
     {
       "id_compatible": "CM0041",
       "id_code": "CDN019",
-      "code_name": "Poseidon Plus",
       "id_supply": "SBT002",
-      "supply": "Botella de Tinta GT53 Negro",
       "yield_setup": 6000
     },
     {
       "id_compatible": "CM0042",
       "id_code": "CDN019",
-      "code_name": "Poseidon Plus",
       "id_supply": "SBT003",
-      "supply": "Botella de Tinta GT52 Cian",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0043",
       "id_code": "CDN019",
-      "code_name": "Poseidon Plus",
       "id_supply": "SBT004",
-      "supply": "Botella de Tinta GT52 Magenta",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0044",
       "id_code": "CDN019",
-      "code_name": "Poseidon Plus",
       "id_supply": "SBT005",
-      "supply": "Botella de Tinta GT52 Amarillo",
       "yield_setup": 8000
     },
     {
       "id_compatible": "CM0045",
       "id_code": "CDN019",
-      "code_name": "Poseidon Plus",
       "id_supply": "SCI001",
-      "supply": "Cabezal de Impresion M0H50AL Color",
       "yield_setup": 30000
     },
     {
       "id_compatible": "CM0046",
       "id_code": "CDN019",
-      "code_name": "Poseidon Plus",
       "id_supply": "SCI005",
-      "supply": "Cabezal de Impresion X4E75LA Negro",
       "yield_setup": 30000
     },
     {
       "id_compatible": "CM0047",
       "id_code": "CDN020",
-      "code_name": "LEBI WL",
       "id_supply": "SBT002",
-      "supply": "Botella de Tinta GT53 Negro",
       "yield_setup": 6000
     },
     {
       "id_compatible": "CM0048",
       "id_code": "CDN020",
-      "code_name": "LEBI WL",
       "id_supply": "SBT003",
-      "supply": "Botella de Tinta GT52 Cian",
       "yield_setup": 6000
     },
     {
       "id_compatible": "CM0049",
       "id_code": "CDN020",
-      "code_name": "LEBI WL",
       "id_supply": "SBT004",
-      "supply": "Botella de Tinta GT52 Magenta",
       "yield_setup": 6000
     },
     {
       "id_compatible": "CM0050",
       "id_code": "CDN020",
-      "code_name": "LEBI WL",
       "id_supply": "SBT005",
-      "supply": "Botella de Tinta GT52 Amarillo",
       "yield_setup": 6000
     },
     {
       "id_compatible": "CM0051",
       "id_code": "CDN020",
-      "code_name": "LEBI WL",
       "id_supply": "SCI001",
-      "supply": "Cabezal de Impresion M0H50AL Color",
       "yield_setup": 30000
     },
     {
       "id_compatible": "CM0052",
       "id_code": "CDN020",
-      "code_name": "LEBI WL",
       "id_supply": "SCI005",
-      "supply": "Cabezal de Impresion X4E75LA Negro",
       "yield_setup": 30000
+    },
+    {
+      "id_compatible": "CM0053",
+      "id_code": "CDN021",
+      "id_supply": "SBT002",
+      "yield_setup": 6000
+    },
+    {
+      "id_compatible": "CM0054",
+      "id_code": "CDN021",
+      "id_supply": "SBT003",
+      "yield_setup": 8000
+    },
+    {
+      "id_compatible": "CM0055",
+      "id_code": "CDN021",
+      "id_supply": "SBT004",
+      "yield_setup": 8000
+    },
+    {
+      "id_compatible": "CM0056",
+      "id_code": "CDN021",
+      "id_supply": "SBT005",
+      "yield_setup": 8000
+    },
+    {
+      "id_compatible": "CM0057",
+      "id_code": "CDN021",
+      "id_supply": "SCI001",
+      "yield_setup": 30000
+    },
+    {
+      "id_compatible": "CM0058",
+      "id_code": "CDN021",
+      "id_supply": "SCI005",
+      "yield_setup": 30000
+    },
+    {
+      "id_compatible": "CM0059",
+      "id_code": "CDN022",
+      "id_supply": "SBT002",
+      "yield_setup": 6000
+    },
+    {
+      "id_compatible": "CM0060",
+      "id_code": "CDN022",
+      "id_supply": "SBT003",
+      "yield_setup": 8000
+    },
+    {
+      "id_compatible": "CM0061",
+      "id_code": "CDN022",
+      "id_supply": "SBT004",
+      "yield_setup": 8000
+    },
+    {
+      "id_compatible": "CM0062",
+      "id_code": "CDN022",
+      "id_supply": "SBT005",
+      "yield_setup": 8000
+    },
+    {
+      "id_compatible": "CM0063",
+      "id_code": "CDN022",
+      "id_supply": "SCI001",
+      "yield_setup": 30000
+    },
+    {
+      "id_compatible": "CM0064",
+      "id_code": "CDN022",
+      "id_supply": "SCI005",
+      "yield_setup": 30000
+    },
+    {
+      "id_compatible": "CM0065",
+      "id_code": "CDN023",
+      "id_supply": "SBT002",
+      "yield_setup": 6000
+    },
+    {
+      "id_compatible": "CM0066",
+      "id_code": "CDN023",
+      "id_supply": "SBT003",
+      "yield_setup": 8000
+    },
+    {
+      "id_compatible": "CM0067",
+      "id_code": "CDN023",
+      "id_supply": "SBT004",
+      "yield_setup": 8000
+    },
+    {
+      "id_compatible": "CM0068",
+      "id_code": "CDN023",
+      "id_supply": "SBT005",
+      "yield_setup": 8000
+    },
+    {
+      "id_compatible": "CM0069",
+      "id_code": "CDN023",
+      "id_supply": "SCI001",
+      "yield_setup": 30000
+    },
+    {
+      "id_compatible": "CM0070",
+      "id_code": "CDN023",
+      "id_supply": "SCI005",
+      "yield_setup": 30000
+    },
+    {
+      "id_compatible": "CM0071",
+      "id_code": "CDN024",
+      "id_supply": "SCL001",
+      "yield_setup": 500
+    },
+    {
+      "id_compatible": "CM0072",
+      "id_code": "CDN025",
+      "id_supply": "SCL001",
+      "yield_setup": 500
+    },
+    {
+      "id_compatible": "CM0073",
+      "id_code": "CDN026",
+      "id_supply": "SCL001",
+      "yield_setup": 500
     }
   ],
   "retail": [

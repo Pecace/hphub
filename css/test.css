@@ -4,7 +4,7 @@ body {
     background-color: #f5f5f5;
 }
 .container {
-    max-width: 1200px;
+    max-width: 90%;
     margin: 0 auto;
 }
 .filters {
@@ -51,7 +51,79 @@ th {
     background-color: #f8f9fa;
 }
 
+td {
+    justify-content: center;
+}
+
+.clear-button {
+    background-color: #dc3545;
+}
+.clear-button:hover {
+    background-color: #c82333;
+}
+
+/* image in table */
 td img {
     width: 100x;
     height: 100px;
+}
+
+/* Image */
+.imgpr {
+    width: auto;
+    height: 100px;
+    border-radius: 45%;
+}
+
+/* filter group */
+.filter-group {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filter-group select,
+.filter-group input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-width: 200px;
+}
+
+/* Several images in div */
+.divimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Alinea imágenes al centro */
+}
+
+.imgwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.imgwrapper img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.imgwrapper label {
+    margin-top: 5px;
+}
+
+/* div + icon */
+
+.divicon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Alinea imágenes al centro */
+}
+
+.divicon img {
+    width: 20px;
+    height: 20px;
 }
