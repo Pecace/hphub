@@ -395,6 +395,16 @@
       "id_code": "CDN026",
       "code_name": "Kay",
       "id_product": "PR14"
+    },
+    {
+      "id_code": "CDN027",
+      "code_name": "Eddington STND",
+      "id_product": "PR12"
+    },
+    {
+      "id_code": "CDN028",
+      "code_name": "Marconi Hi STND",
+      "id_product": "PR12"
     }
   ],
   "pc": [
@@ -2109,120 +2119,162 @@
       "id_connection": "CN0033",
       "id_code": "CDN026",
       "id_port": "PT012"
+    },
+    {
+      "id_connection": "CN0034",
+      "id_code": "CDN027",
+      "id_port": "PT033"
+    },
+    {
+      "id_connection": "CN0035",
+      "id_code": "CDN027",
+      "id_port": "PT016"
+    },
+    {
+      "id_connection": "CN0036",
+      "id_code": "CDN027",
+      "id_port": "PT012"
+    },
+    {
+      "id_connection": "CN0037",
+      "id_code": "CDN028",
+      "id_port": "PT033"
+    },
+    {
+      "id_connection": "CN0038",
+      "id_code": "CDN028",
+      "id_port": "PT016"
+    },
+    {
+      "id_connection": "CN0039",
+      "id_code": "CDN028",
+      "id_port": "PT032"
+    },
+    {
+      "id_connection": "CN0040",
+      "id_code": "CDN028",
+      "id_port": "PT012"
     }
   ],
   "software": [
     {
       "id_software": "SF001",
       "name": "Windows",
-      "number": 11,
+      "number": "11",
       "type": "OS",
       "code": "Windows 11"
     },
     {
       "id_software": "SF002",
       "name": "Windows",
-      "number": 10,
+      "number": "10",
       "type": "OS",
       "code": "Windows 10"
     },
     {
       "id_software": "SF003",
       "name": "Windows",
-      "number": 8,
+      "number": "8",
       "type": "OS",
       "code": "Windows 8"
     },
     {
       "id_software": "SF004",
       "name": "Windows",
-      "number": 7,
+      "number": "7",
       "type": "OS",
       "code": "Windows 7"
     },
     {
       "id_software": "SF005",
       "name": "Linux",
-      "number": 0,
+      "number": "0",
       "type": "OS",
       "code": "Linux"
     },
     {
       "id_software": "SF006",
       "name": "Chrome",
-      "number": 0,
+      "number": "0",
       "type": "OS",
       "code": "Chrome OS"
     },
     {
       "id_software": "SF007",
       "name": "Mac",
-      "number": 10.11,
+      "number": "10.11",
       "type": "OS",
       "code": "El Capitan"
     },
     {
       "id_software": "SF008",
       "name": "Mac",
-      "number": 10.12,
+      "number": "10.12",
       "type": "OS",
       "code": "Sierra"
     },
     {
       "id_software": "SF009",
       "name": "Mac",
-      "number": 10.13,
+      "number": "10.13",
       "type": "OS",
       "code": "High Sierra"
     },
     {
       "id_software": "SF010",
       "name": "Mac",
-      "number": 10.14,
+      "number": "10.14",
       "type": "OS",
       "code": "Mojave"
     },
     {
       "id_software": "SF011",
       "name": "Mac",
-      "number": 10.15,
+      "number": "10.15",
       "type": "OS",
       "code": "Catalina"
     },
     {
       "id_software": "SF012",
       "name": "Mac",
-      "number": 11,
+      "number": "11",
       "type": "OS",
       "code": "Big Sur"
     },
     {
       "id_software": "SF013",
       "name": "Mac",
-      "number": 12,
+      "number": "12",
       "type": "OS",
       "code": "Monterey"
     },
     {
       "id_software": "SF014",
       "name": "Mac",
-      "number": 13,
+      "number": "13",
       "type": "OS",
       "code": "Ventura"
     },
     {
       "id_software": "SF015",
       "name": "Mac",
-      "number": 14,
+      "number": "14",
       "type": "OS",
       "code": "Sonoma"
     },
     {
       "id_software": "SF016",
       "name": "Mac",
-      "number": 15,
+      "number": "15",
       "type": "OS",
       "code": "Sequoia"
+    },
+    {
+      "id_software": "SF017",
+      "name": "Windows",
+      "number": "0",
+      "type": "Server",
+      "code": "Windows Server"
     }
   ],
   "software_cm": [
@@ -2825,6 +2877,91 @@
       "id_softwarecm": "SCM0120",
       "id_code": "CDN026",
       "id_software": "SF005"
+    },
+    {
+      "id_softwarecm": "SCM0121",
+      "id_code": "CDN027",
+      "id_software": "SF001"
+    },
+    {
+      "id_softwarecm": "SCM0122",
+      "id_code": "CDN027",
+      "id_software": "SF002"
+    },
+    {
+      "id_softwarecm": "SCM0123",
+      "id_code": "CDN027",
+      "id_software": "SF012"
+    },
+    {
+      "id_softwarecm": "SCM0124",
+      "id_code": "CDN027",
+      "id_software": "SF013"
+    },
+    {
+      "id_softwarecm": "SCM0125",
+      "id_code": "CDN027",
+      "id_software": "SF014"
+    },
+    {
+      "id_softwarecm": "SCM0126",
+      "id_code": "CDN027",
+      "id_software": "SF015"
+    },
+    {
+      "id_softwarecm": "SCM0127",
+      "id_code": "CDN027",
+      "id_software": "SF005"
+    },
+    {
+      "id_softwarecm": "SCM0128",
+      "id_code": "CDN027",
+      "id_software": "SF006"
+    },
+    {
+      "id_softwarecm": "SCM0129",
+      "id_code": "CDN028",
+      "id_software": "SF001"
+    },
+    {
+      "id_softwarecm": "SCM0130",
+      "id_code": "CDN028",
+      "id_software": "SF002"
+    },
+    {
+      "id_softwarecm": "SCM0131",
+      "id_code": "CDN028",
+      "id_software": "SF017"
+    },
+    {
+      "id_softwarecm": "SCM0132",
+      "id_code": "CDN028",
+      "id_software": "SF012"
+    },
+    {
+      "id_softwarecm": "SCM0133",
+      "id_code": "CDN028",
+      "id_software": "SF013"
+    },
+    {
+      "id_softwarecm": "SCM0134",
+      "id_code": "CDN028",
+      "id_software": "SF014"
+    },
+    {
+      "id_softwarecm": "SCM0135",
+      "id_code": "CDN028",
+      "id_software": "SF015"
+    },
+    {
+      "id_softwarecm": "SCM0136",
+      "id_code": "CDN028",
+      "id_software": "SF005"
+    },
+    {
+      "id_softwarecm": "SCM0137",
+      "id_code": "CDN028",
+      "id_software": "SF006"
     }
   ],
   "printer": [
@@ -2837,9 +2974,10 @@
       "color": "blanco con gris",
       "black_setup": "null",
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "october",
       "year": 2023,
+      "datasheet": "",
       "image": "c08943259",
       "upc": 196337380066,
       "indexado": "654390f1e1cddb077b3749e8",
@@ -2854,9 +2992,10 @@
       "color": "negro",
       "black_setup": "null",
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "october",
       "year": 2023,
+      "datasheet": "",
       "image": "c08727687",
       "upc": 196337821095,
       "indexado": "65fc4ab506cbb206c3a5ff9d",
@@ -2871,9 +3010,10 @@
       "color": "blanco con gris",
       "black_setup": "null",
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "june",
       "year": 2020,
+      "datasheet": "",
       "image": "c08644861",
       "upc": 194441901856,
       "indexado": "5ecc01da00a599d5640c38c4",
@@ -2888,9 +3028,10 @@
       "color": "negro",
       "black_setup": "null",
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "december",
       "year": 2021,
+      "datasheet": "",
       "image": "c08813517",
       "upc": 196337690080,
       "indexado": "61d389c61060d10027aab2cf",
@@ -2905,9 +3046,10 @@
       "color": "blanco con verde",
       "black_setup": "null",
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "april",
       "year": 2020,
+      "datasheet": "",
       "image": "c08811814",
       "upc": 194721097897,
       "indexado": "5ecc03c400a599d5640c38d3",
@@ -2922,9 +3064,10 @@
       "color": "blanco",
       "black_setup": "null",
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "april",
       "year": 2020,
+      "datasheet": "",
       "image": "c09068061",
       "upc": 194721097934,
       "indexado": "622b6ef5ad5cfa016c858f68",
@@ -2939,9 +3082,10 @@
       "color": "blanco con azul",
       "black_setup": "null",
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "august",
       "year": 2016,
+      "datasheet": "",
       "image": "c05248667",
       "upc": 889894785558,
       "indexado": "57c093c6d87f178d358c00d6",
@@ -2956,9 +3100,10 @@
       "color": "blanco con negro",
       "black_setup": 2,
       "warranty": 2,
-      "region": "Latam",
+      "region": "latam",
       "month": "october",
       "year": 2021,
+      "datasheet": "",
       "image": "c08564123",
       "upc": 195908302926,
       "indexado": "61785ee877ae7f223bd14bdf",
@@ -2973,9 +3118,10 @@
       "color": "blanco con negro",
       "black_setup": 2,
       "warranty": 2,
-      "region": "Latam",
+      "region": "latam",
       "month": "september",
       "year": 2021,
+      "datasheet": "",
       "image": "c08565803",
       "upc": 195908303183,
       "indexado": "61781ba26a66b91870ec91e8",
@@ -2990,9 +3136,10 @@
       "color": "blanco con negro",
       "black_setup": 2,
       "warranty": 2,
-      "region": "Latam",
+      "region": "latam",
       "month": "october",
       "year": 2021,
+      "datasheet": "",
       "image": "c08577789",
       "upc": 195908303053,
       "indexado": "61786cd42f0f611e275deda0",
@@ -3007,9 +3154,10 @@
       "color": "blanco con negro",
       "black_setup": 2,
       "warranty": 2,
-      "region": "Latam",
+      "region": "latam",
       "month": "september",
       "year": 2021,
+      "datasheet": "",
       "image": "c08560583",
       "upc": 195908303244,
       "indexado": "61785a8d2f0f611e275ded9d",
@@ -3024,9 +3172,10 @@
       "color": "blanco con negro",
       "black_setup": 2,
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "june",
       "year": 2019,
+      "datasheet": "",
       "image": "c08577515",
       "upc": 192545948234,
       "indexado": "5d166faa2397931f946603c2",
@@ -3041,9 +3190,10 @@
       "color": "blanco con azul",
       "black_setup": 2,
       "warranty": 2,
-      "region": "Latam",
+      "region": "latam",
       "month": "november",
       "year": 2022,
+      "datasheet": "",
       "image": "c08433165",
       "upc": 196548866854,
       "indexado": "6419ccb56a2e4a005a99ee02",
@@ -3058,9 +3208,10 @@
       "color": "blanco con portobello",
       "black_setup": 1,
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "february",
       "year": 2023,
+      "datasheet": "",
       "image": "c08900711",
       "upc": 196548867035,
       "indexado": "653985c78877990534780c3b",
@@ -3075,9 +3226,10 @@
       "color": "negro",
       "black_setup": 2,
       "warranty": 2,
-      "region": "Latam",
+      "region": "latam",
       "month": "march",
       "year": 2023,
+      "datasheet": "",
       "image": "c08491630",
       "upc": 196548993154,
       "indexado": "642de0f6a42e4000279e3cc1",
@@ -3092,9 +3244,10 @@
       "color": "blanco con gris",
       "black_setup": 2,
       "warranty": 2,
-      "region": "Latam",
+      "region": "latam",
       "month": "november",
       "year": 2022,
+      "datasheet": "",
       "image": "c08432895",
       "upc": 196548866786,
       "indexado": "63935b00f9194501969a272d",
@@ -3109,9 +3262,10 @@
       "color": "blanco con negro",
       "black_setup": 2,
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "june",
       "year": 2020,
+      "datasheet": "",
       "image": "c08901042",
       "upc": 194850174063,
       "indexado": "61f17e3026207900ef9421da",
@@ -3126,9 +3280,10 @@
       "color": "blanco con negro",
       "black_setup": 2,
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "june",
       "year": 2020,
+      "datasheet": "",
       "image": "c08952693",
       "upc": 194850174049,
       "indexado": "5f2081414f068fcb0b8a9b9d",
@@ -3143,9 +3298,10 @@
       "color": "negro",
       "black_setup": 2,
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "august",
       "year": 2019,
+      "datasheet": "",
       "image": "c08565927",
       "upc": 193424413508,
       "indexado": "5d27b64960676adbc59cbfe0",
@@ -3160,9 +3316,10 @@
       "color": "blanco con azul",
       "black_setup": 2,
       "warranty": 2,
-      "region": "Latam",
+      "region": "latam",
       "month": "november",
       "year": 2022,
+      "datasheet": "",
       "image": "c08432684",
       "upc": 196548866724,
       "indexado": "6419cc6ee850580079be95a6",
@@ -3177,9 +3334,10 @@
       "color": "blanco con portobello",
       "black_setup": 1,
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "november",
       "year": 2023,
+      "datasheet": "",
       "image": "c08744798",
       "upc": 197498249704,
       "indexado": "65439d09e1cddb077b3749ea",
@@ -3194,9 +3352,10 @@
       "color": "blanco con gris",
       "black_setup": 2,
       "warranty": 2,
-      "region": "Latam",
+      "region": "latam",
       "month": "november",
       "year": 2022,
+      "datasheet": "",
       "image": "c08433195",
       "upc": 196548866687,
       "indexado": "63935ae04da426027dcd4b69",
@@ -3211,9 +3370,10 @@
       "color": "blanco con negro",
       "black_setup": 2,
       "warranty": 2,
-      "region": "Latam",
+      "region": "latam",
       "month": "march",
       "year": 2023,
+      "datasheet": "",
       "image": "c09047129",
       "upc": 196786546044,
       "indexado": "63d29bb9c54c0d0209958dad",
@@ -3228,9 +3388,10 @@
       "color": "blanco",
       "black_setup": 1,
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "december",
       "year": 2021,
+      "datasheet": "",
       "image": "c07836461",
       "upc": 194850677434,
       "indexado": "6400d3223c56630028c20ff0",
@@ -3245,9 +3406,10 @@
       "color": "blanco",
       "black_setup": 1,
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "october",
       "year": 2021,
+      "datasheet": "",
       "image": "c08568918",
       "upc": 194850677083,
       "indexado": "6400e98f51b508002f8dda7f",
@@ -3262,13 +3424,50 @@
       "color": "blanco",
       "black_setup": 1,
       "warranty": 1,
-      "region": "Latam",
+      "region": "latam",
       "month": "october",
       "year": 2021,
+      "datasheet": "",
       "image": "c08569171",
       "upc": 197029688156,
       "indexado": "65fd7b8a053d8500c4b2806e",
       "oid": 34443748
+    },
+    {
+      "Id_printer": "POP001",
+      "sku": "537P5C",
+      "id_code": "CDN027",
+      "model": 9730,
+      "reference": "Impresora Todo-en-Uno HP OfficeJet Pro 9730 de formato ancho (537P5C)",
+      "color": "blanco",
+      "black_setup": 1,
+      "warranty": 1,
+      "region": "latam",
+      "month": "december",
+      "year": 2023,
+      "datasheet": "537P5C_HP%20OfficeJet%20Pro%209730%20Wide%20Format%20All-in-One%20Printer_LAR_SPL_D01.pdf",
+      "image": "c08874498",
+      "upc": 196337487888,
+      "indexado": "6582ff565c18521940f03a84",
+      "oid": 2101505631
+    },
+    {
+      "Id_printer": "POP002",
+      "sku": "404K5C",
+      "id_code": "CDN028",
+      "model": 9130,
+      "reference": "HP Office Jet Pro 9130 (404K5C)",
+      "color": "blanco con gris",
+      "black_setup": 1,
+      "warranty": 1,
+      "region": "latam",
+      "month": "january",
+      "year": 2024,
+      "datasheet": "null",
+      "image": "c08787430",
+      "upc": 196337284906,
+      "indexado": "null",
+      "oid": 2101420726
     }
   ],
   "code_pr": [
@@ -3284,6 +3483,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "manual",
+      "print_duplex_size": "null",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "no",
@@ -3293,6 +3493,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
+      "self_heal": "no",
       "direct": "si",
       "front_usb": "no",
       "volume_min": 50,
@@ -3307,6 +3508,7 @@
       "copy_id": "no",
       "input_tray": 60,
       "output_tray": 25,
+      "trays_input": 1,
       "widht_mm": 425,
       "depth_mm": 304,
       "height_mm": 154,
@@ -3325,6 +3527,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "manual",
+      "print_duplex_size": "null",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "no",
@@ -3334,6 +3537,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
+      "self_heal": "no",
       "direct": "si",
       "front_usb": "no",
       "volume_min": 50,
@@ -3348,6 +3552,7 @@
       "copy_id": "no",
       "input_tray": 60,
       "output_tray": 25,
+      "trays_input": 1,
       "widht_mm": 425,
       "depth_mm": 304,
       "height_mm": 154,
@@ -3366,6 +3571,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "manual",
+      "print_duplex_size": "null",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "no",
@@ -3375,6 +3581,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "no",
+      "self_heal": "no",
       "direct": "no",
       "front_usb": "no",
       "volume_min": 50,
@@ -3389,6 +3596,7 @@
       "copy_id": "no",
       "input_tray": 60,
       "output_tray": 25,
+      "trays_input": 1,
       "widht_mm": 425,
       "depth_mm": 304,
       "height_mm": 149,
@@ -3407,6 +3615,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "manual",
+      "print_duplex_size": "null",
       "flatbed": "no",
       "flatbed_size": "null",
       "adf": "si",
@@ -3416,6 +3625,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
+      "self_heal": "no",
       "direct": "si",
       "front_usb": "no",
       "volume_min": 50,
@@ -3430,6 +3640,7 @@
       "copy_id": "no",
       "input_tray": 60,
       "output_tray": 25,
+      "trays_input": 1,
       "widht_mm": 403,
       "depth_mm": 177,
       "height_mm": 141,
@@ -3448,6 +3659,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "automatica",
+      "print_duplex_size": "carta",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "si",
@@ -3457,6 +3669,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
+      "self_heal": "no",
       "direct": "si",
       "front_usb": "si",
       "volume_min": 400,
@@ -3471,6 +3684,7 @@
       "copy_id": "si",
       "input_tray": 250,
       "output_tray": 100,
+      "trays_input": 1,
       "widht_mm": 427,
       "depth_mm": 364,
       "height_mm": 240,
@@ -3489,6 +3703,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "automatica",
+      "print_duplex_size": "carta",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "si",
@@ -3498,6 +3713,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
+      "self_heal": "no",
       "direct": "si",
       "front_usb": "no",
       "volume_min": 400,
@@ -3512,6 +3728,7 @@
       "copy_id": "si",
       "input_tray": 250,
       "output_tray": 100,
+      "trays_input": 1,
       "widht_mm": 427,
       "depth_mm": 364,
       "height_mm": 240,
@@ -3530,6 +3747,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "automatica",
+      "print_duplex_size": "carta",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "no",
@@ -3539,6 +3757,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
+      "self_heal": "no",
       "direct": "si",
       "front_usb": "no",
       "volume_min": 400,
@@ -3553,6 +3772,7 @@
       "copy_id": "si",
       "input_tray": 250,
       "output_tray": 100,
+      "trays_input": 1,
       "widht_mm": 427,
       "depth_mm": 364,
       "height_mm": 198,
@@ -3571,6 +3791,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "automatica",
+      "print_duplex_size": "carta",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "no",
@@ -3580,6 +3801,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
+      "self_heal": "no",
       "direct": "si",
       "front_usb": "no",
       "volume_min": 400,
@@ -3594,6 +3816,7 @@
       "copy_id": "no",
       "input_tray": 150,
       "output_tray": 100,
+      "trays_input": 1,
       "widht_mm": 427,
       "depth_mm": 364,
       "height_mm": 198,
@@ -3612,6 +3835,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "manual",
+      "print_duplex_size": "null",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "si",
@@ -3621,6 +3845,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
+      "self_heal": "no",
       "direct": "si",
       "front_usb": "no",
       "volume_min": 400,
@@ -3635,6 +3860,7 @@
       "copy_id": "si",
       "input_tray": 100,
       "output_tray": 30,
+      "trays_input": 1,
       "widht_mm": 449,
       "depth_mm": 373,
       "height_mm": 198,
@@ -3653,6 +3879,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "manual",
+      "print_duplex_size": "null",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "no",
@@ -3662,6 +3889,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
+      "self_heal": "si",
       "direct": "si",
       "front_usb": "no",
       "volume_min": 400,
@@ -3676,6 +3904,7 @@
       "copy_id": "si",
       "input_tray": 100,
       "output_tray": 30,
+      "trays_input": 1,
       "widht_mm": 434,
       "depth_mm": 361,
       "height_mm": 157,
@@ -3694,6 +3923,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "manual",
+      "print_duplex_size": "null",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "si",
@@ -3703,6 +3933,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "si",
+      "self_heal": "no",
       "direct": "si",
       "front_usb": "no",
       "volume_min": 400,
@@ -3717,6 +3948,7 @@
       "copy_id": "si",
       "input_tray": 100,
       "output_tray": 30,
+      "trays_input": 1,
       "widht_mm": 449,
       "depth_mm": 373,
       "height_mm": 198,
@@ -3735,6 +3967,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "manual",
+      "print_duplex_size": "null",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "no",
@@ -3744,6 +3977,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "1200 x 1200",
       "wireless": "no",
+      "self_heal": "no",
       "direct": "no",
       "front_usb": "no",
       "volume_min": 400,
@@ -3758,6 +3992,7 @@
       "copy_id": "si",
       "input_tray": 100,
       "output_tray": 30,
+      "trays_input": 1,
       "widht_mm": 434,
       "depth_mm": 361,
       "height_mm": 157,
@@ -3776,6 +4011,7 @@
       "print_resolution_black_ppp": "1200 x 1200",
       "print_resolution_color_ppp": "4800 x 1200",
       "print_duplex": "manual",
+      "print_duplex_size": "null",
       "flatbed": "no",
       "flatbed_size": "null",
       "adf": "no",
@@ -3785,6 +4021,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "null",
       "wireless": "si",
+      "self_heal": "si",
       "direct": "si",
       "front_usb": "no",
       "volume_min": 400,
@@ -3799,6 +4036,7 @@
       "copy_id": "no",
       "input_tray": 100,
       "output_tray": 30,
+      "trays_input": 1,
       "widht_mm": 434,
       "depth_mm": 360,
       "height_mm": 134,
@@ -3817,6 +4055,7 @@
       "print_resolution_black_ppp": "600 x 600",
       "print_resolution_color_ppp": "null",
       "print_duplex": "no",
+      "print_duplex_size": "null",
       "flatbed": "si",
       "flatbed_size": "carta",
       "adf": "no",
@@ -3826,6 +4065,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": 600,
       "wireless": "si",
+      "self_heal": "no",
       "direct": "no",
       "front_usb": "no",
       "volume_min": 100,
@@ -3840,6 +4080,7 @@
       "copy_id": "si",
       "input_tray": 150,
       "output_tray": 100,
+      "trays_input": 1,
       "widht_mm": 360,
       "depth_mm": 264,
       "height_mm": 197,
@@ -3858,6 +4099,7 @@
       "print_resolution_black_ppp": "600 x 600",
       "print_resolution_color_ppp": "null",
       "print_duplex": "no",
+      "print_duplex_size": "null",
       "flatbed": "no",
       "flatbed_size": "null",
       "adf": "no",
@@ -3867,6 +4109,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "null",
       "wireless": "si",
+      "self_heal": "no",
       "direct": "no",
       "front_usb": "no",
       "volume_min": 100,
@@ -3881,6 +4124,7 @@
       "copy_id": "no",
       "input_tray": 150,
       "output_tray": 100,
+      "trays_input": 1,
       "widht_mm": 346,
       "depth_mm": 189,
       "height_mm": 159,
@@ -3899,6 +4143,7 @@
       "print_resolution_black_ppp": "600 x 600",
       "print_resolution_color_ppp": "null",
       "print_duplex": "no",
+      "print_duplex_size": "null",
       "flatbed": "no",
       "flatbed_size": "null",
       "adf": "no",
@@ -3908,6 +4153,7 @@
       "scan_duplex_size": "null",
       "scan_resolution_ppi": "null",
       "wireless": "no",
+      "self_heal": "no",
       "direct": "no",
       "front_usb": "no",
       "volume_min": 100,
@@ -3922,11 +4168,100 @@
       "copy_id": "no",
       "input_tray": 150,
       "output_tray": 100,
+      "trays_input": 1,
       "widht_mm": 346,
       "depth_mm": 189,
       "height_mm": 159,
       "depth_tray_mm": 0,
       "height_tray_mm": 0
+    },
+    {
+      "id_codepr": "CPR017",
+      "id_code": "CDN027",
+      "tecnology": "tij",
+      "chromatic": "si",
+      "function": "multifuncional",
+      "id_size": "SZ013",
+      "weight": 105,
+      "borderless": "a3",
+      "print_resolution_black_ppp": "1200 x 1200",
+      "print_resolution_color_ppp": "4800 x 1200",
+      "print_duplex": "automatica",
+      "print_duplex_size": "a3",
+      "flatbed": "si",
+      "flatbed_size": "a3",
+      "adf": "si",
+      "adf_size": "legal",
+      "adf_capacity": 35,
+      "scan_duplex": "si",
+      "scan_duplex_size": "carta",
+      "scan_resolution_ppi": "1200 x 1200",
+      "wireless": "si",
+      "self_heal": "si",
+      "direct": "si",
+      "front_usb": "si",
+      "volume_min": 250,
+      "volume_max": 1500,
+      "cycle": 30000,
+      "speed_print_black_ppm": 22,
+      "speed_draft_black_ppm": 34,
+      "speed_print_color_ppm": 18,
+      "speed_draft_color_ppm": 34,
+      "memory_mb": 512,
+      "users": 5,
+      "copy_id": "si",
+      "input_tray": 500,
+      "output_tray": 75,
+      "trays_input": 2,
+      "widht_mm": 581,
+      "depth_mm": 467,
+      "height_mm": 386,
+      "depth_tray_mm": 842,
+      "height_tray_mm": 386
+    },
+    {
+      "id_codepr": "CPR018",
+      "id_code": "CDN028",
+      "tecnology": "tij",
+      "chromatic": "si",
+      "function": "multifuncional",
+      "id_size": "SZ004",
+      "weight": 105,
+      "borderless": "carta",
+      "print_resolution_black_ppp": "1200 x 1200",
+      "print_resolution_color_ppp": "4800 x 1200",
+      "print_duplex": "automatica",
+      "print_duplex_size": "carta",
+      "flatbed": "si",
+      "flatbed_size": "carta",
+      "adf": "si",
+      "adf_size": "legal",
+      "adf_capacity": 35,
+      "scan_duplex": "si",
+      "scan_duplex_size": "carta",
+      "scan_resolution_ppi": "1200 x 1200",
+      "wireless": "si",
+      "self_heal": "si",
+      "direct": "si",
+      "front_usb": "si",
+      "volume_min": "null",
+      "volume_max": 2000,
+      "cycle": 30000,
+      "speed_print_black_ppm": 25,
+      "speed_draft_black_ppm": 39,
+      "speed_print_color_ppm": 20,
+      "speed_draft_color_ppm": 39,
+      "memory_mb": 512,
+      "users": 5,
+      "copy_id": "si",
+      "input_tray": 500,
+      "output_tray": 100,
+      "trays_input": 2,
+      "widht_mm": 437,
+      "depth_mm": 396,
+      "height_mm": 318,
+      "depth_tray_mm": 421,
+      "height_tray_mm": 318
     }
   ],
   "paper": [
@@ -3976,382 +4311,417 @@
       "weight_max_gm": 90
     },
     {
-      "id_weight": "WG0003",
+      "id_weight": "WG0002",
       "id_code": "CDN011",
       "id_paper": "PP003",
       "weight_min_gm": 75,
       "weight_max_gm": 90
     },
     {
-      "id_weight": "WG0004",
+      "id_weight": "WG0003",
       "id_code": "CDN011",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0005",
+      "id_weight": "WG0004",
       "id_code": "CDN011",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 300
     },
     {
-      "id_weight": "WG0006",
+      "id_weight": "WG0005",
       "id_code": "CDN012",
       "id_paper": "PP001",
       "weight_min_gm": 60,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0006",
+      "id_code": "CDN012",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
       "weight_max_gm": 90
     },
     {
       "id_weight": "WG0007",
       "id_code": "CDN012",
-      "id_paper": "PP003",
-      "weight_min_gm": 75,
-      "weight_max_gm": 90
-    },
-    {
-      "id_weight": "WG0008",
-      "id_code": "CDN012",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0009",
+      "id_weight": "WG0008",
       "id_code": "CDN012",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 300
     },
     {
-      "id_weight": "WG0010",
+      "id_weight": "WG0009",
       "id_code": "CDN013",
       "id_paper": "PP001",
       "weight_min_gm": 60,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0010",
+      "id_code": "CDN013",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
       "weight_max_gm": 90
     },
     {
       "id_weight": "WG0011",
       "id_code": "CDN013",
-      "id_paper": "PP003",
-      "weight_min_gm": 75,
-      "weight_max_gm": 90
-    },
-    {
-      "id_weight": "WG0012",
-      "id_code": "CDN013",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0013",
+      "id_weight": "WG0012",
       "id_code": "CDN013",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 300
     },
     {
-      "id_weight": "WG0014",
+      "id_weight": "WG0013",
       "id_code": "CDN014",
       "id_paper": "PP001",
       "weight_min_gm": 60,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0014",
+      "id_code": "CDN014",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
       "weight_max_gm": 90
     },
     {
       "id_weight": "WG0015",
       "id_code": "CDN014",
-      "id_paper": "PP003",
-      "weight_min_gm": 75,
-      "weight_max_gm": 90
-    },
-    {
-      "id_weight": "WG0016",
-      "id_code": "CDN014",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0017",
+      "id_weight": "WG0016",
       "id_code": "CDN014",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 300
     },
     {
-      "id_weight": "WG0018",
+      "id_weight": "WG0017",
       "id_code": "CDN015",
       "id_paper": "PP001",
       "weight_min_gm": 60,
       "weight_max_gm": 105
+    },
+    {
+      "id_weight": "WG0018",
+      "id_code": "CDN015",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0019",
       "id_code": "CDN015",
-      "id_paper": "PP003",
-      "weight_min_gm": 75,
-      "weight_max_gm": 90
+      "id_paper": "PP004",
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0020",
       "id_code": "CDN015",
-      "id_paper": "PP004",
-      "weight_min_gm": "null",
-      "weight_max_gm": 200
-    },
-    {
-      "id_weight": "WG0021",
-      "id_code": "CDN015",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 250
+    },
+    {
+      "id_weight": "WG0021",
+      "id_code": "CDN016",
+      "id_paper": "PP001",
+      "weight_min_gm": 60,
+      "weight_max_gm": 105
     },
     {
       "id_weight": "WG0022",
       "id_code": "CDN016",
-      "id_paper": "PP001",
-      "weight_min_gm": 60,
-      "weight_max_gm": 105
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0023",
       "id_code": "CDN016",
-      "id_paper": "PP003",
-      "weight_min_gm": 75,
-      "weight_max_gm": 90
+      "id_paper": "PP004",
+      "weight_min_gm": "null",
+      "weight_max_gm": 200
     },
     {
       "id_weight": "WG0024",
       "id_code": "CDN016",
-      "id_paper": "PP004",
-      "weight_min_gm": "null",
-      "weight_max_gm": 200
-    },
-    {
-      "id_weight": "WG0025",
-      "id_code": "CDN016",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 250
+    },
+    {
+      "id_weight": "WG0025",
+      "id_code": "CDN017",
+      "id_paper": "PP001",
+      "weight_min_gm": 60,
+      "weight_max_gm": 105
     },
     {
       "id_weight": "WG0026",
       "id_code": "CDN017",
-      "id_paper": "PP001",
-      "weight_min_gm": 60,
-      "weight_max_gm": 105
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
     },
     {
       "id_weight": "WG0027",
       "id_code": "CDN017",
-      "id_paper": "PP003",
-      "weight_min_gm": 75,
-      "weight_max_gm": 90
-    },
-    {
-      "id_weight": "WG0028",
-      "id_code": "CDN017",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0029",
+      "id_weight": "WG0028",
       "id_code": "CDN017",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 250
     },
     {
-      "id_weight": "WG0030",
+      "id_weight": "WG0029",
       "id_code": "CDN018",
       "id_paper": "PP001",
       "weight_min_gm": 60,
       "weight_max_gm": 105
     },
     {
-      "id_weight": "WG0031",
+      "id_weight": "WG0030",
       "id_code": "CDN018",
       "id_paper": "PP003",
       "weight_min_gm": 75,
       "weight_max_gm": 90
     },
     {
-      "id_weight": "WG0032",
+      "id_weight": "WG0031",
       "id_code": "CDN018",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0033",
+      "id_weight": "WG0032",
       "id_code": "CDN018",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 250
     },
     {
-      "id_weight": "WG0034",
+      "id_weight": "WG0033",
       "id_code": "CDN019",
       "id_paper": "PP001",
       "weight_min_gm": 60,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0034",
+      "id_code": "CDN019",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
       "weight_max_gm": 90
     },
     {
       "id_weight": "WG0035",
       "id_code": "CDN019",
-      "id_paper": "PP003",
-      "weight_min_gm": 75,
-      "weight_max_gm": 90
-    },
-    {
-      "id_weight": "WG0036",
-      "id_code": "CDN019",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0037",
+      "id_weight": "WG0036",
       "id_code": "CDN019",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 300
     },
     {
-      "id_weight": "WG0038",
+      "id_weight": "WG0037",
       "id_code": "CDN020",
       "id_paper": "PP001",
       "weight_min_gm": 60,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0038",
+      "id_code": "CDN020",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
       "weight_max_gm": 90
     },
     {
       "id_weight": "WG0039",
       "id_code": "CDN020",
-      "id_paper": "PP003",
-      "weight_min_gm": 75,
-      "weight_max_gm": 90
-    },
-    {
-      "id_weight": "WG0040",
-      "id_code": "CDN020",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0041",
+      "id_weight": "WG0040",
       "id_code": "CDN020",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 300
     },
     {
-      "id_weight": "WG0042",
+      "id_weight": "WG0041",
       "id_code": "CDN021",
       "id_paper": "PP001",
       "weight_min_gm": 60,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0042",
+      "id_code": "CDN021",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
       "weight_max_gm": 90
     },
     {
       "id_weight": "WG0043",
       "id_code": "CDN021",
-      "id_paper": "PP003",
-      "weight_min_gm": 75,
-      "weight_max_gm": 90
-    },
-    {
-      "id_weight": "WG0044",
-      "id_code": "CDN021",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0045",
+      "id_weight": "WG0044",
       "id_code": "CDN021",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 300
     },
     {
-      "id_weight": "WG0046",
+      "id_weight": "WG0045",
       "id_code": "CDN022",
       "id_paper": "PP001",
       "weight_min_gm": 60,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0046",
+      "id_code": "CDN022",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
       "weight_max_gm": 90
     },
     {
       "id_weight": "WG0047",
       "id_code": "CDN022",
-      "id_paper": "PP003",
-      "weight_min_gm": 75,
-      "weight_max_gm": 90
-    },
-    {
-      "id_weight": "WG0048",
-      "id_code": "CDN022",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0049",
+      "id_weight": "WG0048",
       "id_code": "CDN022",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 300
     },
     {
-      "id_weight": "WG0050",
+      "id_weight": "WG0049",
       "id_code": "CDN023",
       "id_paper": "PP001",
       "weight_min_gm": 60,
       "weight_max_gm": 90
     },
     {
-      "id_weight": "WG0051",
+      "id_weight": "WG0050",
       "id_code": "CDN023",
       "id_paper": "PP003",
       "weight_min_gm": 75,
       "weight_max_gm": 90
     },
     {
-      "id_weight": "WG0052",
+      "id_weight": "WG0051",
       "id_code": "CDN023",
       "id_paper": "PP004",
       "weight_min_gm": "null",
       "weight_max_gm": 200
     },
     {
-      "id_weight": "WG0053",
+      "id_weight": "WG0052",
       "id_code": "CDN023",
       "id_paper": "PP005",
       "weight_min_gm": "null",
       "weight_max_gm": 300
     },
     {
-      "id_weight": "WG0054",
+      "id_weight": "WG0053",
       "id_code": "CDN024",
       "id_paper": "PP001",
       "weight_min_gm": 65,
       "weight_max_gm": 120
     },
     {
-      "id_weight": "WG0055",
+      "id_weight": "WG0054",
       "id_code": "CDN025",
       "id_paper": "PP001",
       "weight_min_gm": 65,
       "weight_max_gm": 120
     },
     {
-      "id_weight": "WG0056",
+      "id_weight": "WG0055",
       "id_code": "CDN026",
       "id_paper": "PP001",
       "weight_min_gm": 65,
       "weight_max_gm": 120
+    },
+    {
+      "id_weight": "WG0056",
+      "id_code": "CDN027",
+      "id_paper": "PP001",
+      "weight_min_gm": 60,
+      "weight_max_gm": 250
+    },
+    {
+      "id_weight": "WG0057",
+      "id_code": "CDN028",
+      "id_paper": "PP001",
+      "weight_min_gm": 60,
+      "weight_max_gm": 105
+    },
+    {
+      "id_weight": "WG0058",
+      "id_code": "CDN028",
+      "id_paper": "PP003",
+      "weight_min_gm": 75,
+      "weight_max_gm": 90
+    },
+    {
+      "id_weight": "WG0059",
+      "id_code": "CDN028",
+      "id_paper": "PP004",
+      "weight_min_gm": 163,
+      "weight_max_gm": 200
+    },
+    {
+      "id_weight": "WG0060",
+      "id_code": "CDN028",
+      "id_paper": "PP005",
+      "weight_min_gm": 220,
+      "weight_max_gm": 280
     }
   ],
   "size": [
@@ -4488,7 +4858,7 @@
       "millimeter_height_mm": 210,
       "inch_width_in": 5.8,
       "inch_height_in": 8.3,
-      "similar": "ejecutivo"
+      "similar": "media carta"
     },
     {
       "id_size": "SZ016",
@@ -4767,7 +5137,25 @@
       "millimeter_height_mm": 26.67,
       "inch_width_in": 7.25,
       "inch_height_in": 10.5,
-      "similar": "A5"
+      "similar": "stationery"
+    },
+    {
+      "id_size": "SZ047",
+      "size": "government legal",
+      "millimeter_width_mm": 216,
+      "millimeter_height_mm": 330,
+      "inch_width_in": 8.5,
+      "inch_height_in": 13,
+      "similar": "legal"
+    },
+    {
+      "id_size": "SZ048",
+      "size": "stationery",
+      "millimeter_width_mm": 203.2,
+      "millimeter_height_mm": 254,
+      "inch_width_in": 8,
+      "inch_height_in": 10,
+      "similar": "ejecutivo"
     }
   ],
   "size_pr": [
@@ -5155,6 +5543,101 @@
       "id_sizepr": "SP0077",
       "id_code": "CDN026",
       "id_size": "SZ009"
+    },
+    {
+      "id_sizepr": "SP0078",
+      "id_code": "CDN027",
+      "id_size": "SZ001"
+    },
+    {
+      "id_sizepr": "SP0079",
+      "id_code": "CDN027",
+      "id_size": "SZ002"
+    },
+    {
+      "id_sizepr": "SP0080",
+      "id_code": "CDN027",
+      "id_size": "SZ004"
+    },
+    {
+      "id_sizepr": "SP0081",
+      "id_code": "CDN027",
+      "id_size": "SZ008"
+    },
+    {
+      "id_sizepr": "SP0082",
+      "id_code": "CDN027",
+      "id_size": "SZ009"
+    },
+    {
+      "id_sizepr": "SP0083",
+      "id_code": "CDN027",
+      "id_size": "SZ043"
+    },
+    {
+      "id_sizepr": "SP0084",
+      "id_code": "CDN027",
+      "id_size": "SZ046"
+    },
+    {
+      "id_sizepr": "SP0085",
+      "id_code": "CDN027",
+      "id_size": "SZ047"
+    },
+    {
+      "id_sizepr": "SP0086",
+      "id_code": "CDN027",
+      "id_size": "SZ048"
+    },
+    {
+      "id_sizepr": "SP0087",
+      "id_code": "CDN027",
+      "id_size": "SZ013"
+    },
+    {
+      "id_sizepr": "SP0088",
+      "id_code": "CDN028",
+      "id_size": "SZ001"
+    },
+    {
+      "id_sizepr": "SP0089",
+      "id_code": "CDN028",
+      "id_size": "SZ002"
+    },
+    {
+      "id_sizepr": "SP0090",
+      "id_code": "CDN028",
+      "id_size": "SZ004"
+    },
+    {
+      "id_sizepr": "SP0091",
+      "id_code": "CDN028",
+      "id_size": "SZ008"
+    },
+    {
+      "id_sizepr": "SP0092",
+      "id_code": "CDN028",
+      "id_size": "SZ009"
+    },
+    {
+      "id_sizepr": "SP0093",
+      "id_code": "CDN028",
+      "id_size": "SZ043"
+    },
+    {
+      "id_sizepr": "SP0094",
+      "id_code": "CDN028",
+      "id_size": "SZ046"
+    },
+    {
+      "id_sizepr": "SP0095",
+      "id_code": "CDN028",
+      "id_size": "SZ047"
+    },
+    {
+      "id_sizepr": "SP0096",
+      "id_code": "CDN028",
+      "id_size": "SZ048"
     }
   ],
   "supply": [
@@ -5733,6 +6216,78 @@
       "upc": 194850740633,
       "indexado": "62e859a7e25766006d3fc7aa",
       "oid": 35832657
+    },
+    {
+      "id_supply": "SCT013",
+      "sku": "4S6X8PL",
+      "id_product": "PR20",
+      "model": 938,
+      "reference": "Cartucho de tinta HP 938 Negro (4S6X8PL)",
+      "type": "Estandar",
+      "quantity": 1,
+      "color": "Negro",
+      "yield": 1250,
+      "volumen_ml": 28.5,
+      "based": "Pigmento",
+      "region": "Latam",
+      "image": "c08743302",
+      "upc": 196548611201,
+      "indexado": "65e1d45dba0d2b1217eb7096",
+      "oid": 2101898310
+    },
+    {
+      "id_supply": "SCT014",
+      "sku": "4S6X5PL",
+      "id_product": "PR20",
+      "model": 938,
+      "reference": "Cartucho de tinta HP 938 Cyan (4S6X5PL)",
+      "type": "Estandar",
+      "quantity": 1,
+      "color": "Cian",
+      "yield": 800,
+      "volumen_ml": 10,
+      "based": "Pigmento",
+      "region": "Latam",
+      "image": "c08797431",
+      "upc": 196548611119,
+      "indexado": "65e1d3f2251add024cf02772",
+      "oid": 2101898301
+    },
+    {
+      "id_supply": "SCT015",
+      "sku": "4S6X6PL",
+      "id_product": "PR20",
+      "model": 938,
+      "reference": "Cartucho de tinta HP 938 Magenta (4S6X6PL)",
+      "type": "Estandar",
+      "quantity": 1,
+      "color": "Magenta",
+      "yield": 800,
+      "volumen_ml": 10,
+      "based": "Pigmento",
+      "region": "Latam",
+      "image": "c08797491",
+      "upc": 196548611140,
+      "indexado": "65e1d41f3f70a112042f5a35",
+      "oid": 2101898304
+    },
+    {
+      "id_supply": "SCT016",
+      "sku": "4S6X7PL",
+      "id_product": "PR20",
+      "model": 938,
+      "reference": "Cartucho de tinta HP 938 Amarillo (4S6X7PL)",
+      "type": "Estandar",
+      "quantity": 1,
+      "color": "Amarillo",
+      "yield": 800,
+      "volumen_ml": 10,
+      "based": "Pigmento",
+      "region": "Latam",
+      "image": "c08797554",
+      "upc": 196548611171,
+      "indexado": "65e1d43cfe86de0a4180e851",
+      "oid": 2101898307
     }
   ],
   "compatible": [
@@ -6173,6 +6728,54 @@
       "id_code": "CDN026",
       "id_supply": "SCL001",
       "yield_setup": 500
+    },
+    {
+      "id_compatible": "CM0074",
+      "id_code": "CDN027",
+      "id_supply": "SCT013",
+      "yield_setup": 800
+    },
+    {
+      "id_compatible": "CM0075",
+      "id_code": "CDN027",
+      "id_supply": "SCT014",
+      "yield_setup": 420
+    },
+    {
+      "id_compatible": "CM0076",
+      "id_code": "CDN027",
+      "id_supply": "SCT015",
+      "yield_setup": 420
+    },
+    {
+      "id_compatible": "CM0077",
+      "id_code": "CDN027",
+      "id_supply": "SCT016",
+      "yield_setup": 420
+    },
+    {
+      "id_compatible": "CM0078",
+      "id_code": "CDN028",
+      "id_supply": "SCT013",
+      "yield_setup": 800
+    },
+    {
+      "id_compatible": "CM0079",
+      "id_code": "CDN028",
+      "id_supply": "SCT014",
+      "yield_setup": 420
+    },
+    {
+      "id_compatible": "CM0080",
+      "id_code": "CDN028",
+      "id_supply": "SCT015",
+      "yield_setup": 420
+    },
+    {
+      "id_compatible": "CM0081",
+      "id_code": "CDN028",
+      "id_supply": "SCT016",
+      "yield_setup": 420
     }
   ],
   "retail": [
@@ -6183,7 +6786,7 @@
       "distributor": "Castor Data (Castor Data SAS)",
       "ubication": "Tocancipá, Cundinamarca",
       "address": "Centro Empresarial Oikos Tocancipa Of 301 Et Tres Km 21 Via Tunja Costado Sur-Norte",
-      "Identification": "NIT",
+      "identification": "NIT",
       "number_id": "830.034.195-5",
       "phone_1": "601-380-8246",
       "phone_2": "01-800-519-1293",
@@ -6196,7 +6799,7 @@
       "distributor": "Smart Buy (Mps Mayorista De Colombia SAS)",
       "ubication": "Cota, Cundinamarca",
       "address": "KL 2 Autopista Medellín parque empresarial tecnológico",
-      "Identification": "NIT",
+      "identification": "NIT",
       "number_id": "830.018.214-1",
       "phone_1": "601-380-8246",
       "phone_2": "01-800-519-1293",
@@ -6209,7 +6812,7 @@
       "distributor": "DC MAYORISTA S.A. de C.V (Computing and Printing México, S. de R.L. de C.V.)",
       "ubication": "Alcaldía Miguel Hidalgo, CDMX",
       "address": "Lago Silverio #258, Col. Anáhuac II Sección. C.P. 11320",
-      "Identification": "null",
+      "identification": "null",
       "number_id": "null",
       "phone_1": "555-091-2455",
       "phone_2": "800-063-0234",
@@ -6222,7 +6825,7 @@
       "distributor": "IX COMERCIO PERU S.A.C.",
       "ubication": "Surquillo, Lima",
       "address": "Calle Los Negocios N° 448",
-      "Identification": "RUC",
+      "identification": "RUC",
       "number_id": 20604095604,
       "phone_1": "707-1481",
       "phone_2": "08-007-0027",
@@ -6235,7 +6838,7 @@
       "distributor": "Ceven S.A",
       "ubication": "Buenos Aires",
       "address": "Vedia 3616, piso 7",
-      "Identification": "null",
+      "identification": "null",
       "number_id": "null",
       "phone_1": "113-991-5978",
       "phone_2": "0800-345-6588",
@@ -6248,7 +6851,7 @@
       "distributor": "Grupo Núcleo S.A.",
       "ubication": "Buenos Aires",
       "address": "Vedia 3616, piso 7",
-      "Identification": "null",
+      "identification": "null",
       "number_id": "null",
       "phone_1": "113-991-5978",
       "phone_2": "0800-345-6588",
@@ -6261,7 +6864,7 @@
       "distributor": "Anovo Andes S.A.",
       "ubication": "Las Condes, Santiago de Chile",
       "address": "Mariano Sanchez Fontecilla 310, piso 13, oficina 1301",
-      "Identification": "null",
+      "identification": "null",
       "number_id": "null",
       "phone_1": "229-88-48-04",
       "phone_2": "123-002-07503",
