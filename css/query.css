@@ -1,31 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0px;
     background-color: #f5f5f5;
 }
 .container {
     max-width: 90%;
     margin: 0 auto;
 }
-.filters {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
 }
-.results {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-select, input {
-    padding: 8px;
-    margin: 5px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
+
 button {
     padding: 8px 16px;
     background-color: #007bff;
@@ -34,9 +21,15 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-button:hover {
-    background-color: #0056b3;
+
+/* Table */
+.results {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -44,17 +37,25 @@ table {
 }
 th, td {
     padding: 12px;
-    text-align: left;
+    text-align: Center;
+    vertical-align: middle;
+    padding: 5px;
     border-bottom: 1px solid #ddd;
 }
 th {
     background-color: #f8f9fa;
 }
-
 td {
     justify-content: center;
 }
+td img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Se ajusta al tamaño de la celda */
+    height: auto;
+}
 
+/* Clear button */
 .clear-button {
     background-color: #dc3545;
 }
@@ -62,83 +63,24 @@ td {
     background-color: #c82333;
 }
 
-/* image in table */
-td img {
-    width: 100px;
-    height: 100px;
-}
-
 /* Image */
 .imgpr {
-    width: auto;
     height: 100px;
     border-radius: 45%;
 }
 
-/* filter group */
-.filter-group {
-    margin-bottom: 10px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-.filter-group select,
-.filter-group input {
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    min-width: 200px;
-}
-
-/* Several images in div */
-.divimg {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Alinea imágenes al centro */
-}
-
-.imgwrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-}
-
-.imgwrapper img {
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.imgwrapper label {
-    margin-top: 5px;
-}
-
-/* div + icon */
-
-.divicon {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Alinea imágenes al centro */
-}
-
-.divicon img {
-    width: 20px;
-    height: 20px;
-}
-
-/* Estilo para mantener el div con clase bar fijo en la parte superior */
+/* Bar */
 .bar {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #f8f9fa; /* Color de fondo para mejor visibilidad */
+    background-color: #f8f9fa;
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
     border-bottom: 1px solid #ddd; /* Borde inferior para separación visual */
     display: flex;
     justify-content: space-around; /* Distribuye los elementos de manera uniforme */
     align-items: center; /* Alinea verticalmente los elementos */
+    height: 35px;
 }
 
 .bar ul {
@@ -161,8 +103,13 @@ td img {
     font-weight: bold;
 }
 
-/* Flex */
+/* Filters */
 .filters {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px; /* Espacio entre los elementos */
@@ -170,10 +117,23 @@ td img {
 }
 
 .filters .filter-group {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
     display: flex;
     flex-direction: column;
     flex: 1 1 calc(25% - 10px); /* Ajusta el ancho relativo */
     min-width: 150px;
+}
+
+.filter-group select, .filter-group input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%; /* Ajusta al ancho del contenedor */
+    min-width: 200px;
+    box-sizing: border-box; /* Incluye padding y border en el ancho */
 }
 
 .filters .label {
@@ -184,18 +144,10 @@ td img {
     text-align: center; /* Centrado del texto */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     margin: 0; /* Sin margen adicional */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto de botón */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto de botón */
     transition: background-color 0.3s; /* Efecto de transición */
 }
 
 .filters .label:hover {
     background-color: #0056b3; /* Color al pasar el mouse */
-}
-
-.filters input {
-    width: 100%; /* Ajusta al ancho del contenedor */
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box; /* Incluye padding y border en el ancho */
 }

@@ -4,68 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta Impresión</title>
-    <link href="../css/test.css" rel="stylesheet" type="text/css" />
+    <link href="../css/query.css" rel="stylesheet" type="text/css" />
+    <!-- link href="../css/test.css" rel="stylesheet" type="text/css" /-->
 </head>
 
 <body>
     <div class="bar">
         <ul>
             <li><a class="active" href="../index.html">Índice</a></li>
-            <li><a href="../shortcut/printer.html">Impresoras</a></li>
+            <li><a href="javascript:history.back()">Atrás</a></li>
         </ul>
     </div>
     <h1>Consulta Impresoras</h1>
-    <div class="container">
+    <section class="container">
         <div class="filters">
-            <h2>Filtros de búsqueda</h2>
             
             <div class="filter-group">
-                <select id="skuFilter">
+                <!--select id="skuFilter">
                     <option value="">Seleccionar SKU</option>
-                </select>
-                <input type="text" id="skuInput" placeholder="O ingresa SKU">
+                </select-->
+                <p class="label">SKU</p>
+                <input type="text" id="skuInput" placeholder="Ingresa SKU">
             </div>
             
             <div class="filter-group">
+                <p class="label">Familia</p>
                 <select id="familyFilter">
                     <option value="">Seleccionar Familia</option>
                 </select>
-                <input type="text" id="familyInput" placeholder="O ingresa la familia">
+                <!--input type="text" id="familyInput" placeholder="O ingresa la familia"-->
             </div>
 
             <div class="filter-group">
-                <select id="modelFilter">
+                <!-- select id="modelFilter">
                     <option value="">Seleccionar Modelo</option>
-                </select>
-                <input type="text" id="modelInput" placeholder="O ingresa el modelo">
+                </select-->
+                <p class="label">Modelo</p>
+                <input type="text" id="modelInput" placeholder="Ingresa el modelo, ejm: M141w">
             </div>
 
             <div class="filter-group">
+                <p class="label">Función</p>
                 <select id="functionFilter">
                     <option value="">Seleccionar Función</option>
                 </select>
             </div>
 
-            <button onclick="realizarConsulta()">Buscar</button>
-
             <button class="clear-button" onclick="limpiarFiltros()">Limpiar Filtros</button>
         </div>
+        
         <div class="results">
             <h2>Resultados</h2>
             <div id="resultadosTabla"></div>
         </div>
         <br />
-        
-        <div id="contenidoIndexado"></div>
-        <script async type="text/javascript" 
-            src="https://storage.googleapis.com/indexado/assets/alquimioIndexado.v2.js" 
-            data-ean=""
-            data-lang="esCL" 
-            data-country="CL" 
-            data-brand="HP">
-        </script>
-        
-    </div>
+                
+    </section>
+
+    <!--div id="contenidoIndexado"></div>
+    <script async type="text/javascript" 
+        src="https://storage.googleapis.com/indexado/assets/alquimioIndexado.v2.js" 
+        data-ean=""
+        data-lang="esCL" 
+        data-country="CL" 
+        data-brand="HP">
+    </script-->
 
     <script src="../script/queryprinter.js"></script>
 

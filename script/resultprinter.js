@@ -125,7 +125,7 @@ function mostrarResultados(printerx, productx, codeprx, suppliesx, codex, weight
 
     papersx.forEach(p => {
         html +=`
-            <li><b>${p.media}:</b> ${p.wmin === "null" ? "" : "de <b>" + p.wmin + "</b> g/m<sup>2</sup>"} hasta <b>${p.wmax}</b> g/m <sup>2</sup>.</li>
+            <li><b>${toCapitalCase(p.media)}:</b> ${p.wmin === "null" ? "Hasta" : "De <b>" + p.wmin + "</b> g/m<sup>2</sup> hasta "} <b>${p.wmax}</b> g/m <sup>2</sup>.</li>
         `
     });
 
@@ -135,8 +135,8 @@ function mostrarResultados(printerx, productx, codeprx, suppliesx, codex, weight
         <p>Desde ${codeprx.volume_min} hasta ${codeprx.volume_max} páginas al mes.</p>
         <hr />
         <strong>Velocidad de impresión</strong>
-        <p><b>Normal:</b> Con velocidad de impresión de hasta ${codeprx.speed_print_black_ppm} ppm (negro)${codeprx.speed_print_color_ppm === 0 ? "." : " y hasta " + codeprx.speed_print_color_ppm + "ppm (color)."}</p>
-        <p><b>Borrador:</b> ${codeprx.speed_draft_black_ppm === 0 ? "Sin borrador" : "Con velocidad de impresión de hasta " + codeprx.speed_draft_black_ppm + " ppm (negro) y hasta " + codeprx.speed_draft_color_ppm + " ppm (color)."}</p>
+        <p><b>Normal:</b> con velocidad de impresión de hasta ${codeprx.speed_print_black_ppm} ppm (negro)${codeprx.speed_print_color_ppm === 0 ? "." : " y hasta " + codeprx.speed_print_color_ppm + "ppm (color)."}</p>
+        <p><b>Borrador:</b> ${codeprx.speed_draft_black_ppm === 0 ? "Sin borrador" : "con velocidad de impresión de hasta " + codeprx.speed_draft_black_ppm + " ppm (negro) y hasta " + codeprx.speed_draft_color_ppm + " ppm (color)."}</p>
         <hr />
         <strong>Capacidad bandejas</strong>
         <p>Bandeja de entrada: ${codeprx.input_tray} hojas.</p>
