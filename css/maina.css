@@ -41,12 +41,11 @@ h1 {
 
 h2 {
   color: #293343;
+  font-size: 2em;
+  word-spacing: 0.2em;
   margin-top: 0.3em;
   margin-bottom: 0.5em;
   /* margin-left: 50px; */
-  font-size: 2em;
-  word-spacing: 0.2em;
-  margin-left: .5em;
 }
 
 h3 {
@@ -382,3 +381,35 @@ legend {
   transform: scale(0.8);
   transition: 0.2s ease all;
 }
+
+/* Collapse & E xpand */
+details {
+  margin-bottom: 10px;
+}
+details[open] summary {
+  color: #00cc33; /* Cambia el estilo cuando está abierto */
+}
+summary {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  align-items: center;
+  gap: 0.5em;
+}
+summary:hover {
+  background-color: #e1ecf4;
+  color: #007acc;
+  transform: scale(1.01)
+}
+summary h2, h3{
+  margin: 0;
+}
+/* Ícono personalizado
+summary::before {
+  content: "➤";
+  color: #007acc;
+  font-size: 16px;
+}*/

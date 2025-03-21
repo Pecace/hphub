@@ -36,11 +36,13 @@ function skuResultados() {
     const skuRecibido = obtenerParametroURL('sku');
     
     console.log("SKU:", skuRecibido);
+    console.log(data);
 
     if(data) {
         // Filtrar los datos para encontrar skuRecibido
         const printerx = data.printer.find(p => p.sku === skuRecibido);
 
+        // Modifica el título de la ventana
         if (printerx) {
             // Convertir el modelo a una cadena de texto
             const modeloTitulo = `🖨️ ${printerx.model}`;
@@ -55,18 +57,8 @@ function skuResultados() {
             const productx = data.product.find(p => p.id_product === codex.id_product);
             const codeprx = data.code_pr.find(cp => cp.id_code === printerx.id_code);
             
-            // Obtener gramages compatibles
-            const weightx = data.weight.filter(w => w.id_code === codeprx.id_code);
-            const papersx = weightx.map(wg => {
-                const paperx = data.paper.find(p => p.id_paper === wg.id_paper);
-                const paperwg = data.weight.find(pw => pw.id_paper === paperx.id_paper);
-                return {
-                    media: paperx.media,
-                    wmax: paperwg.weight_max_gm,
-                    wmin: paperwg.weight_min_gm,
-                }
-            });
-    
+
+
             // Obtener suministros compatibles
             const compatiblex = data.compatible.filter(c => c.id_code === printerx.id_code);
             const suppliesx = compatiblex.map(cm => {
@@ -81,12 +73,44 @@ function skuResultados() {
                     pname: productsp.product_name,
                     pfamily: productsp.family,
                     ptype: productsp.type,
-                    image: supplyx.image
+                    image: supplyx.image,
                 };
             });
-    
+
+            // Obtener gramages compatibles
+            /*const codeprw = data.code_pr.filter(cp => cp.id_code === printerx.id_code);
+            /*const weightx = codeprw.map(c => {
+                const weightcpr = data.weight.find(w => w.id_code === c.id_code);
+                const weightp = data.paper.find(pw => pw.id_paper === weightcpr.id_paper);
+            const weightx = data.weight.filter(w => w.id_code === printerx.id_code);
+            console.log(data)
+            const papersx = weightx.map(wg => {
+                const paperx = data.paper.find(p => p.id_paper === wg.id_paper);
+                return {
+                    media: paperx.x.media,
+                    wmax: paperx.weight_max_gm,
+                    /*wmin: ,
+                    wcode: ,
+                }
+            });*/
+            
+            // Obtener información de paper y weight
+            const weightx = data.weight.filter(w => w.id_code === printerx.id_code);
+            const papersx = weightx.map(wg => {
+                const paperx = data.paper.find(p => p.id_paper === wg.id_paper);
+                return {
+                    mpaper: paperx.media,
+                    wmax: wg.weight_max_gm,
+                    wmin: wg.weight_min_gm,
+                    wcode: wg.id_code,
+                };
+            });
+            
+            
+            console.log(codeprx.id_code);
+
             //Mostrar resultados especificos de impresora
-            mostrarResultados(printerx, productx, codeprx, suppliesx, codex, weightx, papersx);
+            mostrarResultados(printerx, productx, codeprx, suppliesx, papersx);
     
         } else {
             console.log("No se encontró ninguna impresora con el SKU:", skuRecibido);
@@ -97,7 +121,7 @@ function skuResultados() {
 
 }
 
-function mostrarResultados(printerx, productx, codeprx, suppliesx, codex, weightx, papersx) {
+function mostrarResultados(printerx, productx, codeprx, suppliesx, papersx) {
     const contenedor = document.getElementById('resultados');
     const indexado = document.getElementById('contenidoIndexado');
 
@@ -119,20 +143,21 @@ function mostrarResultados(printerx, productx, codeprx, suppliesx, codex, weight
         <p><strong>Copy ID:</strong> ${toCapitalCase(codeprx.copy_id)}</p>
         <hr />
         <h3>Gramajes</h3>
-        <p><strong>Gramaje recomendado:</strong> <b>${codeprx.weight}</b> g/m<sup>2</sup>.</p>
+        <p><strong>Gramaje recomendado:</strong><b>${codeprx.weight}</b> g/m<sup>2</sup>.</p>
         <ul>
     `;
 
     papersx.forEach(p => {
         html +=`
-            <li><b>${toCapitalCase(p.media)}:</b> ${p.wmin === "null" ? "Hasta" : "De <b>" + p.wmin + "</b> g/m<sup>2</sup> hasta "} <b>${p.wmax}</b> g/m <sup>2</sup>.</li>
+            <li><b>${toCapitalCase(p.mpaper)}:</b> ${p.wmin === "null" ? "Hasta" : "De <b>" + p.wmin + "</b> g/m<sup>2</sup> hasta "} <b>${p.wmax}</b> g/m <sup>2</sup>.</li>
         `
+        console.log(p.wcode)
     });
 
     html +=`</ul>
         <hr />
         <strong>Volumen mensual recomendado</strong>
-        <p>Desde ${codeprx.volume_min} hasta ${codeprx.volume_max} páginas al mes.</p>
+        <p>${codeprx.volume_min === 0 ? "Hasta " : "Desde " + codeprx.volume_min + " hasta "} ${codeprx.volume_max} páginas al mes.</p>
         <hr />
         <strong>Velocidad de impresión</strong>
         <p><b>Normal:</b> con velocidad de impresión de hasta ${codeprx.speed_print_black_ppm} ppm (negro)${codeprx.speed_print_color_ppm === 0 ? "." : " y hasta " + codeprx.speed_print_color_ppm + "ppm (color)."}</p>
@@ -143,6 +168,7 @@ function mostrarResultados(printerx, productx, codeprx, suppliesx, codex, weight
         <p>Bandeja de salida: ${codeprx.output_tray} hojas.</p>
         <hr />
         <h3>Suministros Compatibles</h3>
+        <p>Compatible con:</p>
         <ul>
     `;
 

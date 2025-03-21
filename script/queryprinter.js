@@ -13,9 +13,6 @@ window.onload = async function() {
         document.getElementById('familyFilter').addEventListener('change', realizarConsulta);
         document.getElementById('modelInput').addEventListener('input', realizarConsulta);
         document.getElementById('functionFilter').addEventListener('change', realizarConsulta);
-        // document.getElementById('skuFilter').addEventListener('change', realizarConsulta);
-        // document.getElementById('familyInput').addEventListener('input', realizarConsulta);
-        // document.getElementById('modelFilter').addEventListener('change', realizarConsulta);
 
     } catch (error) {
         console.error('Error al cargar los datos:', error);
@@ -64,28 +61,6 @@ function inicializarFiltros() {
         functionFilter.appendChild(option);
     });
 
-    /*/Inicializar SKUs
-    const skus = [...new Set(datos.printer.map(p => p.sku))];
-    const skuFilter = document.getElementById('skuFilter');
-    skuFilter.innerHTML = '<option value="">Seleccionar SKU</option>';
-    skus.forEach(sku => {
-        const option = document.createElement('option');
-        option.value = sku;
-        option.textContent = sku;
-        skuFilter.appendChild(option);
-    }); */
-    
-    /*/Inicializar Modelos
-    const models = [...new Set(datos.printer.map(p => normalizarTexto(String(p.model))))];
-    const modelFilter = document.getElementById('modelFilter');
-    modelFilter.innerHTML = '<option value="">Seleccionar Modelo</option>';
-    models.forEach(model => {
-        const option = document.createElement('option');
-        option.value = model;
-        option.textContent = model;
-        modelFilter.appendChild(option);
-    });*/
-
     // Limpiar input
     document.getElementById('skuInput').value = '';
     document.getElementById('modelInput').value = '';
@@ -97,9 +72,6 @@ function realizarConsulta() {
     const familySelected = document.getElementById('familyFilter').value;
     const modelInput = normalizarTexto(document.getElementById('modelInput').value.trim()); // Normalizar el input
     const functionSelected = document.getElementById('functionFilter').value;
-    // const skuSelected = document.getElementById('skuFilter').value;
-    // const familyInput = document.getElementById('familyInput').value.trim().toUpperCase();
-    // const modelSelected = document.getElementById('modelFilter').value;
 
     // Verificar si todos los campos están vacíos
     if (!skuInput && !familySelected && !modelInput && !functionSelected) { // !skuSelected && !familyInput && !modelSelected &&
@@ -188,7 +160,7 @@ function mostrarResultados(resultados) {
             <thead>
                 <tr>
                     <th>Imagen</th>
-                    <th>SKU</th>
+                    <th>Ver más</th>
                     <th>Familia</th>
                     <th>Nombre</th>
                     <th>Volumen mensual</th>
@@ -205,7 +177,7 @@ function mostrarResultados(resultados) {
         html += `
         <tr>
             <td><img class="imgpr" src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/${r.image}.jpg"></td>
-            <td><a target="_blank" href="../product/resultprinter.html?sku=${encodeURIComponent(r.printerSku)}">${r.printerSku}</a></td>
+            <td><a target="_blank" href="../product/resultprinter.html?sku=${encodeURIComponent(r.printerSku)}"><img src="../media/icon/eye.png"></a></td>
             <td>${r.family}</td>
             <td>${r.reference}</td>
             <td>${r.volumeMin} - ${r.volumeMax}</td>
@@ -220,28 +192,6 @@ function mostrarResultados(resultados) {
 
     html += '</tbody></table>';
     contenedor.innerHTML = html;
-
-    /*/ Recreamos el script con el nuevo EAN
-    if (resultados[0].upc && resultados[0].upc !== eanActual) {
-        eanActual = resultados[0].upc;
-        console.log('Nuevo EAN:', eanActual); // Para debug
-    }
-
-    // Mostrar indexado solo si la consulta se hizo con SKU
-    if ((skuq || modelq) && resultados[0].upc) {
-        fichaContainer.innerHTML = ''; // Limpiamos el contenedor
-        const script = document.createElement('script');
-        script.async = true;
-        script.type = 'text/javascript';
-        script.src = 'https://storage.googleapis.com/indexado/assets/alquimioIndexado.v2.js';
-        script.setAttribute('data-ean', resultados[0].upc);
-        script.setAttribute('data-lang', 'esCL');
-        script.setAttribute('data-country', 'CL');
-        script.setAttribute('data-brand', 'HP');
-        fichaContainer.appendChild(script);
-    }else {
-        fichaContainer.innerHTML = ''; // Limpiamos el contenedor de indexado
-    }*/
 
 }
 
