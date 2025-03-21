@@ -4244,7 +4244,7 @@
       "self_heal": "si",
       "direct": "si",
       "front_usb": "si",
-      "volume_min": "null",
+      "volume_min": 0,
       "volume_max": 2000,
       "cycle": 30000,
       "speed_print_black_ppm": 25,

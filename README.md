@@ -107,7 +107,10 @@
 - Se crea product/ resultprinter.html; script/ resultprinter.js queryprinter.js.
 - Se agrega media/icon/ eye.
 
-### Create style query (25317)
+### Create style query and index(25317)
 - Se crea css/ query, index; script/ index.
 - Cambios en css/ maina, test; product/ query, resultprinter; script/ queryprinter, resultprinter; index.html.
+
+### Several changes (25321)
+- En index/ shortcut, attention, retail; css/ maina; script/ queryprinter, resultprinter; index.html.
 End
