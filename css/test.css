@@ -37,6 +37,7 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -82,7 +83,6 @@ td img {
     gap: 10px;
     align-items: center;
 }
-
 .filter-group select,
 .filter-group input {
     padding: 8px;
@@ -97,35 +97,60 @@ td img {
     flex-wrap: wrap;
     justify-content: center; /* Alinea imágenes al centro */
 }
-
 .imgwrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    position: relative; /* Hace visible a la clase tooltip*/
 }
-
 .imgwrapper img {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
 }
-
 .imgwrapper label {
     margin-top: 5px;
 }
 
-/* div + icon */
-
-.divicon {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Alinea imágenes al centro */
+/* Estilo para el tooltip */
+.imgwrapper .tooltip {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 90%; /* Posición por encima de la imagen */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+/* Mostrar el tooltip al pasar el cursor */
+.imgwrapper:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }
 
-.divicon img {
-    width: 20px;
-    height: 20px;
+/* div + icon */
+.divicon {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos equitativamente */
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 10px; /* Espacio entre los elementos (opcional) */
+}
+.con {
+    display: flex;
+    flex-direction: column; /* Coloca el enlace y el texto en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+.con img{
+    max-width: 80px; /* Define un tamaño máximo para las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
 }
 
 /* Estilo para mantener el div con clase bar fijo en la parte superior */
@@ -140,23 +165,19 @@ td img {
     justify-content: space-around; /* Distribuye los elementos de manera uniforme */
     align-items: center; /* Alinea verticalmente los elementos */
 }
-
 .bar ul {
     display: flex;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
 .bar li {
     margin: 0 1rem;
 }
-
 .bar a {
     text-decoration: none;
     color: #007bff;
 }
-
 .bar a.active {
     font-weight: bold;
 }
@@ -168,14 +189,12 @@ td img {
     gap: 10px; /* Espacio entre los elementos */
     align-items: center;
 }
-
 .filters .filter-group {
     display: flex;
     flex-direction: column;
     flex: 1 1 calc(25% - 10px); /* Ajusta el ancho relativo */
     min-width: 150px;
 }
-
 .filters .label {
     background-color: #007bff; /* Color de fondo tipo botón */
     color: white; /* Color del texto */
@@ -187,11 +206,9 @@ td img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto de botón */
     transition: background-color 0.3s; /* Efecto de transición */
 }
-
 .filters .label:hover {
     background-color: #0056b3; /* Color al pasar el mouse */
 }
-
 .filters input {
     width: 100%; /* Ajusta al ancho del contenedor */
     padding: 8px;

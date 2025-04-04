@@ -29,11 +29,21 @@ button {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+}
+.fixed { /* fijar encabezado de table */
+    max-height: relative;
+    overflow: 400px; /* Altura máxima del contenedor de la tabla */
+    overflow-y: auto;
+}
+thead th { /* fijar encabezado de table */
+    position: -webkit-sticky; /* Para navegadores basados en WebKit */
+    position: sticky;
+    top: 35px;
+    z-index: 1;
 }
 th, td {
     padding: 12px;
@@ -43,7 +53,7 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 th {
-    background-color: #f8f9fa;
+    background-color: #f8f9ff;
 }
 td {
     justify-content: center;
@@ -82,23 +92,19 @@ td img {
     align-items: center; /* Alinea verticalmente los elementos */
     height: 35px;
 }
-
 .bar ul {
     display: flex;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
 .bar li {
     margin: 0 1rem;
 }
-
 .bar a {
     text-decoration: none;
     color: #007bff;
 }
-
 .bar a.active {
     font-weight: bold;
 }
@@ -115,7 +121,6 @@ td img {
     gap: 10px; /* Espacio entre los elementos */
     align-items: center;
 }
-
 .filters .filter-group {
     margin-bottom: 10px;
     display: flex;
@@ -126,7 +131,6 @@ td img {
     flex: 1 1 calc(25% - 10px); /* Ajusta el ancho relativo */
     min-width: 150px;
 }
-
 .filter-group select, .filter-group input {
     padding: 8px;
     border: 1px solid #ddd;
@@ -135,7 +139,6 @@ td img {
     min-width: 200px;
     box-sizing: border-box; /* Incluye padding y border en el ancho */
 }
-
 .filters .label {
     background-color: #007bff; /* Color de fondo tipo botón */
     color: white; /* Color del texto */
@@ -147,7 +150,6 @@ td img {
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto de botón */
     transition: background-color 0.3s; /* Efecto de transición */
 }
-
 .filters .label:hover {
     background-color: #0056b3; /* Color al pasar el mouse */
 }

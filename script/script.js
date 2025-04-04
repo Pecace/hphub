@@ -6,8 +6,8 @@
   document.execCommand("copy");
   document.body.removeChild(aux);
 } */
-
-/* Copiar al portapapeles */
+            
+// Copiar al portapapeles
 function copiarAlPortapapeles(id_elemento) {
   var textoCopiar = document.getElementById(id_elemento).innerHTML;
   navigator.clipboard.writeText(textoCopiar)
@@ -18,11 +18,11 @@ function copiarAlPortapapeles(id_elemento) {
       console.error('Error al copiar al portapapeles: ', err);
     });
 }
-
+            
 /* Audio begin */
 const audio1 = new Audio();
 audio1.src = "media/audio/speech.mp3";
 
-/* Audio bottom */
+/* Audio bottom 
 const audio = new Audio();
-audio.src = "media/audio/pop.mp3";
+audio.src = "media/audio/pop.mp3";*/

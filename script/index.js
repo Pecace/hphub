@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const circle = document.querySelector('.circle');
     const circlesecond = document.querySelectorAll('.circlesecond');
-    const radius = 270; // Distancia desde el centro del círculo principal
+    const radius = 300; // Distancia desde el centro del círculo principal
 
     circlesecond.forEach((secCircle, index) => {
         const angle = (2 * Math.PI / circlesecond.length) * index;
