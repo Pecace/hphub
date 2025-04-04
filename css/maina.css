@@ -44,7 +44,7 @@ h2 {
   font-size: 2em;
   word-spacing: 0.2em;
   margin-top: 0.3em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.3em;
   /* margin-left: 50px; */
 }
 
@@ -53,7 +53,7 @@ h3 {
   font-size: 1.5em;
   font-style: oblique;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.2em;
   margin-left: 1em;
   word-spacing: 0.5em;
 }
@@ -77,7 +77,7 @@ li {
   
 }
 
-ul li{
+ul {
   list-style-type: none;
 }
 
@@ -385,6 +385,7 @@ legend {
 /* Collapse & E xpand */
 details {
   margin-bottom: 10px;
+  width: 97%;
 }
 details[open] summary {
   color: #00cc33; /* Cambia el estilo cuando está abierto */
@@ -413,3 +414,40 @@ summary::before {
   color: #007acc;
   font-size: 16px;
 }*/
+
+/* Estilo para class copyText */
+.copyText {
+  width: auto;
+  padding: 5px;
+  /*background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin: 20px auto;*/
+}
+.copyText:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+/* Estilo para la copyAlert */
+.copyAlert {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  background-color: #4caf50;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none; /* Ocultar inicialmente */
+  z-index: 1000;
+}
+.copyAlert {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.copyAlert.show {
+  opacity: 1;
+}

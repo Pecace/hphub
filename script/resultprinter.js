@@ -183,24 +183,51 @@ function mostrarResultados(printerx, productx, codeprx, suppliesx, papersx) {
     
     suppliesx.forEach(s => {
         html += `<div class="imgwrapper">
-            <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/${s.image}.jpg" alt="${s.sku}"/>
+            <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/${s.image}.jpg" alt="${s.sku}" title="${s.model}"/>
+            <div class="tooltip">${s.model}</div>
             <label><b>${s.sku}</b></label>
         </div>
         `
     });
 
     html += `</div>
+        <hr />
         <h3>PCB</h3>
         <div class="divicon">
-            <p><a target="_blank" href="https://pcb.inc.hp.com/webapp/#/la-en/${printerx.oid}/T">Latam<img src="../media/icon/globe.png"></a></p>
-            <p><a target="_blank" href="https://pcb.inc.hp.com/webapp/#/ar-mx/${printerx.oid}/T">Argentina<img src="../media/icon/globe.png"></a></p>
-            <p><a target="_blank" href="https://pcb.inc.hp.com/webapp/#/cl-mx/${printerx.oid}/T">Chile<img src="../media/icon/globe.png"></a></p>
-            <p><a target="_blank" href="https://pcb.inc.hp.com/webapp/#/co-mx/${printerx.oid}/T">Colombia<img src="../media/icon/globe.png"></a></p>
-            <p><a target="_blank" href="https://pcb.inc.hp.com/webapp/#/mx-mx/${printerx.oid}/T">México<img src="../media/icon/globe.png"></a></p>
-            <p><a target="_blank" href="https://pcb.inc.hp.com/webapp/#/pe-mx/${printerx.oid}/T">Perú<img src="../media/icon/globe.png"></a></p>
-            <p><a target="_blank" href="https://pcb.inc.hp.com/webapp/#/la-en/${printerx.oid}/A">PLC<img src="../media/icon/globe.png"></a></p>
-            <p><a target="_blank" href="https://pcb.inc.hp.com/webapp/#/la-en/${printerx.oid}/L">Compatibles<img src="../media/icon/globe.png"></a></p>
+            <div class="con">
+                <a target="_blank" href="https://pcb.inc.hp.com/webapp/#/la-en/${printerx.oid}/T"><img src="../media/icon/globe.png"></a>
+                <p>Latam</p>
+            </div>
+            <div class="con">
+                <a target="_blank" href="https://pcb.inc.hp.com/webapp/#/ar-mx/${printerx.oid}/T"><img src="../media/icon/globe.png"></a>
+                <p>Argentina</p>
+            </div>
+            <div class="con">
+                <a target="_blank" href="https://pcb.inc.hp.com/webapp/#/cl-mx/${printerx.oid}/T"><img src="../media/icon/globe.png"></a>
+                <p>Chile</p>
+            </div>
+            <div class="con">
+                <a target="_blank" href="https://pcb.inc.hp.com/webapp/#/co-mx/${printerx.oid}/T"><img src="../media/icon/globe.png"></a>
+                <p>Colombia</p>
+            </div>
+            <div class="con">
+                <a target="_blank" href="https://pcb.inc.hp.com/webapp/#/mx-mx/${printerx.oid}/T"><img src="../media/icon/globe.png"></a>
+                <p>México</p>
+            </div>
+            <div class="con">
+                <a target="_blank" href="https://pcb.inc.hp.com/webapp/#/pe-mx/${printerx.oid}/T"><img src="../media/icon/globe.png"></a>
+                <p>Perú</p>
+            </div>
+            <div class="con">
+                <a target="_blank" href="https://pcb.inc.hp.com/webapp/#/la-en/${printerx.oid}/A"><img src="../media/icon/globe.png"></a>
+                <p>Fechas</p>
+            </div>
+            <div class="con">
+                <a target="_blank" href="https://pcb.inc.hp.com/webapp/#/la-en/${printerx.oid}/L"><img src="../media/icon/globe.png"></a>
+                <p>Compatibles</p>
+            </div>
         </div>
+        <hr />
     `;
     contenedor.innerHTML = html;
 
@@ -217,5 +244,24 @@ function mostrarResultados(printerx, productx, codeprx, suppliesx, papersx) {
         indexado.appendChild(scriptx);
     }else {
         indexado.innerHTML = ''; // Limpiamos el contenedor de indexado
+    }
+}
+
+// Asignar el evento click al div
+document.addEventListener('DOMContentLoaded', () => {
+    const contenedor = document.getElementById('contenedorTexto');
+    contenedor.addEventListener('click', () => {
+        const textoACopiar = contenedor.textContent; // Obtener el texto del div
+        copiarTexto(textoACopiar); // Llamar a la función para copiar
+    });
+});
+// Función para copiar texto al portapapeles
+async function copiarTexto(texto) {
+    try {
+        await navigator.clipboard.writeText(texto);
+        alert('Texto copiado al portapapeles: ' + texto);
+    } catch (error) {
+        console.error('Error al copiar el texto: ', error);
+        alert('No se pudo copiar el texto. Por favor, inténtalo de nuevo.');
     }
 }

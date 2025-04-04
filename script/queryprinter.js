@@ -156,7 +156,7 @@ function mostrarResultados(resultados) {
     }
 
     let html = `
-        <table>
+        <table class="fixed">
             <thead>
                 <tr>
                     <th>Imagen</th>
@@ -176,7 +176,7 @@ function mostrarResultados(resultados) {
 
         html += `
         <tr>
-            <td><img class="imgpr" src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/${r.image}.jpg"></td>
+            <td><img class="imgpr" src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/${r.image}.jpg" alt="${r.model}" title="${r.model}"></td>
             <td><a target="_blank" href="../product/resultprinter.html?sku=${encodeURIComponent(r.printerSku)}"><img src="../media/icon/eye.png"></a></td>
             <td>${r.family}</td>
             <td>${r.reference}</td>
@@ -200,3 +200,18 @@ function limpiarFiltros() {
     mostrarResultados([], '', '');
     location.reload();
 }
+
+// Encabezado de table quede fijo al hacer scroll
+window.addEventListener('scroll', function() {
+    const tableContainer = document.querySelector('.fixed');
+    const tableHeader = tableContainer.querySelector('thead');
+    const startPoint = 200; // Punto inicial donde el encabezado se fija
+    const endPoint = 600;   // Punto final donde el encabezado deja de estar fijo
+
+    if (window.scrollY >= startPoint && window.scrollY <= endPoint) {
+        tableHeader.style.position = 'sticky';
+        tableHeader.style.top = '0';
+    } else {
+        tableHeader.style.position = 'static';
+    }
+});

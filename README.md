@@ -44,8 +44,9 @@
     image.html
     smartapp.html
 
-### product
-
+###   /product
+    query.html
+    resultprinter.html
     
 ####  /script
     script.js
@@ -113,4 +114,9 @@
 
 ### Several changes (25321)
 - En index/ shortcut, attention, retail; css/ maina; script/ queryprinter, resultprinter; index.html.
+
+### Create file action (25404)
+- Se crea script/ action.js.
+- Se implementa class: copyText en elementos para copiar al portapapeles.
+
 End
