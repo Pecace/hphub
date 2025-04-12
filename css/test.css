@@ -140,7 +140,7 @@ td img {
     display: flex;
     justify-content: space-around; /* Distribuye los elementos equitativamente */
     align-items: center; /* Alinea verticalmente los elementos */
-    gap: 10px; /* Espacio entre los elementos (opcional) */
+    gap: 20px; /* Espacio entre los elementos (opcional) */
 }
 .con {
     display: flex;
