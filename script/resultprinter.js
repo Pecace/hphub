@@ -76,23 +76,6 @@ function skuResultados() {
                     image: supplyx.image,
                 };
             });
-
-            // Obtener gramages compatibles
-            /*const codeprw = data.code_pr.filter(cp => cp.id_code === printerx.id_code);
-            /*const weightx = codeprw.map(c => {
-                const weightcpr = data.weight.find(w => w.id_code === c.id_code);
-                const weightp = data.paper.find(pw => pw.id_paper === weightcpr.id_paper);
-            const weightx = data.weight.filter(w => w.id_code === printerx.id_code);
-            console.log(data)
-            const papersx = weightx.map(wg => {
-                const paperx = data.paper.find(p => p.id_paper === wg.id_paper);
-                return {
-                    media: paperx.x.media,
-                    wmax: paperx.weight_max_gm,
-                    /*wmin: ,
-                    wcode: ,
-                }
-            });*/
             
             // Obtener información de paper y weight
             const weightx = data.weight.filter(w => w.id_code === printerx.id_code);
@@ -134,16 +117,20 @@ function mostrarResultados(printerx, productx, codeprx, suppliesx, papersx) {
 
     let html = `
         <h2>${printerx.reference}</h2>
-        <img class="imgpr" src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/${printerx.image}.jpg" />
-        <p><strong>SKU:</strong> ${printerx.sku}</p>
-        <p><strong>Familia:</strong> ${productx.family}</p>
-        <p><strong>Modelo:</strong> ${printerx.model}</p>
-        <p><strong>Función:</strong> ${toCapitalCase(codeprx.function)}</p>
-        <p><strong>Tecnología:</strong> ${codeprx.tecnology}</p>
-        <p><strong>Copy ID:</strong> ${toCapitalCase(codeprx.copy_id)}</p>
+        <div class="img-text-container">   
+            <div>
+                <p><strong>SKU:</strong> ${printerx.sku}</p>
+                <p><strong>Familia:</strong> ${productx.family}</p>
+                <p><strong>Modelo:</strong> ${printerx.model}</p>
+                <p><strong>Función:</strong> ${toCapitalCase(codeprx.function)}</p>
+                <p><strong>Tecnología:</strong> ${codeprx.tecnology}</p>
+                <p><strong>Copy ID:</strong> ${toCapitalCase(codeprx.copy_id)}</p>
+            </div>
+            <img class="imgpr" src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/${printerx.image}.jpg" alt="${printerx.model}"/>
+        </div>
         <hr />
         <h3>Gramajes</h3>
-        <p><strong>Gramaje recomendado:</strong><b>${codeprx.weight}</b> g/m<sup>2</sup>.</p>
+        <p><strong>Gramaje recomendado:</strong><b> ${codeprx.weight}</b> g/m<sup>2</sup>.</p>
         <ul>
     `;
 

@@ -16,9 +16,13 @@
 
 ####  /css
     button.css
+    index.css
     main.css
     maina.css
     move.css
+    query.css
+    result.css
+    test.css
     
 ####  /index
     attention.html
@@ -118,5 +122,11 @@
 ### Create file action (25404)
 - Se crea script/ action.js.
 - Se implementa class: copyText en elementos para copiar al portapapeles.
+
+### Several changes (25412)
+- Se crea media/audio/ radar.mp3 y media/icon/ search.png.
+- Se agrega enlace de consulta en index.html.
+- Cambios en estilos de consultas y resultados.
+- Se eliminan los botones de copy.
 
 End

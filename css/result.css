@@ -1,0 +1,179 @@
+/* Estilo global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* Fondo gris oscuro */
+    color: #424242; /* Texto blanco */
+    line-height: 1.6;
+}
+
+/* Barra superior fija */
+.bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a; /* Fondo negro suave */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para separarla del contenido */
+    z-index: 1000; /* Asegura que esté siempre encima */
+    padding: 10px 0;
+}
+.bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+.bar ul li {
+    margin: 0 15px;
+}
+.bar ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Texto blanco */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Efecto suave al pasar el cursor */
+}
+.bar ul li a:hover {
+    color: #add8e6; /* Cambia el color al pasar el cursor */
+}
+.bar ul li a.active {
+    color: #add8e6; /* Color distinto para el enlace activo */
+}
+
+/* Sección principal */
+#resultados {
+    margin-top: 60px; /* Deja espacio para la barra fija */
+    padding: 20px;
+}
+
+#resultados h2,
+#resultados h3 {
+    color: #757575; /* Títulos en blanco */
+    margin-bottom: 15px;
+}
+
+#resultados p,
+#resultados strong {
+    color: #212121; /* Texto secundario en gris claro */
+}
+
+#resultados hr {
+    border: none;
+    border-top: 1px solid #fff; /* Línea divisoria más suave */
+    margin: 20px 0;
+}
+
+/* Contenedor de la imagen y el texto */
+.img-text-container {
+    display: flex;
+    align-items: center; /* Alinea el contenido centrado */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    flex-wrap: wrap; /* Permite que el contenido se ajuste en pantallas pequeñas */
+}
+
+.img-text-container .imgpr {
+    max-width: 200px; /* Ancho máximo para la imagen */
+    height: auto; /* Mantener la proporción */
+    border-radius: 45%;
+}
+
+.img-text-container > div {
+    flex: 1; /* El texto ocupa el espacio restante */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .img-text-container {
+        flex-direction: column; /* Apila la imagen debajo del texto */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .img-text-container .imgpr {
+        max-width: 100%; /* La imagen ocupa todo el ancho en móviles */
+        margin-top: 15px; /* Espacio entre el texto y la imagen */
+    }
+}
+
+/* divimg */
+/* Several images in div */
+.divimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Alinea imágenes al centro */
+}
+/* Tooltips e iconos (sin cambios) */
+.divimg .imgwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    position: relative; /* Hace visible a la clase tooltip*/
+}
+.divimg img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.diving .imgwrapper label {
+    margin-top: 5px;
+}
+
+.divimg .tooltip {
+    position: absolute;
+    bottom: 85%; /* Posición por encima de la imagen */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.divimg .imgwrapper:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* divicon */
+.divicon {
+    display: flex;
+    gap:50px;
+    justify-content: space-around; /* Distribuye los elementos equitativamente */
+    justify-content: center; /* Alinea verticalmente los elementos */
+}
+.divicon .con {
+    display: flex;
+    flex-direction: column; /* Coloca el enlace y el texto en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+.divicon .con a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #444444;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.divicon .con a:hover {
+    background-color: #add8e6;
+}
+.divicon .con p {
+    margin-top: 5px;
+    color: #cccccc;
+}
+.divicon .con img{
+    display: none;
+    max-width: 80px; /* Define un tamaño máximo para las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
