@@ -1,5 +1,7 @@
 let datos = null;
-let eanActual = ''; // Variable para rastrear el EAN actual
+
+let paginaActual = 1; // Página actual
+const resultadosPorPagina = 10; // Número de resultados por página
 
 // Cargar los datos cuando se inicie la página
 window.onload = async function() {
@@ -21,7 +23,7 @@ window.onload = async function() {
 
 // Función para normalizar el texto: convertir a minúsculas y eliminar caracteres no numéricos
 function normalizarTexto(texto) {
-    return texto.toLowerCase().replace(/[^0-9]/g, '');
+    return texto.toLowerCase(); // .replace(/[^0-9]/g, '');
 }
 
 function inicializarFiltros() {
@@ -74,9 +76,9 @@ function realizarConsulta() {
     const functionSelected = document.getElementById('functionFilter').value;
 
     // Verificar si todos los campos están vacíos
-    if (!skuInput && !familySelected && !modelInput && !functionSelected) { // !skuSelected && !familyInput && !modelSelected &&
+    if (!skuInput && !familySelected && !modelInput && !functionSelected) {
         // Restablecer los resultados a su estado inicial
-        mostrarResultados([], '', '');
+        mostrarResultados([], '', ''); // Mostrar resultados vacíos si no hay filtros
         return;
     }
 
@@ -89,10 +91,10 @@ function realizarConsulta() {
     let resultados = datos.printer;
 
     if (skuq) {
-        resultados = resultados.filter(p => p.sku === skuq);
+        resultados = resultados.filter(p => p.sku.includes(skuq));
     }
     if (modelq) {
-        resultados = resultados.filter(p => normalizarTexto(String(p.model)) === modelq); // Comparar usando normalizarTexto
+        resultados = resultados.filter(p => normalizarTexto(String(p.model)).includes(modelq)); // Comparar usando normalizarTexto
     }
 
     // Obtener información completa para cada impresora
@@ -143,9 +145,59 @@ function realizarConsulta() {
     }).filter(result => result !== null);
 
     mostrarResultados(resultadosCompletos, skuq, modelq);
+
+    paginaActual = 1; // Reiniciar la página actual al realizar una nueva consulta
+    mostrarResultados(resultadosCompletos);
+}
+
+function mostrarTodos() {
+    if (!datos) {
+        console.error("Los datos no se han cargado correctamente.");
+        return;
+    }
+    // Obtener todas las impresoras
+    const todasLasImpresoras = datos.printer.map(printer => {
+        const code = datos.code.find(c => c.id_code === printer.id_code);
+        const product = datos.product.find(p => p.id_product === code.id_product);
+        const codePrinter = datos.code_pr.find(cp => cp.id_code === printer.id_code);
+
+        // Obtener suministros compatibles
+        const compatibles = datos.compatible.filter(c => c.id_code === printer.id_code);
+        const supplies = compatibles.map(comp => {
+            const supply = datos.supply.find(s => s.id_supply === comp.id_supply);
+            const productsp = datos.product.find(p => p.id_product === supply.id_product);
+            return {
+                sku: supply.sku,
+                model: supply.model,
+                color: supply.color,
+                yield: supply.yield,
+                pname: productsp.product_name
+            };
+        });
+
+        return {
+            printerSku: printer.sku,
+            family: product.family,
+            model: printer.model,
+            function: codePrinter.function,
+            volumeMin: codePrinter.volume_min,
+            volumeMax: codePrinter.volume_max,
+            reference: printer.reference,
+            upc: printer.upc,
+            supplies: supplies,
+            oid: printer.oid,
+            image: printer.image,
+            indexado: printer.indexado,
+        };
+    });
+    mostrarResultados(todasLasImpresoras); // Mostrar todos los resultados
 }
 
 function mostrarResultados(resultados) {
+    const inicio = (paginaActual - 1) * resultadosPorPagina;
+    const fin = paginaActual * resultadosPorPagina;
+    const resultadosPaginados = resultados.slice(inicio, fin); // Obtener solo los resultados de la página actual
+
     const contenedor = document.getElementById('resultadosTabla');
     const fichaContainer = document.getElementById('contenidoIndexado');
     
@@ -172,8 +224,7 @@ function mostrarResultados(resultados) {
             <tbody>
     `;
 
-    resultados.forEach(r => {
-
+    resultadosPaginados.forEach(r => {
         html += `
         <tr>
             <td><img class="imgpr" src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/${r.image}.jpg" alt="${r.model}" title="${r.model}"></td>
@@ -185,14 +236,40 @@ function mostrarResultados(resultados) {
             <td><a href="https://front.indexado.production.alquimio.cloud/spec?modelId=${r.indexado}&lang=esCL&version=V5" target="_blank"><img src="../media/icon/eye.png"></a></td>
             <td><a href="https://pcb.inc.hp.com/webapp/#/la-en/${r.oid}/T" target="_blank"><img src="../media/icon/eye.png"></a></td>
         </tr>
-
         `;
-
     });
 
     html += '</tbody></table>';
+
+    // Agregar botones de paginación solo si hay más de 10 resultados
+    if (resultados.length > resultadosPorPagina) {
+        html += `
+            <div style="text-align: center; margin-top: 10px;">
+                <button id="btnAnterior" ${paginaActual === 1 ? 'disabled' : ''}>Anterior</button>
+                <span>Página ${paginaActual}</span>
+                <button id="btnSiguiente" ${paginaActual * resultadosPorPagina >= resultados.length ? 'disabled' : ''}>Siguiente</button>
+            </div>
+        `;
+    }
+
     contenedor.innerHTML = html;
 
+    // Event listeners para los botones de paginación
+    document.getElementById('btnAnterior')?.addEventListener('click', () => {
+        if (paginaActual > 1) {
+            paginaActual--;
+            mostrarResultados(resultados);
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Ir al inicio de la página
+        }
+    });
+
+    document.getElementById('btnSiguiente')?.addEventListener('click', () => {
+        if (paginaActual * resultadosPorPagina < resultados.length) {
+            paginaActual++;
+            mostrarResultados(resultados);
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Ir al inicio de la página
+        }
+    });
 }
 
 function limpiarFiltros() {

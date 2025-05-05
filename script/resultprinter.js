@@ -22,6 +22,10 @@ function toCapitalCase(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+function formatNumberWithDots(number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+}
+
 // Obtener valor de parámetro de la URL
 function obtenerParametroURL(parametro) {
     const params = new URLSearchParams(window.location.search);
@@ -130,13 +134,13 @@ function mostrarResultados(printerx, productx, codeprx, suppliesx, papersx) {
         </div>
         <hr />
         <h3>Gramajes</h3>
-        <p><strong>Gramaje recomendado:</strong><b> ${codeprx.weight}</b> g/m<sup>2</sup>.</p>
+        <p><strong>Gramaje recomendado:</strong><b> ${codeprx.weight}</b> g/m².</p>
         <ul>
     `;
 
     papersx.forEach(p => {
         html +=`
-            <li><b>${toCapitalCase(p.mpaper)}:</b> ${p.wmin === "null" ? "Hasta" : "De <b>" + p.wmin + "</b> g/m<sup>2</sup> hasta "} <b>${p.wmax}</b> g/m <sup>2</sup>.</li>
+            <li><b>${toCapitalCase(p.mpaper)}:</b> ${p.wmin === "null" ? "Hasta" : "De <b>" + p.wmin + "</b> g/m² hasta "} <b>${p.wmax}</b> g/m².</li>
         `
         console.log(p.wcode)
     });
@@ -161,12 +165,48 @@ function mostrarResultados(printerx, productx, codeprx, suppliesx, papersx) {
 
     suppliesx.forEach(s => {
         html += `
-            <li>${s.ptype} <b>${s.model}</b> ${s.pfamily === "Essential" ? "" : s.pfamily} ${s.color}, rendimiento hasta ${s.yield} páginas.</li>
+            <li>${s.ptype} <b>${s.model}</b> ${s.pfamily === "Essential" ? "" : s.pfamily} ${toCapitalCase(s.color)}, rendimiento hasta ${s.yield} páginas.</li>
             `
         });
     
-    html +=`</ul>
-        <div class="divimg">`
+    html +=`</ul>`
+
+    // Código para suministros
+    let htmlSupplies = `<p>Compatible con:</p><ul>`;
+    const processedColors = new Set();
+
+    suppliesx.forEach(s => {
+        const formattedYield = formatNumberWithDots(s.yield); // Formatear el rendimiento
+        if (s.ptype === "Cabezal de Impresion") {
+            return; // No incluir cabezales de impresión
+        }
+
+        let supplyMessage = '';
+        if (s.color === "negro") {
+            supplyMessage = `${s.ptype} HP <b>${s.model}</b> ${s.pfamily === "Essential" ? "" : s.pfamily} ${s.color}, rendimiento hasta ${formattedYield} páginas.`;
+        } else if (s.color === "tricolor") {
+            supplyMessage = `${s.ptype} HP <b>${s.model}</b> ${s.pfamily === "Essential" ? "" : s.pfamily} ${s.color}, rendimiento hasta ${formattedYield} páginas.`;
+        } else if (["cian", "magenta", "amarillo"].includes(s.color)) {
+            if (!processedColors.has("cian-magenta-amarillo")) {
+                const colors = ["cian", "magenta", "amarillo"];
+                const uniqueModel = suppliesx.find(supply => colors.includes(supply.color))?.model;
+
+                const allColorsPresent = colors.every(color => suppliesx.some(supply => supply.color === color));
+                if (allColorsPresent) {
+                    supplyMessage = `${s.ptype} HP <b>${uniqueModel}</b> ${s.pfamily === "Essential" ? "" : s.pfamily} ${colors.slice(0, -1).join(", ")} y ${colors[colors.length - 1]}, rendimiento hasta ${formattedYield} páginas.`;
+                    processedColors.add("cian-magenta-amarillo");
+                }
+            }
+        }
+
+        if (supplyMessage) {
+            htmlSupplies += `<li>${supplyMessage}</li>`;
+        }
+    });
+    htmlSupplies += `</ul>
+        <div class="divimg">`;
+    html += htmlSupplies;
+
     
     suppliesx.forEach(s => {
         html += `<div class="imgwrapper">
@@ -218,6 +258,7 @@ function mostrarResultados(printerx, productx, codeprx, suppliesx, papersx) {
     `;
     contenedor.innerHTML = html;
 
+    // Indexado del repositorio
     if (printerx.upc) {
         indexado.innerHTML = ''; // Limpiamos el contenedor
         const scriptx = document.createElement('script');

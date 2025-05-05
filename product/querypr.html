@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta Impresión</title>
     <link href="../css/query.css" rel="stylesheet" type="text/css" />
-    <!-- link href="../css/test.css" rel="stylesheet" type="text/css" /-->
 </head>
 
 <body>
@@ -20,9 +19,6 @@
         <div class="filters">
             
             <div class="filter-group">
-                <!--select id="skuFilter">
-                    <option value="">Seleccionar SKU</option>
-                </select-->
                 <p class="label">SKU</p>
                 <input type="text" id="skuInput" placeholder="Ingresa SKU">
             </div>
@@ -32,13 +28,9 @@
                 <select id="familyFilter">
                     <option value="">Seleccionar Familia</option>
                 </select>
-                <!--input type="text" id="familyInput" placeholder="O ingresa la familia"-->
             </div>
 
             <div class="filter-group">
-                <!-- select id="modelFilter">
-                    <option value="">Seleccionar Modelo</option>
-                </select-->
                 <p class="label">Modelo</p>
                 <input type="text" id="modelInput" placeholder="Ingresa el modelo, ejm: M141w">
             </div>
@@ -48,6 +40,10 @@
                 <select id="functionFilter">
                     <option value="">Seleccionar Función</option>
                 </select>
+            </div>
+
+            <div class="filter-group">
+                <button id="mostrarTodosBtn" onclick="mostrarTodos()">Mostrar Todos</button>
             </div>
 
             <button class="clear-button" onclick="limpiarFiltros()">Limpiar Filtros</button>
@@ -60,15 +56,6 @@
         <br />
                 
     </section>
-
-    <!--div id="contenidoIndexado"></div>
-    <script async type="text/javascript" 
-        src="https://storage.googleapis.com/indexado/assets/alquimioIndexado.v2.js" 
-        data-ean=""
-        data-lang="esCL" 
-        data-country="CL" 
-        data-brand="HP">
-    </script-->
 
     <script src="../script/queryprinter.js"></script>
 
